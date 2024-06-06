@@ -7,7 +7,7 @@ export default function AboutKahe() {
           About Coimbatore
         </h1>
       </div>
-      <p className='text-justify p-10 pt-5 text-lg'>
+      <p className='text-justify p-5 text-[17px]'>
         Coimbatore, often hailed as the "Manchester of South India," stands as a
         beacon of industrial prowess and commercial vibrancy within the Republic
         of India. Situated at the foothills of the majestic Nilgiri Hills and

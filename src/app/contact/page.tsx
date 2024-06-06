@@ -8,45 +8,50 @@ export default function Contact() {
         </h3>
         <div className='space-y-2'>
           <OrganizingCommittee
-            one='PATRON'
+            one='Patron'
             two='Dr.S.Ravi'
             three='Registrar'
           ></OrganizingCommittee>
           <OrganizingCommittee
-            one='CHIEF PATRON'
+            one='Chief Patron'
             two='Prof. Dr.B.Venkatachalapathy'
             three='Vice-Chancellor'
           ></OrganizingCommittee>
           <OrganizingCommittee
-            one='CONFERNCE CHAIR'
+            one='Conference Chair'
             two='Prof. Dr.V.Parthasarathy'
             three='Dean (R&D) and Industry Relations'
           ></OrganizingCommittee>
           <OrganizingCommittee
-            one='CONVENOR'
+            one='Convenor'
             two='Dr.A.Amutha'
             three='Dean - FOE'
           ></OrganizingCommittee>
+          <OrganizingCommittee
+            one=''
+            two='Dr. R. Santhosh'
+            three='Professor and HoD'
+          ></OrganizingCommittee>
           <div className='text-center'>
-            <h4 className='text-xl font-bold text-secondary'>CO - CONVENORS</h4>
+            <h4 className='text-xl font-bold text-secondary'>Co - Convenors</h4>
             <p className='text-lg'>Dr. R. Santhosh</p>
-            <p className='text-lg'>Dr. Arun Kumar</p>
-            <p className='text-lg'>Dr. Roopa</p>
+            <p className='text-lg'>Dr.B. Arun Kumar </p>
+            <p className='text-lg'>Dr.R. Roopa</p>
           </div>
           <div className='text-center'>
             <h4 className='text-xl font-bold text-secondary'>
-              TECHNICAL PROGRAM CHAIR
+              Technical Program Chair
             </h4>
             <p className='text-lg'>Dr. J. Alfred Daniel</p>
             <p className='text-lg'>Dr. B. Lanitha</p>
-            <p className='text-lg'>Dr. B. Vanitha</p>
+            <p className='text-lg'>Dr. K. Vanitha</p>
           </div>
           <div className='text-center'>
             <h4 className='text-xl font-bold text-secondary'>
-              PUBLICATION CHAIR
+              Publication Chair
             </h4>
-            <p className='text-lg'>Dr. Mohanraj</p>
-            <p className='text-lg'>Dr. Dhanapal</p>
+            <p className='text-lg'>Dr. T. Mohanraj </p>
+            <p className='text-lg'>Dr. R. Dhanapal </p>
             <p className='text-lg'>Dr. S. P. Sasirekha</p>
             <p className='text-lg'>Dr. Laxmi Raja</p>
           </div>
