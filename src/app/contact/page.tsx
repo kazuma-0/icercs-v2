@@ -47,8 +47,8 @@ export default function Contact() {
             </h4>
             <p className='text-lg'>Dr. Mohanraj</p>
             <p className='text-lg'>Dr. Dhanapal</p>
-            <p className='text-lg'>Dr. Laxmi Raja</p>
             <p className='text-lg'>Dr. S. P. Sasirekha</p>
+            <p className='text-lg'>Dr. Laxmi Raja</p>
           </div>
         </div>
       </div>
