@@ -30,7 +30,7 @@ export default function Contact() {
           <OrganizingCommittee
             one=''
             two='Dr. R. Santhosh'
-            three='Professor and HoD'
+            three='Professor and HoD (CSE)'
           ></OrganizingCommittee>
           <div className='text-center'>
             <h4 className='text-xl font-bold text-secondary'>Co - Convenors</h4>
