@@ -34,9 +34,8 @@ export default function Contact() {
           ></OrganizingCommittee>
           <div className='text-center'>
             <h4 className='text-xl font-bold text-secondary'>Co - Convenors</h4>
-            <p className='text-lg'>Dr. R. Santhosh</p>
             <p className='text-lg'>Dr.B. Arun Kumar </p>
-            <p className='text-lg'>Dr.R. Roopa</p>
+            <p className='text-lg'>Dr.R. Roopa Chandrika</p>
           </div>
           <div className='text-center'>
             <h4 className='text-xl font-bold text-secondary'>
