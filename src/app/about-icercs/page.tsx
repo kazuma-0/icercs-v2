@@ -21,8 +21,8 @@ export default function AboutICERCS() {
         presentations in parallel tracks. Furthermore, ICERCS&apos;24 gathers
         influential and leading figures to debate the most critical issues and
         give relevant information on various industries and best practices to be
-        adopted. ICERCS&apos;24 is scheduled to be held from 7th to 9th Dec 2024
-        at Karpagam Academy of Higher Education, Coimbatore.
+        adopted. ICERCS&apos;24 is scheduled to be held from 12th to 14th Dec
+        2024 at Karpagam Academy of Higher Education, Coimbatore.
       </p>
       <h3 className='text-3xl font-black py-2 text-secondary'>
         SCOPE OF THE CONFERENCE
