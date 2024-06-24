@@ -6,7 +6,7 @@ import { useState } from 'react';
 export default function CarouselComponent() {
   const [index, setIndex] = useState(1);
   const handleNext = () => {
-    if (index == 17) {
+    if (index == 15) {
       setIndex(1);
       return;
     }
@@ -14,7 +14,7 @@ export default function CarouselComponent() {
   };
   const handleBack = () => {
     if (index == 1) {
-      setIndex(17);
+      setIndex(15);
       return;
     }
     setIndex(index - 1);
