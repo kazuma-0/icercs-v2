@@ -1,4 +1,4 @@
-export default function CallForPaper() {
+export default function KeynoteSpeakers() {
   return (
     <div className='container'>
       <h2 className='text-4xl uppercase font-black text-primary pt-5'>
