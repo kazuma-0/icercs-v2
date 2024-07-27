@@ -49,11 +49,8 @@ export default function Registration() {
         <h3 className='text-3xl pt-10 font-black text-primary'>
           Submission Link
         </h3>
-        <Link
-          href={'https://cmt3.research.microsoft.com/ICERCS2024'}
-          className='pt-3 text-blue-600 underline'
-        >
-          https://cmt3.research.microsoft.com/ICERCS2024
+        <Link href={''} className='pt-3 text-blue-600 underline'>
+          {/* https://cmt3.research.microsoft.com/ICERCS2024 */}
         </Link>
       </div>
       <div className='p-2 text-white'>
