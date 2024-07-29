@@ -4,7 +4,7 @@ import CarouselComponent from './carousel';
 export default function AboutCoimbatore() {
   return (
     <>
-      <div>
+      <div className='container mx-auto'>
         <div className='h-[300px]   bg-[url("https://t4.ftcdn.net/jpg/04/91/39/61/360_F_491396168_Wr8iysSxcFnG9VMIJUYOpiUpyl0d85tr.jpg")] bg-center bg-cover overlay flex items-center justify-center'>
           <h1 className='relative z-20 text-4xl text-white font-bold'>
             About Coimbatore

@@ -92,7 +92,7 @@ export default function Committee() {
         </li>
       </ul>
       <h3 className='text-3xl pt-5 font-black pb-2 text-primary'>
-        Technical Review Committee
+        Technical Advisory Committee
       </h3>
 
       <ul className='text-lg space-y-1 pt-3 pb-10'>

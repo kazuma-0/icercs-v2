@@ -11,7 +11,7 @@ import Contact from './contact/page';
 export default function Home() {
   return (
     <>
-      <div className='md:hmax flex flex-col'>
+      <div className='md:hmax flex flex-col pb-32'>
         <div className='flex-1 py-5'>
           <div className='flex justify-center'>
             <Image
@@ -33,7 +33,7 @@ export default function Home() {
             DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING
           </h1>
         </div>
-        <div className='h-full bg-primary py-10 md:py-0'>
+        <div className='h-full bg-primary py-10 '>
           <div className='mx-auto container h-full gap-14 place-content-center md:grid grid-cols-3'>
             <div className='text-5xl text-secondary h-full  md:text-right font-black '>
               12, 13, 14 <br /> DEC, 2024

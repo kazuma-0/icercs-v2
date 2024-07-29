@@ -14,11 +14,11 @@ const Navbar = () => {
           <Link href={'/about-kahe'}>About KAHE</Link>
           <Link href={'/about-icercs'}>About ICERCS&apos;24</Link>
           <Link href={'/about-coimbatore'}>About Coimbatore</Link>
-          <Link href={'/committee'}>Committee</Link>
           <Link href={'keynote-speakers'}>Keynote</Link>
-          <Link href={'guidelines'}>Submission Guidelines</Link>
-          <Link href={'/reviewers'}>Reviewers</Link>
+          <Link href={'/committee'}>Advisory Committee</Link>
+          {/* <Link href={'/reviewers'}>Reviewers</Link> */}
           <Link href={'/call-for-paper'}>Call for Paper</Link>
+          <Link href={'guidelines'}>Submission Guidelines</Link>
           <Link href={'/registration'}>Registration</Link>
           <Link href={'/contact'}>Contact</Link>
         </div>
@@ -50,11 +50,11 @@ const Navbar = () => {
           <Link href={'/about-kahe'}>About KAHE</Link>
           <Link href={'/about-icercs'}>About ICERCS&apos;24</Link>
           <Link href={'/about-coimbatore'}>About Coimbatore</Link>
-          <Link href={'/committee'}>Committee</Link>
           <Link href={'keynote-speakers'}>Keynote</Link>
-          <Link href={'guidelines'}>Submission Guidelines</Link>
-          <Link href={'/reviewers'}>Reviewers</Link>
+          <Link href={'/committee'}> Advisory Committee</Link>
+          {/* <Link href={'/reviewers'}>Reviewers</Link> */}
           <Link href={'/call-for-paper'}>Call for Paper</Link>
+          <Link href={'guidelines'}>Submission Guidelines</Link>
           <Link href={'/registration'}>Registration</Link>
           <Link href={'/contact'}>Contact</Link>
         </div>
