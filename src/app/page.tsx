@@ -53,9 +53,9 @@ export default function Home() {
       <div className='py-10'></div>
       <AboutCoimbatore />
       <KeynoteSpeakers />
-      <GuideLines />
       <CallForPaper />
       <Registration />
+      <GuideLines />
       <Contact />
     </>
   );
