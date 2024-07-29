@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Registration() {
   return (
-    <div className='container pt-5 grid grid-cols-3 gap-10 h-max '>
+    <div className='container pt-5 grid md:grid-cols-3 gap-10 h-max '>
       <div className='col-span-2'>
         <h3 className='text-3xl pb-5 font-black text-primary'>
           Registration Fees

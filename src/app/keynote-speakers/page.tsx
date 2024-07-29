@@ -4,7 +4,7 @@ export default function KeynoteSpeakers() {
       <h2 className='text-4xl uppercase font-black text-primary pt-5'>
         Keynote Speakers
       </h2>
-      <div className='grid grid-cols-3 pt-10 gap-10'>
+      <div className='grid md:grid-cols-3 pt-10 gap-10'>
         <div className='items-center justify-center flex h-full w-full flex-col'>
           <img src='/images/keynote/1.png' alt='' />
           <h4 className='text-primary font-bold text-2xl pt-2'>

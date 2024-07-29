@@ -1,7 +1,7 @@
 import CarouselComponent from './carousel';
 
 /* eslint-disable react/no-unescaped-entities */
-export default function AboutKahe() {
+export default function AboutCoimbatore() {
   return (
     <>
       <div>

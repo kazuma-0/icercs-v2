@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 export default function Contact() {
   return (
-    <div className='container grid grid-cols-3 h-max gap-10 py-5'>
+    <div className='container grid md:grid-cols-3 h-max gap-10 py-5'>
       <div className=' bg-primary text-white p-5 rounded'>
         <h3 className='text-3xl font-black text- text-center pb-5'>
           Organizing Committee

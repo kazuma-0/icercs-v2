@@ -1,6 +1,6 @@
 export default function AboutKahe() {
   return (
-    <div>
+    <div className="">
       <div className='h-[350px]  bg-[url("/images/karpagam_university.jpeg")] bg-center bg-cover overlay flex items-center justify-center'>
         <h1 className='relative z-20 text-4xl text-white font-bold uppercase'>
           About Karpagam Academy of Higher Education

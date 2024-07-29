@@ -1,4 +1,4 @@
-export default function KeynoteSpeakers() {
+export default function GuideLines() {
   return (
     <div className='container'>
       <div className='p-6 bg-white rounded-lg shadow-md'>
