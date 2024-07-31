@@ -45,7 +45,7 @@ export default function Home() {
             department of artificial intelligence and data science
           </h1>
           <h1 className='text-center text-3xl font-bold pt-1 capitalize text-secondary'>
-            department of computer science and engineering (cyber secuirty)
+            department of computer science and engineering (cyber security)
           </h1>
         </div>
         <div className='h-full bg-primary py-10 '>
