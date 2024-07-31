@@ -13,11 +13,20 @@ export default function Home() {
     <>
       <div className='md:hmax flex flex-col pb-32'>
         <div className='flex-1 py-5'>
-          <div className='flex justify-center'>
+          <div className='flex justify-around'>
             <Image
               src='/images/logos/logo.avif'
               alt='das'
               width={120}
+              height={120}
+              className='shrink-0'
+            />
+            <Image src='/images/kiic.png' alt='das' width={250} height={120} />
+            <Image src='/images/iic.png' alt='das' width={250} height={120} />
+            <Image
+              src='/images/icercs.jpg'
+              alt='das'
+              width={150}
               height={120}
             />
           </div>
@@ -29,8 +38,14 @@ export default function Home() {
             IN COMPUTATIONAL SCIENCE - 2024
           </h1>
           <p className='text-center text-xl pt-5'>Organised by</p>
+          <h1 className='text-center text-3xl font-bold pt-5 capitalize text-secondary'>
+            department of computer science and engineering
+          </h1>
           <h1 className='text-center text-3xl font-bold pt-1 capitalize text-secondary'>
-            DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING
+            department of artificial intelligence and data science
+          </h1>
+          <h1 className='text-center text-3xl font-bold pt-1 capitalize text-secondary'>
+            department of computer science and engineering (cyber secuirty)
           </h1>
         </div>
         <div className='h-full bg-primary py-10 '>
@@ -39,7 +54,6 @@ export default function Home() {
               12, 13, 14 <br /> DEC, 2024
             </div>
             <div className='col-span-2 text-2xl text-white'>
-              <p>Department of Computer Science and Engineering</p>
               <p>KARPAGAM ACADEMY OF HIGHER EDUCATION</p>
               <p>(Deemed to be University)</p>
               <p>(Established Under Section of 3 of UGC Act, 1956)</p>

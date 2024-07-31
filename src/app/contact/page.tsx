@@ -23,7 +23,7 @@ export default function Contact() {
             three='Dean (R&D) and Industry Relations'
           ></OrganizingCommittee>
           <OrganizingCommittee
-            one='Convenor'
+            one='Convenors'
             two='Dr.A.Amutha'
             three='Dean - FOE'
           ></OrganizingCommittee>
@@ -32,11 +32,16 @@ export default function Contact() {
             two='Dr. R. Santhosh'
             three='Professor and HoD (CSE)'
           ></OrganizingCommittee>
-          <div className='text-center'>
-            <h4 className='text-xl font-bold text-secondary'>Co - Convenors</h4>
-            <p className='text-lg'>Dr.B. Arun Kumar </p>
-            <p className='text-lg'>Dr.R. Roopa Chandrika</p>
-          </div>
+          <OrganizingCommittee
+            one='Co - Convenors'
+            two='Dr.B. Arun Kumar'
+            three='Professor and HoD (AIDS)'
+          ></OrganizingCommittee>
+          <OrganizingCommittee
+            one=''
+            two='Dr.R. Roopa Chandrika'
+            three='Professor and HoD (CYBER)'
+          ></OrganizingCommittee>
           <div className='text-center'>
             <h4 className='text-xl font-bold text-secondary'>
               Technical Program Chair

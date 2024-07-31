@@ -17,16 +17,16 @@ export default function Registration() {
           </thead>
           <tbody className='text-gray-700'>
             <tr className='*:border-black'>
-              <td className='border  px-4 py-2'>PH.D / PG Scholars</td>
-              <td className='border px-4 py-2'>5500 INR</td>
-              <td className='border px-4 py-2'>6000 INR</td>
+              <td className='border  px-4 py-2'>Indian Authors</td>
+              <td className='border px-4 py-2'>8250 INR</td>
+              <td className='border px-4 py-2'>8750 INR</td>
             </tr>
             <tr className='*:border-black'>
-              <td className='border px-4 py-2'>Academician</td>
-              <td className='border px-4 py-2'>6000 INR</td>
-              <td className='border px-4 py-2'>7000 INR</td>
+              <td className='border px-4 py-2'>Foreign Authors</td>
+              <td className='border px-4 py-2'>160 USD</td>
+              <td className='border px-4 py-2'>175 USD</td>
             </tr>
-            <tr className='*:border-black'>
+            {/* <tr className='*:border-black'>
               <td className='border px-4 py-2'>Industrial Delegates</td>
               <td className='border px-4 py-2'>6000 INR</td>
               <td className='border px-4 py-2'>7000 INR</td>
@@ -35,7 +35,7 @@ export default function Registration() {
               <td className='border px-4 py-2'>Overseas Delegates</td>
               <td className='border px-4 py-2'>150 USD</td>
               <td className='border px-4 py-2'>175 USD</td>
-            </tr>
+            </tr> */}
           </tbody>
         </table>
 
@@ -46,11 +46,18 @@ export default function Registration() {
           Accepted papers will be submitted for inclusion in IEEE Xplore subject
           to meeting IEEE Xplore&apos;s scope and quality requirements.
         </p>
+        <p className='pt-2 text-lg'>
+          Extended version of the selected papers will be recommended for SCIE
+          journals
+        </p>
         <h3 className='text-3xl pt-10 font-black text-primary'>
           Submission Link
         </h3>
-        <Link href={''} className='pt-3 text-blue-600 underline'>
-          {/* https://cmt3.research.microsoft.com/ICERCS2024 */}
+        <Link
+          href={'https://cmt3.research.microsoft.com/ICERCS2024'}
+          className='pt-3 text-blue-600 underline'
+        >
+          https://cmt3.research.microsoft.com/ICERCS2024
         </Link>
       </div>
       <div className='p-2 text-white'>
@@ -59,18 +66,22 @@ export default function Registration() {
             Important Date&apos;s
           </h3>
 
-          <div className='space-y-5'>
-            <DateWithLabel date='2024-10-31' label='Full Paper Submission' />
-            <DateWithLabel date='2024-11-28' label='Paper Acceptance' />
+          <div className='space-y-3'>
+            <DateWithLabel date='15/10/2024' label='Full Paper Submission' />
+            <DateWithLabel date='10/11/2024' label='Paper Acceptance' />
             <DateWithLabel
-              date='2024-11-29'
+              date='20/11/2024'
               label='Camera Ready Paper Submission'
             />
             <DateWithLabel
-              date='2024-12-01'
+              date='25/11/2024'
               label='Last Date for Registration Payment'
             />
-            <DateWithLabel date='2024-12-12' label='Conference Date' />
+
+            <div className='text-white text-center'>
+              <p className='pt-2 text-xl font-bold'>Conference Date</p>
+              <h4 className='text-xl'>12, 13 and 14th Dec, 2024</h4>
+            </div>
           </div>
 
           <h3 className='text-3xl font-black pt-5 text-secondary text-center'>
@@ -84,7 +95,7 @@ export default function Registration() {
           </p>
           <div className='pt-3 flex items-center justify-center'>
             <img
-              src='https://icercs.com/qrcode.png'
+              src='/images/paymentqr.png'
               alt='qr'
               height={200}
               width={200}
