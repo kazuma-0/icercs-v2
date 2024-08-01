@@ -10,19 +10,19 @@ export default function Registration() {
         <table className=' table-auto border-collapse w-full'>
           <thead className=''>
             <tr className='*:border-black'>
-              <th className='border px-4 py-2'>Categories</th>
-              <th className='border px-4 py-2'>IEEE Members</th>
-              <th className='border px-4 py-2'>IEEE Non-Members</th>
+              <th className='border px-4 py-2 text-center'>Categories</th>
+              <th className='border px-4 py-2 text-center'>IEEE Members</th>
+              <th className='border px-4 py-2 text-center'>IEEE Non-Members</th>
             </tr>
           </thead>
           <tbody className='text-gray-700'>
             <tr className='*:border-black'>
-              <td className='border  px-4 py-2'>Indian Authors</td>
+              <td className='border  px-4 py-2 text-center'>Indian Authors</td>
               <td className='border px-4 py-2 text-center'>8250 INR</td>
               <td className='border px-4 py-2 text-center'>8750 INR</td>
             </tr>
             <tr className='*:border-black'>
-              <td className='border px-4 py-2'>Foreign Authors</td>
+              <td className='border px-4 py-2 text-center'>Foreign Authors</td>
               <td className='border px-4 py-2 text-center'>160 USD</td>
               <td className='border px-4 py-2 text-center'>175 USD</td>
             </tr>
