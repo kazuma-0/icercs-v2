@@ -38,14 +38,14 @@ export default function Home() {
             IN COMPUTATIONAL SCIENCE - 2024
           </h1>
           <p className='text-center text-xl pt-5'>Organised by</p>
-          <h1 className='text-center text-3xl font-bold pt-5 capitalize text-secondary'>
-            department of computer science and engineering
+          <h1 className='text-center text-3xl font-bold pt-5  text-secondary'>
+            Department of Computer Science and Engineering
           </h1>
-          <h1 className='text-center text-3xl font-bold pt-1 capitalize text-secondary'>
-            department of artificial intelligence and data science
+          <h1 className='text-center text-3xl font-bold pt-1  text-secondary'>
+            Department of Artificial Intelligence and Data Science
           </h1>
-          <h1 className='text-center text-3xl font-bold pt-1 capitalize text-secondary'>
-            department of computer science and engineering (cyber security)
+          <h1 className='text-center text-3xl font-bold pt-1  text-secondary'>
+            Department of Computer Science and Engineering (Cyber Security)
           </h1>
         </div>
         <div className='h-full bg-primary py-10 '>

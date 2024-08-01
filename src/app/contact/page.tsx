@@ -35,7 +35,7 @@ export default function Contact() {
           <OrganizingCommittee
             one='Co - Convenors'
             two='Dr.B. Arun Kumar'
-            three='Professor and HoD (AIDS)'
+            three='Professor and HoD (AI&DS)'
           ></OrganizingCommittee>
           <OrganizingCommittee
             one=''
@@ -80,13 +80,12 @@ export default function Contact() {
           />
         </div>
         <div className='text-center text-lg font-black'>
-          <p>Dr. R. Santhosh,</p>
-          <p>Professor and HoD (Technical Program Chair)</p>
+          <p>Dr. R. Santhosh</p>
+          <p>Professor and HoD (Convenor)</p>
           <p>Department of Computer Science and Engineering</p>
           <p>Karpagam Academy of Higher Education</p>
           <p>(Deemed to be University)</p>
-          <p>Pollachi Main Road, Eachanari Post,</p>
-          <p>Coimbatore, India</p>
+          <p>Pollachi Main Road, Eachanari Post, Coimbatore, India</p>
           <p>E-mail: icercs@kahedu.edu.in</p>
           <p>Help Lines: (+91)9786660004, (+91) 8220261899</p>
           <p>

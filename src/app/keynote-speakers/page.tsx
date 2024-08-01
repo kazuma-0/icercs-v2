@@ -23,8 +23,8 @@ export default function KeynoteSpeakers() {
           </h4>
           <div className='text-center text-lg text-secondary'>
             <p>Chairman, IEEE Madras</p>
-            <p> Section & Principal,</p>
-            <p>Sri Sairam Engineering College</p>
+            {/* <p> Section & Principal,</p> */}
+            {/* <p>Sri Sairam Engineering College</p> */}
           </div>
         </div>
         <div className='items-center justify-center flex h-full w-full flex-col'>

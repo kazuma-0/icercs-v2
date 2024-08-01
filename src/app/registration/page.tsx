@@ -18,13 +18,13 @@ export default function Registration() {
           <tbody className='text-gray-700'>
             <tr className='*:border-black'>
               <td className='border  px-4 py-2'>Indian Authors</td>
-              <td className='border px-4 py-2'>8250 INR</td>
-              <td className='border px-4 py-2'>8750 INR</td>
+              <td className='border px-4 py-2 text-center'>8250 INR</td>
+              <td className='border px-4 py-2 text-center'>8750 INR</td>
             </tr>
             <tr className='*:border-black'>
               <td className='border px-4 py-2'>Foreign Authors</td>
-              <td className='border px-4 py-2'>160 USD</td>
-              <td className='border px-4 py-2'>175 USD</td>
+              <td className='border px-4 py-2 text-center'>160 USD</td>
+              <td className='border px-4 py-2 text-center'>175 USD</td>
             </tr>
             {/* <tr className='*:border-black'>
               <td className='border px-4 py-2'>Industrial Delegates</td>
