@@ -31,7 +31,7 @@ export default function KeynoteSpeakers() {
             GOUTHAM REDDY ALAVALAPATI
           </h4>
           <div className='text-center  text-secondary'>
-            <p>Associate Professor,</p>
+            <p>Professor,</p>
             <p> University of Illinois</p>
             <p>USA</p>
           </div>
