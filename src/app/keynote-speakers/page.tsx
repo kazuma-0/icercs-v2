@@ -4,7 +4,7 @@ export default function KeynoteSpeakers() {
       <h2 className='text-3xl uppercase font-black text-primary pt-5'>
         Keynote Speakers
       </h2>
-      <div className='grid md:grid-cols-2 pt-10 gap-10'>
+      <div className='grid md:grid-cols-3 pt-10 gap-10'>
         <div className='items-center justify-center flex h-full w-full flex-col'>
           <img src='/images/keynote/1.png' alt='' />
           <h4 className='text-primary font-bold text-xl pt-2'>
@@ -25,6 +25,21 @@ export default function KeynoteSpeakers() {
             <p>Saudi Arabia</p>
           </div>
         </div>
+        <div className='items-center justify-center flex h-full w-full flex-col'>
+          <img src='/images/keynote/1.png' alt='' />
+          <h4 className='text-primary font-bold text-xl pt-2'>
+            Dr. E. Kannan Eswariah
+          </h4>
+          <div className='text-center text-secondary'>
+            <p>Registrar & Dean,</p>
+            <p>Vel Tech Dr. R & D Institute of Science & Technology,</p>
+            <p>Chennai</p>
+            {/* <p> Section & Principal,</p> */}
+            {/* <p>Sri Sairam Engineering College</p> */}
+          </div>
+        </div>
+      </div>
+      <div className='grid md:grid-cols-2 pt-10 gap-10'>
         <div className='items-center justify-center flex h-full w-full flex-col'>
           <img src='/images/keynote/3.png' className='w-[160px]' alt='' />
           <h4 className='text-primary font-bold text-xl pt-2'>

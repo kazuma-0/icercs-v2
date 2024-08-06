@@ -46,6 +46,10 @@ export default function Committee() {
           Dr. E. Kannan Eswariah, Registrar & Dean, Vel Tech Dr. R & D Institute
           of Science & Technology, Chennai
         </li>
+        <li>
+          Dr. E. Kannan, Chairman- IEEE Professional Communication Society,
+          Madras Section
+        </li>
         <li>Dr. R. Hariprakash, Secretary, IEEE Madras Section</li>
         <li>
           Prof. Dr. N. Kumarappan, Immediate Past Chair, IEEE Madras Section
