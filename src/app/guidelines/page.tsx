@@ -1,7 +1,7 @@
 export default function GuideLines() {
   return (
-    <div className='container'>
-      <div className='p-6 bg-white rounded-lg shadow-md'>
+    <div className='container py-6'>
+      <div className=''>
         <h1 className='text-2xl text-primary font-bold mb-4'>
           Conference Submission Guidelines
         </h1>
@@ -30,9 +30,7 @@ export default function GuideLines() {
           submit the final version, at least one author of each accepted paper
           must register for the conference.
         </p>
-        <h2 className='text-xl font-semibold mb-2'>
-          Possible Plagiarism Scenarios
-        </h2>
+        <h2 className='text-xl  mb-2'>Possible Plagiarism Scenarios</h2>
         <ul className='list-disc pl-5 space-y-2 mb-4'>
           <li>
             <strong>
@@ -92,7 +90,7 @@ export default function GuideLines() {
           Paraphrasing must be done correctly, with proper citation, to avoid
           plagiarism.
         </p>
-        <p className='mt-4 font-semibold'>
+        <p className='mt-4'>
           In summary, while the amount of plagiarized material affects the
           corrective action, the presence of plagiarism is determined by the
           proper use of citations, quotation marks, and offset text.

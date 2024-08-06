@@ -4,7 +4,7 @@ export default function Registration() {
   return (
     <div className='container pt-5 grid md:grid-cols-3 gap-10 h-max '>
       <div className='col-span-2'>
-        <h3 className='text-3xl pb-5 font-black text-primary'>
+        <h3 className='text-2xl pb-5 font-black text-primary'>
           Registration Fees
         </h3>
         <table className=' table-auto border-collapse w-full'>
@@ -39,18 +39,18 @@ export default function Registration() {
           </tbody>
         </table>
 
-        <h3 className='text-3xl pt-10 font-black text-primary'>
+        <h3 className='text-2xl pt-10 font-black text-primary'>
           Publication details
         </h3>
-        <p className='pt-2 text-lg'>
+        <p className='pt-2'>
           Accepted papers will be submitted for inclusion in IEEE Xplore subject
           to meeting IEEE Xplore&apos;s scope and quality requirements.
         </p>
-        <p className='pt-2 text-lg'>
+        <p className='pt-2'>
           Extended version of the selected papers will be recommended for SCIE
           journals
         </p>
-        <h3 className='text-3xl pt-10 font-black text-primary'>
+        <h3 className='text-2xl pt-10 font-black text-primary'>
           Submission Link
         </h3>
         <Link
@@ -62,7 +62,7 @@ export default function Registration() {
       </div>
       <div className='p-2 text-white'>
         <div className='h-full w-full bg-primary rounded p-5'>
-          <h3 className='text-3xl font-black text-secondary text-center'>
+          <h3 className='text-2xl font-black text-secondary text-center'>
             Important Date&apos;s
           </h3>
 
@@ -79,12 +79,12 @@ export default function Registration() {
             />
 
             <div className='text-white text-center'>
-              <p className='pt-2 text-xl font-bold'>Conference Date</p>
+              <p className='pt-2 text-lg font-bold'>Conference Date</p>
               <h4 className='text-xl'>12, 13 and 14th Dec, 2024</h4>
             </div>
           </div>
 
-          <h3 className='text-3xl font-black pt-5 text-secondary text-center'>
+          <h3 className='text-2xl font-black pt-5 text-secondary text-center'>
             Online Payment Details
           </h3>
           <p className='text-center'>
@@ -110,8 +110,8 @@ export default function Registration() {
 function DateWithLabel({ date, label }: { date: string; label: string }) {
   return (
     <div className='text-white text-center'>
-      <p className='pt-2 text-xl font-bold'>{label}</p>
-      <h4 className='text-xl'>{date}</h4>
+      <p className='pt-2 text-lg font-bold'>{label}</p>
+      <h4 className=''>{date}</h4>
     </div>
   );
 }

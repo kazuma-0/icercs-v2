@@ -5,12 +5,12 @@ export default function AboutCoimbatore() {
   return (
     <>
       <div className='container mx-auto'>
-        <div className='h-[300px]   bg-[url("https://t4.ftcdn.net/jpg/04/91/39/61/360_F_491396168_Wr8iysSxcFnG9VMIJUYOpiUpyl0d85tr.jpg")] bg-center bg-cover overlay flex items-center justify-center'>
-          <h1 className='relative z-20 text-4xl text-white font-bold'>
+        <div className='h-[300px] bg-[url("https://t4.ftcdn.net/jpg/04/91/39/61/360_F_491396168_Wr8iysSxcFnG9VMIJUYOpiUpyl0d85tr.jpg")] bg-center bg-cover overlay flex items-center justify-center'>
+          <h1 className='relative z-20 text-3xl text-white font-bold'>
             About Coimbatore
           </h1>
         </div>
-        <p className='text-justify p-5 text-[17px]'>
+        <p className='text-justify py-5 '>
           Coimbatore, often hailed as the "Manchester of South India," stands as
           a beacon of industrial prowess and commercial vibrancy within the
           Republic of India. Situated at the foothills of the majestic Nilgiri

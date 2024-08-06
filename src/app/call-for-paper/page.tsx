@@ -1,14 +1,14 @@
 export default function CallForPaper() {
   return (
     <div className='container'>
-      <h2 className='text-4xl font-black text-primary pt-5'>
+      <h2 className='text-3xl font-black text-primary pt-5'>
         THE ICERCS 24 WELCOMES ORIGINAL WORKS IN AREAS SUCH AS
       </h2>
-      <p className='pt-2 text-xl'>
+      <p className='pt-2 text-lg'>
         The research scope of computational science can be viewed as follows but
         is not limited to:
       </p>
-      <ul className='list-disc pt-5 text-xl font-bold'>
+      <ul className='list-disc pt-5  '>
         <li>
           Big data analytics, multimedia analytics, cloud computing, edge
           computing, fog computing, etc.

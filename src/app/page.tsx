@@ -30,30 +30,30 @@ export default function Home() {
               height={120}
             />
           </div>
-          <h1 className='text-center text-4xl text-primary font-bold pb-2 pt-5'>
+          <h1 className='text-center text-3xl text-primary font-bold pb-2 pt-5'>
             ICERCS-2024
           </h1>
           <h1 className='text-center text-3xl font pt-5 leading-normal'>
             2<sup>nd</sup> INTERNATIONAL CONFERENCE ON EMERGING RESEARCH <br />{' '}
             IN COMPUTATIONAL SCIENCE - 2024
           </h1>
-          <p className='text-center text-xl pt-5'>Organised by</p>
-          <h1 className='text-center text-3xl font-bold pt-5  text-secondary'>
+          <p className='text-center text-lg pt-5'>Organised by</p>
+          <h1 className='text-center text-2xl font-bold pt-5  text-secondary'>
             Department of Computer Science and Engineering
           </h1>
-          <h1 className='text-center text-3xl font-bold pt-1  text-secondary'>
+          <h1 className='text-center text-2xl font-bold pt-1  text-secondary'>
             Department of Artificial Intelligence and Data Science
           </h1>
-          <h1 className='text-center text-3xl font-bold pt-1  text-secondary'>
+          <h1 className='text-center text-2xl font-bold pt-1  text-secondary'>
             Department of Computer Science and Engineering (Cyber Security)
           </h1>
         </div>
         <div className='h-full bg-primary py-10 '>
           <div className='mx-auto container h-full gap-14 place-content-center md:grid grid-cols-3'>
-            <div className='text-5xl text-secondary h-full  md:text-right font-black '>
+            <div className='text-3xl text-secondary h-full  md:text-right font-black '>
               12, 13, 14 <br /> DEC, 2024
             </div>
-            <div className='col-span-2 text-2xl text-white'>
+            <div className='col-span-2 text-xl text-white'>
               <p>KARPAGAM ACADEMY OF HIGHER EDUCATION</p>
               <p>(Deemed to be University)</p>
               <p>(Established Under Section of 3 of UGC Act, 1956)</p>

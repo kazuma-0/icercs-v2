@@ -3,7 +3,7 @@ export default function Contact() {
   return (
     <div className='container grid md:grid-cols-3 h-max gap-10 py-5'>
       <div className=' bg-primary text-white p-5 rounded'>
-        <h3 className='text-3xl font-black text- text-center pb-5'>
+        <h3 className='text-2xl font-black text- text-center pb-5'>
           Organizing Committee
         </h3>
         <div className='space-y-2'>
@@ -67,8 +67,8 @@ export default function Contact() {
           className='w-full h-60'
           loading='lazy'
         ></iframe>
-        <h3 className='text-3xl font-black text-primary pt-4 pb-5'>Distance</h3>
-        <div className='text-xl space-y-2 font-bold'>
+        <h3 className='text-2xl font-black text-primary pt-4 pb-5'>Distance</h3>
+        <div className='text-lg space-y-2 font-bold'>
           <p>From Airport - 21.9Kms (45 Min) Via NH 544</p>
           <p>From Railway Station- 15.3Kms (41 Min) Via NH 948</p>
         </div>
@@ -79,7 +79,7 @@ export default function Contact() {
             className='size-32 my-2 '
           />
         </div>
-        <div className='text-center text-lg font-black'>
+        <div className='text-center text-lg pt-5 font-black'>
           <p>Dr. R. Santhosh</p>
           <p>Professor and HoD (Convenor)</p>
           <p>Department of Computer Science and Engineering</p>

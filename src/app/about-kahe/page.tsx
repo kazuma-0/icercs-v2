@@ -2,12 +2,12 @@ export default function AboutKahe() {
   return (
     <div className='container mx-auto'>
       <div className='h-[350px]  bg-[url("/images/karpagam_university.jpeg")] bg-center bg-cover overlay flex items-center justify-center'>
-        <h1 className='relative z-20 text-4xl text-white font-bold uppercase'>
+        <h1 className='relative z-20 text-3xl text-white font-bold uppercase'>
           About Karpagam Academy of Higher Education
         </h1>
       </div>
-      <div className='container mx-auto'>
-        <p className='text-justify py-10 text-'>
+      <div className=''>
+        <p className='text-justify py-10 '>
           Karpagam Academy of Higher Education (KAHE), the name tantamount for
           quality education established under Section 3 of the UGC Act, 1956, is
           approved by the Ministry of Human Resource Development, Government of
