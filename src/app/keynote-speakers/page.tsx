@@ -26,7 +26,7 @@ export default function KeynoteSpeakers() {
           </div>
         </div>
         <div className='items-center justify-center flex h-full w-full flex-col'>
-          <img src='/images/keynote/1.png' alt='' />
+          <img src='/images/keynote/wh.png' alt='' />
           <h4 className='text-primary font-bold text-xl pt-2'>
             Dr. E. Kannan Eswariah
           </h4>
@@ -34,8 +34,6 @@ export default function KeynoteSpeakers() {
             <p>Registrar & Dean,</p>
             <p>Vel Tech Dr. R & D Institute of Science & Technology,</p>
             <p>Chennai</p>
-            {/* <p> Section & Principal,</p> */}
-            {/* <p>Sri Sairam Engineering College</p> */}
           </div>
         </div>
       </div>

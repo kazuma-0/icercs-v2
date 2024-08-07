@@ -34,33 +34,12 @@ export default function Committee() {
       </h3>
 
       <ul className='text-lg space-y-1 pt-3 '>
+        <li>Dr. N. Kumarappan, Immediate Past Chair, IEEE Madras Section</li>
+        <li>Prof. Dr. G. Rajesh, MIT Campus, Chennai</li>
+        <li>Prof. Dr. Subarna Shakya, Tribhuvan University, Nepal</li>
         <li>
-          Dr. K. Porkumaran, Chairman, IEEE Madras Section & Principal, Sri
-          Sairam Engineering College
-        </li>
-        <li>
-          Dr. S. Joseph Gladwin, Vice-Chairman (Industry), IEEE Madras Section &
-          Associate General Manager, BigCat Wireless Pvt. Ltd., Chennai
-        </li>
-        <li>
-          Dr. E. Kannan Eswariah, Registrar & Dean, Vel Tech Dr. R & D Institute
-          of Science & Technology, Chennai
-        </li>
-        <li>
-          Dr. E. Kannan, Chairman- IEEE Professional Communication Society,
-          Madras Section
-        </li>
-        <li>Dr. R. Hariprakash, Secretary, IEEE Madras Section</li>
-        <li>
-          Prof. Dr. N. Kumarappan, Immediate Past Chair, IEEE Madras Section
-        </li>
-        <li>Prof. Dr. G. Rajesh, MIT Campus</li>
-        <li>
-          Prof. Dr. Subarna Shakya, Institute of Engineering Tribhuvan
-          University
-        </li>
-        <li>
-          Prof. Chandrasekar Ravi, National Institute of Technology Puducherry
+          Prof. Dr. Chandrasekar Ravi, National Institute of Technology
+          Puducherry
         </li>
         <li>Prof. Dr. S. Karthik, SNS Institutions, Coimbatore</li>
         <li>
@@ -84,10 +63,6 @@ export default function Committee() {
           Prof. Dr. Sivasundar Manisakar, Amrita Vishwa Vidyapeetham, India
         </li>
         <li>
-          Prof. Dr. Jafar Ali Ibrahim S, Vellore Institute of Technology,
-          Vellore
-        </li>
-        <li>
           Prof. Dr. Jagadeesan, Vel Tech R&D Institute of Science and
           Technology, Chennai
         </li>
@@ -100,32 +75,27 @@ export default function Committee() {
       </h3>
 
       <ul className='text-lg space-y-1 pt-3 pb-10'>
-        <li>Prof. Dr. Hossein Mousawinezhad, Idaho State University</li>
+        <li>Dr. K. Porkumaran, Chairman, IEEE Madras Section</li>
+        <li>Dr. R. Hariprakash, Secretary, IEEE Madras Section</li>
+        <li>Dr. S. Radha, Treasurer, IEEE Madras Section</li>
+        <li>Prof. Dr. Hossein Mousavinezhad, Idaho State University, USA</li>
+        <li>Prof. Dr. Danilo Pelusi, Università di Teramo, Italy</li>
+        <li>Prof. Byungchul Tak, Kyungpook National University, South Korea</li>
         <li>
-          Prof. Dr. Danilo Pelusi, Associate Professor, P.S.G. College of
-          Technology, Coimbatore
-        </li>
-        <li>Prof. Byungchal Tak, Kyungpook national University, South Korea</li>
-        <li>
-          Prof. Dr. Krishnaveni V, Associate Professor, P.S.G.College of
-          Technology, Coimbatore
+          Prof. Dr. Krishnaveni V, P.S.G. College of Technology, Coimbatore
         </li>
         <li>Prof. Dr. Joy Long Zong Chen, Da-Yeh University</li>
-        <li>Prof. Dr. T. Senthil Kumar, Amritha School of Engineering</li>
         <li>
-          Prof. Dr. Azath Mubarakali, Associate Professor, P.S.G. College of
-          Technology, Coimbatore
+          Prof. Dr. T. Senthil Kumar, Amrita School of Engineering, Coimbatore
         </li>
         <li>
-          Prof. Dr. Valentine Emilia Bales, Associate Professor, Aurel Vlacia
-          Univ. of Arad, Romania
+          Prof. Dr. Azath Mubarakali, King Khalid University, Saudi Arabia
         </li>
         <li>
-          Prof. Dr. Muhammad Mazhar Ullah Rathore, University of New Brunswick,
-          Canada
+          Prof. Dr. Valentina Emilia Bales, Aurel Vlaicu Univ. of Arad, Romania
         </li>
-        <li>Dr. Y.C. Jiang, Andes Technology Corporation, Taiwan</li>
-        <li>Dr. Awais Ahmad, Università degli studi di Milano, Italy</li>
+        <li>Dr. Y. C. Jiang, Andes Technology Corporation, Taiwan</li>
+        <li>Dr. Awais Ahmad, Università degli Studi di Milano, Italy</li>
         <li>
           Prof. Dr. E. Kannan, Vel Tech R&D Institute of Science and Technology,
           Chennai
