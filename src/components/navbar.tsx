@@ -16,7 +16,7 @@ const Navbar = () => {
           <Link href={'/about-coimbatore'}>About Coimbatore</Link>
           <Link href={'keynote-speakers'}>Keynote</Link>
           <Link href={'/committee'}>Advisory Committee</Link>
-          {/* <Link href={'/reviewers'}>Reviewers</Link> */}
+          <Link href={'/reviewers'}>Reviewers</Link>
           <Link href={'/call-for-paper'}>Call for Paper</Link>
           <Link href={'guidelines'}>Submission Guidelines</Link>
           <Link href={'/registration'}>Registration</Link>
@@ -52,7 +52,7 @@ const Navbar = () => {
           <Link href={'/about-coimbatore'}>About Coimbatore</Link>
           <Link href={'keynote-speakers'}>Keynote</Link>
           <Link href={'/committee'}> Advisory Committee</Link>
-          {/* <Link href={'/reviewers'}>Reviewers</Link> */}
+          <Link href={'/reviewers'}>Reviewers</Link>
           <Link href={'/call-for-paper'}>Call for Paper</Link>
           <Link href={'guidelines'}>Submission Guidelines</Link>
           <Link href={'/registration'}>Registration</Link>
