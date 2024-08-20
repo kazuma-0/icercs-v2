@@ -57,9 +57,9 @@ export default function Home() {
                 href={
                   'https://ieeexplore.ieee.org/xpl/conhome/10433896/proceeding'
                 }
-                className='underline text-slate-300'
+                className='underline text-slate-300 text-center'
               >
-                2022
+                Click here
               </Link>
 
               <p className='pt-3'>
