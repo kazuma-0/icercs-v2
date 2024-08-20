@@ -7,6 +7,7 @@ import GuideLines from './guidelines/page';
 import CallForPaper from './call-for-paper/page';
 import Registration from './registration/page';
 import Contact from './contact/page';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -49,7 +50,30 @@ export default function Home() {
           </h1>
         </div>
         <div className='h-full bg-primary py-10 '>
-          <div className='mx-auto container h-full gap-14 place-content-center md:grid grid-cols-3'>
+          <div className='mx-auto container h-full gap-14 place-content-center md:grid grid-cols-4'>
+            <div className='text-white'>
+              <p>ICERCS Proceedings - Indexed in Scopus!</p>
+              <Link
+                href={
+                  'https://ieeexplore.ieee.org/xpl/conhome/10433896/proceeding'
+                }
+                className='underline text-slate-300'
+              >
+                2022
+              </Link>
+
+              <p className='pt-3'>
+                ICERCS Publication History @ IEEE: Click Here to View
+              </p>
+              <Link
+                href={
+                  'https://ieeexplore.ieee.org/xpl/conhome/10433896/proceeding'
+                }
+                className='underline text-slate-300'
+              >
+                2022
+              </Link>
+            </div>
             <div className='text-3xl text-secondary h-full  md:text-right font-black '>
               12, 13, 14 <br /> DEC, 2024
             </div>

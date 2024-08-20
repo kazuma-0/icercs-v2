@@ -28,6 +28,45 @@ export default function Committee() {
           Prof. Dr. S. Arockiasamy, University of Nizwa, Sultanate of Oman
         </li>
         <li>Prof. Dr. Seungmin Rho, Chung-Ang University, South Korea</li>
+
+        {/*  */}
+        <li>Gloria Jennis Tan, PhD, Universiti Teknologi MARA, Malaysia</li>
+        <li>
+          Hasiah Binti Mohamed @ Omar, PhD, Universiti Teknologi MARA, Malaysia
+        </li>
+        <li>Mazidah Binti Puteh, PhD, Universiti Teknologi MARA, Malaysia</li>
+        <li>
+          Mohd Talmizie Bin Amron, PhD, Universiti Teknologi MARA, Malaysia
+        </li>
+        <li>
+          Najiahtul Syafiqah Binti Ismail, PhD, Universiti Teknologi MARA,
+          Malaysia
+        </li>
+        <li>
+          Norlina Binti Mohd Sabri, PhD, Universiti Teknologi MARA, Malaysia
+        </li>
+        <li>
+          Norulhidayah Binti Isa, PhD, Universiti Teknologi MARA, Malaysia
+        </li>
+        <li>Rajeswari A/P Raju, PhD, Universiti Teknologi MARA, Malaysia</li>
+        <li>
+          Wan Safra Diyana Binti Wan Abdul Ghani, PhD, Universiti Teknologi
+          MARA, Malaysia
+        </li>
+        <li>
+          Fazlin Marini Binti Hussain, Universiti Teknologi MARA, Malaysia
+        </li>
+        <li>
+          Sharifah Nurulhikmah Binti Syed Yasin, Universiti Teknologi MARA,
+          Malaysia
+        </li>
+        <li>
+          Siti Nurul Hayatie Binti Ishak, Universiti Teknologi MARA, Malaysia
+        </li>
+        <li>
+          Zawawi Bin Ismail @ Abdul Wahab, Universiti Teknologi MARA, Malaysia
+        </li>
+        {/*  */}
       </ul>
       <h3 className='text-3xl pt-5 font-black pb-2 text-primary'>
         National Advisory Committee

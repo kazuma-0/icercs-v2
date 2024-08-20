@@ -660,7 +660,7 @@ export default function ReviewersList() {
         Reviewers - Tamilnadu
       </h3>
 
-      <ul className='text-lg space-y-1 pt-3 pb-10'>
+      <ul className='text-lg space-y-1 pt-3 pb-10  capitalize'>
         <li>
           <b>Kannimuthu S</b>, Professor, Karpagam College of Engineering,
           Coimbatore
