@@ -39,7 +39,7 @@ export default function Home() {
               }
               className='underline text-primary'
             >
-              Click Here to View
+              Click Here to View``
             </Link>
           </div>
           <h1 className='text-center text-3xl text-primary font-bold pb-2 pt-5'>
