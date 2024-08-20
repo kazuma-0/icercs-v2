@@ -31,6 +31,17 @@ export default function Home() {
               height={120}
             />
           </div>
+          <div className='pt-4 flex items-center justify-center gap-2 text-secondary font-bold'>
+            <p className=''>IEEE ICERCS 2023 Publication History: </p>
+            <Link
+              href={
+                'https://ieeexplore.ieee.org/xpl/conhome/10433896/proceeding'
+              }
+              className='underline text-primary'
+            >
+              Click Here to View
+            </Link>
+          </div>
           <h1 className='text-center text-3xl text-primary font-bold pb-2 pt-5'>
             ICERCS-2024
           </h1>
@@ -50,28 +61,7 @@ export default function Home() {
           </h1>
         </div>
         <div className='h-full bg-primary py-10 '>
-          <div className='mx-auto container h-full gap-14 place-content-center md:grid grid-cols-4'>
-            <div className='text-white'>
-              <p>ICERCS Proceedings - Indexed in Scopus!</p>
-              {/* <Link
-                href={
-                  'https://ieeexplore.ieee.org/xpl/conhome/10433896/proceeding'
-                }
-                className='underline text-slate-300 text-center'
-              >
-                Click here
-              </Link> */}
-
-              <p className='pt-3'>ICERCS Publication History @ IEEE:</p>
-              <Link
-                href={
-                  'https://ieeexplore.ieee.org/xpl/conhome/10433896/proceeding'
-                }
-                className='underline text-slate-300'
-              >
-                Click Here to View
-              </Link>
-            </div>
+          <div className='mx-auto container h-full gap-14 place-content-center md:grid grid-cols-3'>
             <div className='text-3xl text-secondary h-full  md:text-right font-black '>
               12, 13, 14 <br /> DEC, 2024
             </div>
