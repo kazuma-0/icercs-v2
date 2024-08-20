@@ -53,25 +53,23 @@ export default function Home() {
           <div className='mx-auto container h-full gap-14 place-content-center md:grid grid-cols-4'>
             <div className='text-white'>
               <p>ICERCS Proceedings - Indexed in Scopus!</p>
-              <Link
+              {/* <Link
                 href={
                   'https://ieeexplore.ieee.org/xpl/conhome/10433896/proceeding'
                 }
                 className='underline text-slate-300 text-center'
               >
                 Click here
-              </Link>
+              </Link> */}
 
-              <p className='pt-3'>
-                ICERCS Publication History @ IEEE: Click Here to View
-              </p>
+              <p className='pt-3'>ICERCS Publication History @ IEEE:</p>
               <Link
                 href={
                   'https://ieeexplore.ieee.org/xpl/conhome/10433896/proceeding'
                 }
                 className='underline text-slate-300'
               >
-                2022
+                Click Here to View
               </Link>
             </div>
             <div className='text-3xl text-secondary h-full  md:text-right font-black '>
