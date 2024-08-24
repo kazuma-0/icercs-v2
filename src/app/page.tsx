@@ -12,7 +12,7 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <>
-      <div className='md:hmax flex flex-col pb-32'>
+      <div className='md:hmax flex flex-col '>
         <div className='flex-1 py-5'>
           <div className='flex justify-around'>
             <Image
@@ -74,7 +74,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <AboutKahe />
+      {/* <AboutKahe />
       <AboutICERCS />
       <div className='py-10'></div>
       <AboutCoimbatore />
@@ -82,7 +82,7 @@ export default function Home() {
       <CallForPaper />
       <Registration />
       <GuideLines />
-      <Contact />
+      <Contact /> */}
     </>
   );
 }
