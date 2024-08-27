@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import AboutKahe from "./about-kahe/page";
 import AboutICERCS from "./about-icercs/page";
@@ -12,9 +13,11 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="flex">
+      {/* Main Content Area */}
       <div className="w-[90%]">
         <div className="md:hmax flex flex-col">
           <div className="flex-1 py-5">
+            {/* Logos and Conference Info */}
             <div className="flex justify-center ">
               <div>
                 <Image
@@ -46,6 +49,8 @@ export default function Home() {
                 />
               </div>
             </div>
+
+            {/* Link and Conference Title */}
             <div className="pt-4 flex items-center justify-center gap-2 text-secondary font-bold">
               <p className="">IEEE ICERCS 2023 Publication History: </p>
               <Link
@@ -54,7 +59,7 @@ export default function Home() {
                 }
                 className="underline text-primary"
               >
-                Click Here to View``
+                Click Here to View
               </Link>
             </div>
             <h1 className="text-center text-3xl text-primary font-bold pb-2 pt-5">
@@ -75,9 +80,11 @@ export default function Home() {
               Department of Computer Science and Engineering (Cyber Security)
             </h1>
           </div>
-          <div className="h-full bg-primary py-10 ">
+
+          {/* Location and Dates */}
+          <div className="h-full bg-primary py-10">
             <div className="mx-auto container h-full gap-14 place-content-center md:grid grid-cols-3">
-              <div className="text-3xl text-secondary h-full  md:text-right font-black ">
+              <div className="text-3xl text-secondary h-full md:text-right font-black">
                 12, 13, 14 <br /> DEC, 2024
               </div>
               <div className="col-span-2 text-xl text-white">
@@ -90,7 +97,9 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="w-[10%] bg-primary">
+
+      {/* Sponsor Section - Fixed on the Side */}
+      <div className="w-[10%] bg-primary sticky top-0 h-screen overflow-y-auto custom-scrollbar">
         <h2 className="text-white text-center font-bold py-4">
           Technical Sponsors
         </h2>
@@ -126,17 +135,52 @@ export default function Home() {
             height={80}
           />
         </div>
+        <h2 className="text-white text-center font-bold py-4">
+          Innovation Sponsors
+        </h2>
+        <div className="flex flex-col items-center space-y-4 p-2">
+          <Image
+            src="/images/sponsor/sponsor1.png"
+            alt="Sponsor 1"
+            width={80}
+            height={80}
+          />
+          <Image
+            src="/images/sponsor/sponsor2.png"
+            alt="Sponsor 2"
+            width={80}
+            height={80}
+          />
+          <Image
+            src="/images/sponsor/sponsor3.png"
+            alt="Sponsor 3"
+            width={80}
+            height={80}
+          />
+          <Image
+            src="/images/sponsor/sponsor4.png"
+            alt="Sponsor 4"
+            width={80}
+            height={80}
+          />
+          <Image
+            src="/images/sponsor/sponsor5.png"
+            alt="Sponsor 5"
+            width={80}
+            height={80}
+          />
+        </div>
       </div>
 
-      {/* <AboutKahe />
-      <AboutICERCS />
-      <div className='py-10'></div>
-      <AboutCoimbatore />
-      <KeynoteSpeakers />
-      <CallForPaper />
-      <Registration />
-      <GuideLines />
-      <Contact /> */}
+      <style jsx>{`
+        .custom-scrollbar::-webkit-scrollbar {
+          display: none;
+        }
+        .custom-scrollbar {
+          -ms-overflow-style: none; /* IE and Edge */
+          scrollbar-width: none; /* Firefox */
+        }
+      `}</style>
     </div>
   );
 }
