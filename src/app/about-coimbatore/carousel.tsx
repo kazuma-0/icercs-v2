@@ -20,7 +20,7 @@ export default function CarouselComponent() {
     "CODISSIA E Hall, Coimbatore: A prominent exhibition center hosting various trade fairs, exhibitions, and events.",
     "CODISSIA Trade Fair Complex, Coimbatore: A large venue for trade fairs and exhibitions, showcasing products and services from various industries.",
     "Media Tree (Fountain Light Tower), Coimbatore: An iconic landmark featuring a fountain and light tower, known for its vibrant nighttime displays.",
-    "RaceCourse, Coimbatore: A lively area known for its horse racing events, parks, and vibrant atmosphere.",
+    "RaceCourse, Coimbatore: Race Course Walking Trail is a 2.4-mile distance and 5,500 steps walking trail.",
     "Ukkadam-Valankulam Lake, Coimbatore: A scenic lake offering a tranquil escape with opportunities for boating and relaxing by the water.",
     "Vaalparai, Coimbatore: A beautiful hill station known for its tea estates, scenic landscapes, and pleasant climate.",
   ];
