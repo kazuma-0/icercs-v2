@@ -95,24 +95,7 @@ export default function Home() {
             width={80}
             height={80}
           />
-          <Image
-            src="/images/sponsor/sponsor3.png"
-            alt="Sponsor 3"
-            width={80}
-            height={80}
-          />
-          <Image
-            src="/images/sponsor/sponsor4.png"
-            alt="Sponsor 4"
-            width={80}
-            height={80}
-          />
-          <Image
-            src="/images/sponsor/sponsor5.png"
-            alt="Sponsor 5"
-            width={80}
-            height={80}
-          />
+         
         </div>
         <h2 className="text-white text-center font-bold py-4">
           Innovation Sponsors
@@ -130,24 +113,7 @@ export default function Home() {
             width={80}
             height={80}
           />
-          <Image
-            src="/images/sponsor/sponsor3.png"
-            alt="Sponsor 3"
-            width={80}
-            height={80}
-          />
-          <Image
-            src="/images/sponsor/sponsor4.png"
-            alt="Sponsor 4"
-            width={80}
-            height={80}
-          />
-          <Image
-            src="/images/sponsor/sponsor5.png"
-            alt="Sponsor 5"
-            width={80}
-            height={80}
-          />
+        
         </div>
       </div>
 
