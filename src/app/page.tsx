@@ -4,11 +4,9 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="flex h-screen">
-      {/* Main Content Area */}
       <div className="w-[90%]">
         <div className="md:hmax flex flex-col">
           <div className="flex-1 py-5">
-            {/* Logos and Conference Info */}
             <div className="w-full">
               <div className="flex justify-evenly">
                 <Image
@@ -77,7 +75,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Sponsor Section - Fixed on the Side */}
       <div className="w-[10%] bg-primary sticky top-0 h-[100%] overflow-y-auto custom-scrollbar">
         <h2 className="text-white text-center font-bold py-4">
           Technical Sponsors
