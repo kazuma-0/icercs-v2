@@ -5,62 +5,75 @@ export default function KeynoteSpeakers() {
         Keynote Speakers
       </h2>
       <div className="grid md:grid-cols-3 pt-10 gap-10">
-        <div className="items-center justify-center flex h-full w-full flex-col">
-          <img src="/images/keynote/1.png" alt="" />
-          <h4 className="text-primary font-bold text-xl pt-2">
-            DR. K. PORKUMARAN
-          </h4>
-          <div className="text-center text-secondary">
-            <p>Chairman, IEEE Madras</p>
-            {/* <p> Section & Principal,</p> */}
-            {/* <p>Sri Sairam Engineering College</p> */}
+        {/* Reusable Speaker Card Component */}
+        {[
+          {
+            imgSrc: "/images/keynote/1.png",
+            name: "DR. K. PORKUMARAN",
+            title: "Chairman, IEEE Madras",
+          },
+          {
+            imgSrc: "/images/keynote/2.png",
+            name: "AWAIS AHMAD",
+            title:
+              "Professor, Imam Mohammad Ibn Saud Islamic University, Saudi Arabia",
+          },
+          {
+            imgSrc: "/images/keynote/wh.png",
+            name: "Dr. E. Kannan Eswariah",
+            title:
+              "Registrar & Dean, Vel Tech Dr. R & D Institute of Science & Technology, Chennai",
+          },
+        ].map((speaker, index) => (
+          <div
+            key={index}
+            className="flex flex-col items-center justify-center h-full w-full"
+          >
+            <img
+              src={speaker.imgSrc}
+              alt={speaker.name}
+              className="w-[160px] h-[160px] object-cover"
+            />
+            <h4 className="text-primary font-bold text-xl pt-2 text-center">
+              {speaker.name}
+            </h4>
+            <div className="text-center text-secondary">
+              <p>{speaker.title}</p>
+            </div>
           </div>
-        </div>
-        <div className="items-center justify-center flex h-full w-full flex-col">
-          <img src="/images/keynote/2.png" className="w-[160px]" alt="" />
-          <h4 className="text-primary font-bold text-xl pt-2">AWAIS AHMAD</h4>
-          <div className="text-center text-secondary">
-            <p>Professor, </p>
-            <p>Imam Mohammad Ibn Saud Islamic University,</p>
-            <p>Saudi Arabia</p>
-          </div>
-        </div>
-        <div className="items-center justify-center flex h-full w-full flex-col">
-          <img src="/images/keynote/wh.png" alt="" className="w-[160px]" />
-          <h4 className="text-primary font-bold text-xl pt-2">
-            Dr. E. Kannan Eswariah
-          </h4>
-          <div className="text-center text-secondary">
-            <p>Registrar & Dean,</p>
-            <p>Vel Tech Dr. R & D Institute of Science & Technology,</p>
-            <p>Chennai</p>
-          </div>
-        </div>
+        ))}
       </div>
       <div className="grid md:grid-cols-2 pt-10 gap-10">
-        <div className="items-center justify-center flex h-full w-full flex-col">
-          <img src="/images/keynote/3.png" className="w-[160px]" alt="" />
-          <h4 className="text-primary font-bold text-xl pt-2">
-            GOUTHAM REDDY ALAVALAPATI
-          </h4>
-          <div className="text-center  text-secondary">
-            <p>Professor,</p>
-            <p> University of Illinois</p>
-            <p>USA</p>
+        {/* Reusable Speaker Card Component */}
+        {[
+          {
+            imgSrc: "/images/keynote/3.png",
+            name: "GOUTHAM REDDY ALAVALAPATI",
+            title: "Professor, University of Illinois, USA",
+          },
+          {
+            imgSrc: "/images/keynote/6.png",
+            name: "TS DR. MOHD TALMIZIE AMRON",
+            title: "Professor, Universiti Teknologi MARA, Malaysia",
+          },
+        ].map((speaker, index) => (
+          <div
+            key={index}
+            className="flex flex-col items-center justify-center h-full w-full"
+          >
+            <img
+              src={speaker.imgSrc}
+              alt={speaker.name}
+              className="w-[160px] h-[160px] object-cover"
+            />
+            <h4 className="text-primary font-bold text-xl pt-2 text-center">
+              {speaker.name}
+            </h4>
+            <div className="text-center text-secondary">
+              <p>{speaker.title}</p>
+            </div>
           </div>
-        </div>
-
-        <div className="items-center justify-center flex h-full w-full flex-col">
-          <img src="/images/keynote/6.png" alt="" />
-          <h4 className="text-primary font-bold text-xl pt-2">
-            TS DR. MOHD TALMIZIE AMRON
-          </h4>
-          <div className="text-center  text-secondary">
-            <p>Professor,</p>
-            <p> Universiti Teknologi MARA,</p>
-            <p>Malaysia</p>
-          </div>
-        </div>
+        ))}
       </div>
     </div>
   );

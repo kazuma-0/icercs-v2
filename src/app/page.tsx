@@ -18,34 +18,32 @@ export default function Home() {
         <div className="md:hmax flex flex-col">
           <div className="flex-1 py-5">
             {/* Logos and Conference Info */}
-            <div className="flex justify-center ">
-              <div>
+            <div className="w-full">
+              <div className="flex justify-evenly">
                 <Image
                   src="/images/logos/logo.avif"
                   alt="das"
-                  width={140}
-                  height={120}
+                  width={130}
+                  height={100}
                   className="shrink-0"
                 />
                 <Image
                   src="/images/kiic.png"
                   alt="das"
-                  width={250}
-                  height={120}
+                  width={230}
+                  height={100}
                 />
-              </div>
-              <div>
                 <Image
                   src="/images/iic.png"
                   alt="das"
-                  width={250}
-                  height={120}
+                  width={230}
+                  height={100}
                 />
                 <Image
                   src="/images/icercs.png"
                   alt="das"
-                  width={150}
-                  height={120}
+                  width={130}
+                  height={100}
                 />
               </div>
             </div>
