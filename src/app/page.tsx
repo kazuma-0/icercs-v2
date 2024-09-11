@@ -23,26 +23,26 @@ export default function Home() {
                 <Image
                   src="/images/logos/logo.avif"
                   alt="das"
-                  width={130}
+                  width={100}
                   height={100}
                   className="shrink-0"
                 />
                 <Image
                   src="/images/kiic.png"
                   alt="das"
-                  width={230}
+                  width={200}
                   height={100}
                 />
                 <Image
                   src="/images/iic.png"
                   alt="das"
-                  width={230}
+                  width={200}
                   height={100}
                 />
                 <Image
                   src="/images/icercs.png"
                   alt="das"
-                  width={130}
+                  width={120}
                   height={100}
                 />
               </div>
