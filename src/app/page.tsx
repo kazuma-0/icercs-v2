@@ -1,18 +1,9 @@
 "use client";
 import Image from "next/image";
-import AboutKahe from "./about-kahe/page";
-import AboutICERCS from "./about-icercs/page";
-import AboutCoimbatore from "./about-coimbatore/page";
-import KeynoteSpeakers from "./keynote-speakers/page";
-import GuideLines from "./guidelines/page";
-import CallForPaper from "./call-for-paper/page";
-import Registration from "./registration/page";
-import Contact from "./contact/page";
-import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex">
+    <div className="flex h-screen">
       {/* Main Content Area */}
       <div className="w-[90%]">
         <div className="md:hmax flex flex-col">
@@ -39,18 +30,10 @@ export default function Home() {
                   width={200}
                   height={100}
                 />
-                <Image
-                  src="/images/icercs.png"
-                  alt="das"
-                  width={120}
-                  height={100}
-                />
               </div>
             </div>
 
-            {/* Link and Conference Title */}
-
-            <h1 className="text-center text-3xl text-primary font-bold pb-2 pt-5">
+            <h1 className="text-center  text-3xl text-primary font-bold pb-2 pt-5">
               ICERCS-2024
             </h1>
             <h1 className="text-center text-3xl font pt-5 leading-normal">
@@ -68,11 +51,11 @@ export default function Home() {
               Department of Computer Science and Engineering (Cyber Security)
             </h1>
           </div>
-          <div className="pt-4 flex items-center justify-center gap-2 text-secondary font-bold">
-            IEEE ICERCS
+          <div className="pt-4 flex-col m-auto  items-center justify-center gap-2 text-secondary font-bold">
+            <p>IEEE ICERCS Previous Publication</p> <br />
             <a
               href="https://ieeexplore.ieee.org/xpl/conhome/10433896/proceeding"
-              className="text-primary underline"
+              className="text-primary flex justify-center underline"
             >
               2023
             </a>
@@ -95,7 +78,7 @@ export default function Home() {
       </div>
 
       {/* Sponsor Section - Fixed on the Side */}
-      <div className="w-[10%] bg-primary sticky top-0 h-screen overflow-y-auto custom-scrollbar">
+      <div className="w-[10%] bg-primary sticky top-0 h-[100%] overflow-y-auto custom-scrollbar">
         <h2 className="text-white text-center font-bold py-4">
           Technical Sponsors
         </h2>
