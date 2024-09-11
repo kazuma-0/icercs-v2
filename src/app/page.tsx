@@ -95,7 +95,6 @@ export default function Home() {
             width={80}
             height={80}
           />
-         
         </div>
         <h2 className="text-white text-center font-bold py-4">
           Innovation Sponsors
@@ -113,7 +112,6 @@ export default function Home() {
             width={80}
             height={80}
           />
-        
         </div>
       </div>
 
