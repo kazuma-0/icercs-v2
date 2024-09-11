@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Image from "next/image";
 import AboutKahe from "./about-kahe/page";
 import AboutICERCS from "./about-icercs/page";
@@ -51,17 +51,7 @@ export default function Home() {
             </div>
 
             {/* Link and Conference Title */}
-            <div className="pt-4 flex items-center justify-center gap-2 text-secondary font-bold">
-              <p className="">IEEE ICERCS 2023 Publication History: </p>
-              <Link
-                href={
-                  "https://ieeexplore.ieee.org/xpl/conhome/10433896/proceeding"
-                }
-                className="underline text-primary"
-              >
-                Click Here to View
-              </Link>
-            </div>
+
             <h1 className="text-center text-3xl text-primary font-bold pb-2 pt-5">
               ICERCS-2024
             </h1>
@@ -80,7 +70,15 @@ export default function Home() {
               Department of Computer Science and Engineering (Cyber Security)
             </h1>
           </div>
-
+          <div className="pt-4 flex items-center justify-center gap-2 text-secondary font-bold">
+            IEEE ICERCS
+            <a
+              href="https://ieeexplore.ieee.org/xpl/conhome/10433896/proceeding"
+              className="text-primary underline"
+            >
+              2023
+            </a>
+          </div>
           {/* Location and Dates */}
           <div className="h-full bg-primary py-10">
             <div className="mx-auto container h-full gap-14 place-content-center md:grid grid-cols-3">

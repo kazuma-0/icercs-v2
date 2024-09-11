@@ -12,7 +12,7 @@ export default function CarouselComponent() {
     "Tranquil Yoga & Meditation Retreats, Coimbatore: Offers a peaceful retreat experience with various yoga and meditation programs amidst nature.",
     "Dhyana Lingam, Coimbatore: A spiritual center dedicated to meditation and self-realization, featuring a grand temple and beautiful surroundings.",
     "Aaliyar Dam, Coimbatore: A picturesque dam surrounded by lush greenery, perfect for picnics and enjoying nature.",
-    "Aaliyar Dam Reservoir, Coimbatore: The reservoir provides scenic views and opportunities for boating and relaxing by the water.",
+    "Ooty forms part of the Nilgiri Biosphere Reserve, the largest protected forest area in India",
     "BlackThunder, Coimbatore: A popular water theme park offering thrilling rides, wave pools, and family-friendly attractions.",
     "Clock Tower (Manikoondu), Coimbatore: A historic landmark featuring a classic clock tower, reflecting the city's architectural heritage.",
     "Siruvaani Waterfalls, Coimbatore: A beautiful waterfall nestled in the hills, known for its refreshing waters and scenic hiking trails.",
@@ -23,11 +23,12 @@ export default function CarouselComponent() {
     "RaceCourse, Coimbatore: Race Course Walking Trail is a 2.4-mile distance and 5,500 steps walking trail.",
     "Ukkadam-Valankulam Lake, Coimbatore: A scenic lake offering a tranquil escape with opportunities for boating and relaxing by the water.",
     "Vaalparai, Coimbatore: A beautiful hill station known for its tea estates, scenic landscapes, and pleasant climate.",
+    "The Marudhamalai Murugan Temple, is a popular 12th-century hill temple situated in Coimbatore, Tamil Nadu, India.",
+    "Experimenta Science Centre - STEM Lab offers an interactive learning experience in the field of STEM (Science, Technology, Engineering and Mathematics). It is the first of its kind in South India, providing hands-on opportunities for students of all ages from schools and colleges in a fun and engaging manner. ",
   ];
 
-
   const handleNext = () => {
-    if (index === 15) {
+    if (index === 17) {
       setIndex(1);
       return;
     }
@@ -36,7 +37,7 @@ export default function CarouselComponent() {
 
   const handleBack = () => {
     if (index === 1) {
-      setIndex(15);
+      setIndex(17);
       return;
     }
     setIndex(index - 1);
