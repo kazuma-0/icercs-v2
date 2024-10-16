@@ -40,7 +40,7 @@ export default function Registration() {
         </h3>
         <p className="pt-2 text-white">
           Accepted papers will be submitted for inclusion in IEEE Xplore subject
-          to meeting IEEE Xplore's scope and quality requirements.
+          to meeting IEEE Xplore&apos;s scope and quality requirements.
         </p>
         <p className="pt-2 text-white">
           Extended version of the selected papers will be recommended for SCIE
@@ -57,7 +57,7 @@ export default function Registration() {
       <div className="p-2 text-white">
         <div className="h-full w-full bg-transparent rounded p-5">
           <h3 className="text-2xl font-black text-gold text-center">
-            Important Date's
+            Important Date&apos;s
           </h3>
 
           <div className="space-y-3">
