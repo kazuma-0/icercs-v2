@@ -2,7 +2,7 @@
 export default function Contact() {
   return (
     <div className="container mx-auto px-4 py-12">
-      <h2 className="text-3xl font-bold text-center text-primary mb-10">
+      <h2 className="text-3xl font-bold text-center text-gold mb-10">
         Contact Us
       </h2>
       <div className="grid md:grid-cols-3 gap-10">
@@ -15,11 +15,11 @@ export default function Contact() {
             ></iframe>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-lg">
-            <h3 className="text-2xl font-bold text-primary mb-4">Distance</h3>
+            <h3 className="text-2xl font-bold text-gold mb-4">Distance</h3>
             <ul className="space-y-2 text-gray-700">
               <li className="flex items-center">
                 <svg
-                  className="w-5 h-5 mr-2 text-primary"
+                  className="w-5 h-5 mr-2 text-gold"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -42,7 +42,7 @@ export default function Contact() {
               </li>
               <li className="flex items-center">
                 <svg
-                  className="w-5 h-5 mr-2 text-primary"
+                  className="w-5 h-5 mr-2 text-gold"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -61,13 +61,13 @@ export default function Contact() {
                     d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                   ></path>
                 </svg>
-                From Railway Station- 15.3Kms (41 Min) Via NH 948
+                From Railway Station - 15.3Kms (41 Min) Via NH 948
               </li>
             </ul>
           </div>
         </div>
         <div className="bg-white p-6 rounded-lg shadow-lg">
-          <h3 className="text-2xl font-bold text-primary mb-6">
+          <h3 className="text-2xl font-bold text-gold mb-6">
             Contact Information
           </h3>
           <div className="space-y-4">
@@ -90,7 +90,7 @@ export default function Contact() {
             <div>
               <p className="flex items-center">
                 <svg
-                  className="w-5 h-5 mr-2 text-primary"
+                  className="w-5 h-5 mr-2 text-gold"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -105,7 +105,7 @@ export default function Contact() {
                 </svg>
                 <a
                   href="mailto:icercs@kahedu.edu.in"
-                  className="text-primary hover:underline"
+                  className="text-gold hover:underline"
                 >
                   icercs@kahedu.edu.in
                 </a>
@@ -114,7 +114,7 @@ export default function Contact() {
             <div>
               <p className="flex items-center">
                 <svg
-                  className="w-5 h-5 mr-2 text-primary"
+                  className="w-5 h-5 mr-2 text-gold"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -133,7 +133,7 @@ export default function Contact() {
             <div>
               <p className="flex items-center">
                 <svg
-                  className="w-5 h-5 mr-2 text-primary"
+                  className="w-5 h-5 mr-2 text-gold"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -150,7 +150,7 @@ export default function Contact() {
                   href="https://www.icercs.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-primary hover:underline"
+                  className="text-gold hover:underline"
                 >
                   www.icercs.com
                 </a>

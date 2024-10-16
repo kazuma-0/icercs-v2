@@ -1,8 +1,8 @@
 export default function GuideLines() {
   return (
-    <div className='container py-6'>
+    <div className='container text-white py-6'>
       <div className=''>
-        <h1 className='text-2xl text-primary font-bold mb-4'>
+        <h1 className='text-2xl text-gold font-bold mb-4'>
           Conference Submission Guidelines
         </h1>
         <p className='mb-4'>

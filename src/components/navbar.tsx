@@ -7,13 +7,13 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="h-20 bg-primary">
+    <nav className="h-20 bg-transparent">
       <div className="mx-auto max-w-[92%] h-full flex justify-between items-center">
         <Image src="/images/icercs.png" alt="das" width={100} height={80} />
         <h2 className="text-4xl ml-2 mr-2 font-bold tracking-wide text-white">
           ICERCS
         </h2>
-        <div className="hidden md:flex gap-6  text-sm text-white tracking-wide hover:*:text-secondary transition-colors">
+        <div className="hidden md:flex gap-6 text-sm text-white tracking-wide hover:*:text-secondary transition-colors">
           <Link href={"/"}>Home</Link>
           <Link href={"/about-kahe"}>About KAHE</Link>
           <Link href={"/about-icercs"}>About ICERCS&apos;24</Link>
@@ -48,7 +48,9 @@ const Navbar = () => {
           </button>
         </div>
       </div>
-      <div className={`md:hidden ${isOpen ? "block" : "hidden"} bg-primary`}>
+      <div
+        className={`md:hidden ${isOpen ? "block" : "hidden"} bg-transparent`}
+      >
         <div className="flex flex-col items-center text-white tracking-wide gap-4">
           <Link href={"/"}>Home</Link>
           <Link href={"/about-kahe"}>About KAHE</Link>

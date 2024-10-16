@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex h-screen">
-      <div className="w-[90%]">
+    <div className="flex">
+      <div className="w-[100%]">
         <div className="md:hmax flex flex-col">
           <div className="flex-1 py-5">
             <div className="w-full">
@@ -31,37 +31,37 @@ export default function Home() {
               </div>
             </div>
 
-            <h1 className="text-center  text-3xl text-primary font-bold pb-2 pt-5">
+            <h1 className="text-center text-3xl text-yellow-500 font-bold pb-2 pt-5">
               ICERCS-2024
             </h1>
-            <h1 className="text-center text-3xl font pt-5 leading-normal">
+            <h1 className="text-center text-3xl font pt-5 leading-normal text-white">
               2<sup>nd</sup> INTERNATIONAL CONFERENCE ON EMERGING RESEARCH{" "}
               <br /> IN COMPUTATIONAL SCIENCE - 2024
             </h1>
-            <p className="text-center text-lg pt-5">Organised by</p>
-            <h1 className="text-center text-2xl font-bold pt-5  text-secondary">
+            <p className="text-center text-lg pt-5 text-white">Organised by</p>
+            <h1 className="text-center text-2xl font-bold pt-5 text-yellow-500">
               Department of Computer Science and Engineering
             </h1>
-            <h1 className="text-center text-2xl font-bold pt-1  text-secondary">
+            <h1 className="text-center text-2xl font-bold pt-1 text-yellow-500">
               Department of Artificial Intelligence and Data Science
             </h1>
-            <h1 className="text-center text-2xl font-bold pt-1  text-secondary">
+            <h1 className="text-center text-2xl font-bold pt-1 text-yellow-500">
               Department of Computer Science and Engineering (Cyber Security)
             </h1>
           </div>
-          <div className="pt-4 flex-col m-auto  items-center justify-center gap-2 text-secondary font-bold">
+          <div className="pt-4 flex-col m-auto items-center justify-center gap-2 text-yellow-500 font-bold">
             <p>IEEE ICERCS Previous Publication</p> <br />
             <a
               href="https://ieeexplore.ieee.org/xpl/conhome/10433896/proceeding"
-              className="text-primary flex justify-center underline"
+              className="text-white flex justify-center underline"
             >
               2023
             </a>
           </div>
           {/* Location and Dates */}
-          <div className="h-full bg-primary py-10">
+          <div className="h-full  py-10">
             <div className="mx-auto container h-full gap-14 place-content-center md:grid grid-cols-3">
-              <div className="text-3xl text-secondary h-full md:text-right font-black">
+              <div className="text-3xl text-yellow-500 h-full md:text-right font-black">
                 12, 13, 14 <br /> DEC, 2024
               </div>
               <div className="col-span-2 text-xl text-white">
@@ -74,53 +74,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-      <div className="w-[10%] bg-primary sticky top-0 h-[100%] overflow-y-auto custom-scrollbar">
-        <h2 className="text-white text-center font-bold py-4">
-          Technical Sponsors
-        </h2>
-        <div className="flex flex-col items-center space-y-4 p-2">
-          <Image
-            src="/images/sponsor/sponsor1.png"
-            alt="Sponsor 1"
-            width={80}
-            height={80}
-          />
-          <Image
-            src="/images/sponsor/sponsor2.png"
-            alt="Sponsor 2"
-            width={80}
-            height={80}
-          />
-        </div>
-        <h2 className="text-white text-center font-bold py-4">
-          Innovation Sponsors
-        </h2>
-        <div className="flex flex-col items-center space-y-4 p-2">
-          <Image
-            src="/images/sponsor/sponsor1.png"
-            alt="Sponsor 1"
-            width={80}
-            height={80}
-          />
-          <Image
-            src="/images/sponsor/sponsor2.png"
-            alt="Sponsor 2"
-            width={80}
-            height={80}
-          />
-        </div>
-      </div>
-
-      <style jsx>{`
-        .custom-scrollbar::-webkit-scrollbar {
-          display: none;
-        }
-        .custom-scrollbar {
-          -ms-overflow-style: none; /* IE and Edge */
-          scrollbar-width: none; /* Firefox */
-        }
-      `}</style>
     </div>
   );
 }

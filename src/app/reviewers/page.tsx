@@ -2,10 +2,10 @@
 export default function ReviewersList() {
   return (
     <div className="container pt-5">
-      <h3 className="text-3xl text-center font-black pb-2 text-secondary">
+      <h3 className="text-3xl text-center font-black pb-2 text-gold">
         Reviewers List
       </h3>
-      <div className="flex space-x-10 justify-evenly text-justify">
+      <div className="flex space-x-10 text-white justify-evenly text-justify">
         <ul className="text-lg space-y-1 pt-3 ">
           <li>
             <b>Min-Shiang Hwang</b>, Professor, Asia University, Taiwan

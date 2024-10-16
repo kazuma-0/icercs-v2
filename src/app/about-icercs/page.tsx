@@ -1,11 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
 export default function AboutICERCS() {
   return (
-    <div className='container pt-5'>
-      <h3 className='text-3xl font-black pb-2 text-secondary'>
+    <div className="container pt-5">
+      <h3 className="text-3xl font-black pb-2 text-yellow-500">
         About ICERCS&apos;24
       </h3>
-      <p className='text-pretty text-justify'>
+      <p className="text-white text-justify">
         International Conference on Emerging Research in Computational Science
         ICERCS&apos;24 intends to bring up academics, specialists in engineering
         and technology, bioengineers, and commercial sector professionals to
@@ -24,10 +24,10 @@ export default function AboutICERCS() {
         adopted. ICERCS&apos;24 is scheduled to be held from 12th to 14th Dec
         2024 at Karpagam Academy of Higher Education, Coimbatore.
       </p>
-      <h3 className='text-3xl font-black py-5 text-secondary'>
+      <h3 className="text-3xl  py-5 text-yellow-500">
         SCOPE OF THE CONFERENCE
       </h3>
-      <p className='text-pretty text-justify '>
+      <p className="text-white text-justify">
         The objective of the conference is to provide a forum for academicians
         and educational practitioners from India and all over the world to
         discuss and exchange views on Emerging trends in Computational Science.
@@ -35,10 +35,10 @@ export default function AboutICERCS() {
         and industry personnel with advancing state-of-the-art in Computational
         Science with intelligent solutions for the future.
       </p>
-      <h3 className='text-3xl font-black py-5 text-secondary'>
+      <h3 className="text-3xl  py-5 text-yellow-500">
         THEME OF THE CONFERENCE
       </h3>
-      <p className='text-pretty text-justify '>
+      <p className="text-white text-justify">
         This conference is focused on innovating and inspiring the core contexts
         of Computational Science. The conference's theme is “Effective
         application of computational intelligence to solve practical problems in
