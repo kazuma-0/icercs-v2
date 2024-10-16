@@ -1,7 +1,7 @@
 export default function Committee() {
   return (
     <div className="container pt-5">
-      <h3 className="text-3xl text-center font-black pb-2 text-secondary">
+      <h3 className="text-3xl text-center font-black pb-2 text-gold">
         Committee
       </h3>
       <div className="grid grid-cols-4 gap-6 text-justify">
@@ -18,7 +18,7 @@ export default function Committee() {
           members={technicalAdvisoryMembers}
         />
         <div>
-          <h3 className="text-2xl font-black pb-2 text-primary">
+          <h3 className="text-2xl font-black pb-2 text-gold">
             Organizing Committee
           </h3>
           <div className="space-y-4">
@@ -45,9 +45,9 @@ interface CommitteeSectionProps {
 function CommitteeSection({ title, members }: CommitteeSectionProps) {
   return (
     <div>
-      <h3 className="text-2xl font-black pb-2 text-primary">{title}</h3>
-      <ul className="text-sm space-y-1 pt-3">
-        {members.map((member: string, index: number) => (
+      <h3 className="text-2xl font-black pb-2 text-gold">{title}</h3>
+      <ul className="text-sm space-y-1 pt-3 text-white">
+        {members.map((member, index) => (
           <li key={index}>{member}</li>
         ))}
       </ul>
@@ -68,9 +68,9 @@ function OrganizingCommittee({
 }: OrganizingCommitteeProps) {
   return (
     <div>
-      <h4 className="text-lg font-bold text-secondary">{role}</h4>
-      <p className="text-base">{name}</p>
-      <p className="text-sm text-gray-600">{position}</p>
+      <h4 className="text-lg font-bold text-gold">{role && `${role}:`}</h4>
+      <p className="text-base text-white">{name}</p>
+      {position && <p className="text-sm text-white">{position}</p>}
     </div>
   );
 }

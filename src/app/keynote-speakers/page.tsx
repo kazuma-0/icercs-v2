@@ -1,7 +1,7 @@
 export default function KeynoteSpeakers() {
   return (
     <div className="container">
-      <h2 className="text-3xl uppercase font-black text-primary pt-5">
+      <h2 className="text-3xl uppercase font-black text-yellow-300 pt-5">
         Keynote Speakers
       </h2>
       <div className="grid md:grid-cols-3 pt-10 gap-10">
@@ -27,17 +27,17 @@ export default function KeynoteSpeakers() {
         ].map((speaker, index) => (
           <div
             key={index}
-            className="flex flex-col items-center justify-center h-full w-full"
+            className="flex flex-col items-center justify-center h-full w-full p-5 border border-gray-300 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
           >
             <img
               src={speaker.imgSrc}
               alt={speaker.name}
-              className="w-[160px] h-[160px] object-cover"
+              className="w-[160px] h-[160px] object-cover rounded-full"
             />
-            <h4 className="text-primary font-bold text-xl pt-2 text-center">
+            <h4 className="text-yellow-300 font-bold text-xl pt-2 text-center">
               {speaker.name}
             </h4>
-            <div className="text-center text-secondary">
+            <div className="text-center text-gray-400">
               <p>{speaker.title}</p>
             </div>
           </div>
@@ -59,17 +59,17 @@ export default function KeynoteSpeakers() {
         ].map((speaker, index) => (
           <div
             key={index}
-            className="flex flex-col items-center justify-center h-full w-full"
+            className="flex flex-col items-center justify-center h-full w-full p-5 border border-gray-300 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
           >
             <img
               src={speaker.imgSrc}
               alt={speaker.name}
-              className="w-[160px] h-[160px] object-cover"
+              className="w-[160px] h-[160px] object-cover rounded-full"
             />
-            <h4 className="text-primary font-bold text-xl pt-2 text-center">
+            <h4 className="text-yellow-300 font-bold text-xl pt-2 text-center">
               {speaker.name}
             </h4>
-            <div className="text-center text-secondary">
+            <div className="text-center text-gray-400">
               <p>{speaker.title}</p>
             </div>
           </div>
