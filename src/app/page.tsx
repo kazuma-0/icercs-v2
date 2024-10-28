@@ -10,7 +10,7 @@ export default function Home() {
             <div className="w-full">
               <div className="flex justify-evenly">
                 <Image
-                  src="/images/logos/logo.avif"
+                  src="/whitelogo.png"
                   alt="das"
                   width={100}
                   height={100}
@@ -18,14 +18,30 @@ export default function Home() {
                 />
                 <Image
                   src="/images/kiic.png"
+                  className="rounded-xl"
                   alt="das"
                   width={200}
                   height={100}
                 />
                 <Image
                   src="/images/iic.png"
+                  className="rounded-xl"
                   alt="das"
                   width={200}
+                  height={100}
+                />
+                <Image
+                  src="/ieee.png"
+                  alt="das"
+                  className=" bg-white rounded-xl"
+                  width={200}
+                  height={100}
+                />
+                <Image
+                  src="/ieeeprocom.png"
+                  alt="das"
+                  className=" bg-white rounded-xl"
+                  width={230}
                   height={100}
                 />
               </div>
