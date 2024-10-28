@@ -9,10 +9,10 @@ const Navbar = () => {
   return (
     <nav className="h-20 bg-transparent">
       <div className="mx-auto max-w-[92%] h-full flex justify-between items-center">
-        <Image src="/images/icercs.png" alt="das" width={100} height={80} />
-        <h2 className="text-4xl ml-2 mr-2 font-bold tracking-wide text-white">
+        <Image src="/icercs.png" alt="das" width={100} height={80} />
+        {/* <h2 className="text-4xl ml-2 mr-2 font-bold tracking-wide text-white">
           ICERCS
-        </h2>
+        </h2> */}
         <div className="hidden md:flex gap-6 text-sm text-white tracking-wide hover:*:text-secondary transition-colors">
           <Link href={"/"}>Home</Link>
           <Link href={"/about-kahe"}>About KAHE</Link>
