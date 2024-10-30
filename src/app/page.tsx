@@ -7,7 +7,7 @@ export default function Home() {
       <div className="w-[100%]">
         <div className="md:hmax flex flex-col">
           <div className="flex-1 py-5">
-            <div className="w-full">
+            <div className="w-[105%]">
               <div className="flex justify-evenly">
                 <Image
                   src="/whitelogo.png"
@@ -18,29 +18,32 @@ export default function Home() {
                 />
                 <Image
                   src="/images/kiic.png"
-                  className="rounded-xl"
+                  className=" rounded-xl bg-white bg-opacity-70"
                   alt="das"
                   width={200}
                   height={100}
                 />
                 <Image
                   src="/images/iic.png"
-                  className="rounded-xl"
+                  className=" rounded-xl bg-white bg-opacity-70"
                   alt="das"
                   width={200}
                   height={100}
                 />
+              </div>
+
+              <div className="flex justify-evenly mt-4">
                 <Image
                   src="/ieee.png"
                   alt="das"
-                  className=" bg-white rounded-xl"
+                  className=" rounded-xl bg-white bg-opacity-70"
                   width={200}
                   height={100}
                 />
                 <Image
                   src="/ieeeprocom.png"
                   alt="das"
-                  className=" bg-white rounded-xl"
+                  className=" rounded-xl bg-white bg-opacity-70"
                   width={230}
                   height={100}
                 />
