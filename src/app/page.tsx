@@ -68,6 +68,31 @@ export default function Home() {
               Department of Computer Science and Engineering (Cyber Security)
             </h1>
           </div>
+
+          <div className="flex justify-center mt-10">
+            <table className="table-auto border-collapse rounded-lg overflow-hidden shadow-lg text-sm">
+              <thead>
+                <tr className="bg-yellow-500 text-white">
+                  <th className="px-2 py-1">Type</th>
+                  <th className="px-2 py-1">Code</th>
+                  <th className="px-2 py-1">ISBN</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="bg-white text-black">
+                  <td className="border px-2 py-1">XPLORE COMPLIANT</td>
+                  <td className="border px-2 py-1">CFP24D03-ART</td>
+                  <td className="border px-2 py-1">979-8-3315-3496-7</td>
+                </tr>
+                <tr className="bg-gray-100 text-black">
+                  <td className="border px-2 py-1">CD-ROM</td>
+                  <td className="border px-2 py-1">CFP24D03-CDR</td>
+                  <td className="border px-2 py-1">979-8-3315-3494-3</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
           <div className="pt-4 flex-col m-auto items-center justify-center gap-2 text-yellow-500 font-bold">
             <p>IEEE ICERCS Previous Publication</p> <br />
             <a
