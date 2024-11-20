@@ -61,14 +61,14 @@ export default function Registration() {
           </h3>
 
           <div className="space-y-3">
-            <DateWithLabel date="18/11/2024" label="Full Paper Submission" />
-            <DateWithLabel date="22/11/2024" label="Paper Acceptance" />
+            <DateWithLabel date="22/11/2024" label="Full Paper Submission" />
+            <DateWithLabel date="25/11/2024" label="Paper Acceptance" />
             <DateWithLabel
-              date="25/11/2024"
+              date="01/12/2024"
               label="Camera Ready Paper Submission"
             />
             <DateWithLabel
-              date="1/12/2024"
+              date="05/12/2024"
               label="Last Date for Registration Payment"
             />
 
