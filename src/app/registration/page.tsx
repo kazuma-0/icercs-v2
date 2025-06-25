@@ -46,13 +46,13 @@ export default function Registration() {
           Extended version of the selected papers will be recommended for SCIE
           journals
         </p>
-        <h3 className="text-2xl pt-10 font-black text-gold">Submission Link</h3>
+        {/* <h3 className="text-2xl pt-10 font-black text-gold">Submission Link</h3>
         <Link
-          href={"https://cmt3.research.microsoft.com/ICERCS2024"}
+          href={"https://cmt3.research.microsoft.com/ICERCS2025"}
           className="pt-3 text-white underline"
         >
-          https://cmt3.research.microsoft.com/ICERCS2024
-        </Link>
+          https://cmt3.research.microsoft.com/ICERCS2025
+        </Link> */}
       </div>
       <div className="p-2 text-white">
         <div className="h-full w-full bg-transparent rounded p-5">
@@ -61,20 +61,20 @@ export default function Registration() {
           </h3>
 
           <div className="space-y-3">
-            <DateWithLabel date="22/11/2024" label="Full Paper Submission" />
-            <DateWithLabel date="25/11/2024" label="Paper Acceptance" />
+            <DateWithLabel date="22/11/2025" label="Full Paper Submission" />
+            <DateWithLabel date="25/11/2025" label="Paper Acceptance" />
             <DateWithLabel
-              date="01/12/2024"
+              date="01/12/2025"
               label="Camera Ready Paper Submission"
             />
             <DateWithLabel
-              date="02/12/2024"
+              date="02/12/2025"
               label="Last Date for Registration Payment"
             />
 
             <div className="text-white text-center">
               <p className="pt-2 text-lg font-bold">Conference Date</p>
-              <h4 className="text-xl">12, 13 and 14th Dec, 2024</h4>
+              <h4 className="text-xl">11, 12 and 13th Dec, 2025</h4>
             </div>
           </div>
 
@@ -83,18 +83,18 @@ export default function Registration() {
           </h3>
           <p className="text-center text-white">
             Use this link for payment <br />
-            <Link href={"https://admissions.kifees.com/events/kahe/icercs"}>
+            {/* <Link href={"https://admissions.kifees.com/events/kahe/icercs"}>
               https://admissions.kifees.com/events/kahe/icercs
-            </Link>
+            </Link> */}
           </p>
-          <div className="pt-3 flex items-center justify-center">
+          {/* <div className="pt-3 flex items-center justify-center">
             <img
               src="/images/paymentqr.png"
               alt="qr"
               height={200}
               width={200}
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
