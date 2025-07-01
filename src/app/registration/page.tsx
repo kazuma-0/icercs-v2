@@ -68,7 +68,7 @@ export default function Registration() {
               label="Camera Ready Paper Submission"
             />
             <DateWithLabel
-              date="02/12/2025"
+              date="02/12/2025"      
               label="Last Date for Registration Payment"
             />
 
