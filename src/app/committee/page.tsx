@@ -141,10 +141,10 @@ const technicalAdvisoryMembers = [
 ];
 
 const organizingCommitteeMembers = [
-  { role: "Patron", name: "Dr.S.Ravi", position: "Registrar" },
+  { role: "Patron", name: "Prof. Dr. V. Pradeep", position: "Registrar" },
   {
     role: "Chief Patron",
-    name: "Prof. Dr.B.Venkatachalapathy",
+    name: "Prof. Dr.S. Ravi",
     position: "Vice-Chancellor",
   },
   {
