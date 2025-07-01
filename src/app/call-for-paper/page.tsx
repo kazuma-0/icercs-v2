@@ -2,7 +2,7 @@ export default function CallForPaper() {
   return (
     <div className='container text-white h-screen'>
       <h2 className='text-3xl font-black text-gold pt-5'>
-        THE ICERCS 24 WELCOMES ORIGINAL WORKS IN AREAS SUCH AS
+        THE ICERCS 25 WELCOMES ORIGINAL WORKS IN AREAS SUCH AS
       </h2>
       <p className='pt-2 text-lg'>
         The research scope of computational science can be viewed as follows but

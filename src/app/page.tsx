@@ -32,7 +32,7 @@ export default function Home() {
                 />
               </div>
 
-              <div className="flex justify-evenly mt-4">
+              {/* <div className="flex justify-evenly mt-4">
                 <Image
                   src="/ieee.png"
                   alt="das"
@@ -47,15 +47,15 @@ export default function Home() {
                   width={230}
                   height={100}
                 />
-              </div>
+              </div> */}
             </div>
 
             <h1 className="text-center text-3xl text-yellow-500 font-bold pb-2 pt-5">
-              ICERCS-2024
+              ICERCS-2025
             </h1>
             <h1 className="text-center text-3xl font pt-5 leading-normal text-white">
-              2<sup>nd</sup> INTERNATIONAL CONFERENCE ON EMERGING RESEARCH{" "}
-              <br /> IN COMPUTATIONAL SCIENCE - 2024
+              3<sup>rd</sup> INTERNATIONAL CONFERENCE ON EMERGING RESEARCH{" "}
+              <br /> IN COMPUTATIONAL SCIENCE - 2025
             </h1>
             <p className="text-center text-lg pt-5 text-white">Organised by</p>
             <h1 className="text-center text-2xl font-bold pt-5 text-yellow-500">
@@ -69,7 +69,7 @@ export default function Home() {
             </h1>
           </div>
 
-          <div className="flex justify-center mt-10">
+          {/* <div className="flex justify-center mt-10">
             <table className="table-auto border-collapse rounded-lg overflow-hidden shadow-lg text-sm">
               <thead>
                 <tr className="bg-yellow-500 text-white">
@@ -91,22 +91,30 @@ export default function Home() {
                 </tr>
               </tbody>
             </table>
-          </div>
+          </div> */}
 
           <div className="pt-4 flex-col m-auto items-center justify-center gap-2 text-yellow-500 font-bold">
             <p>IEEE ICERCS Previous Publication</p> <br />
-            <a
-              href="https://ieeexplore.ieee.org/xpl/conhome/10433896/proceeding"
-              className="text-white flex justify-center underline"
-            >
-              2023
-            </a>
+            <div className="flex justify-evenly">
+              <a
+                href="https://ieeexplore.ieee.org/xpl/conhome/10433896/proceeding"
+                className="text-white flex justify-center underline"
+              >
+                2023
+              </a>
+              <a
+                href="https://ieeexplore.ieee.org/xpl/conhome/10433896/proceeding"
+                className="text-white flex justify-center underline"
+              >
+                2024
+              </a>
+            </div>
           </div>
           {/* Location and Dates */}
           <div className="h-full  py-10">
             <div className="mx-auto container h-full gap-14 place-content-center md:grid grid-cols-3">
               <div className="text-3xl text-yellow-500 h-full md:text-right font-black">
-                12, 13, 14 <br /> DEC, 2024
+                11, 12, 13 <br /> DEC, 2025
               </div>
               <div className="col-span-2 text-xl text-white">
                 <p>KARPAGAM ACADEMY OF HIGHER EDUCATION</p>

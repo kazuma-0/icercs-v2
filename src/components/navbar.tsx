@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className="hidden md:flex gap-6 text-sm text-white tracking-wide hover:*:text-secondary transition-colors">
           <Link href={"/"}>Home</Link>
           <Link href={"/about-kahe"}>About KAHE</Link>
-          <Link href={"/about-icercs"}>About ICERCS&apos;24</Link>
+          <Link href={"/about-icercs"}>About ICERCS&apos;25</Link>
           <Link href={"/about-coimbatore"}>About Coimbatore</Link>
           <Link href={"keynote-speakers"}>Keynote</Link>
           <Link href={"/committee"}>Advisory Committee</Link>
