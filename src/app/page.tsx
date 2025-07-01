@@ -126,7 +126,7 @@ export default function Home() {
           </div>
           <div className="container mx-auto py-10">
             <h3 className="text-2xl font-black text-yellow-500 mb-4">
-              Acknowledgement
+              CMT  Acknowledgement
             </h3>
             <p className="text-white leading-relaxed">
               The Microsoft CMT service was used for managing the peer-reviewing
