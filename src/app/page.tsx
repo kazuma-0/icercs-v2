@@ -124,6 +124,17 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <div className="container mx-auto py-10">
+            <h3 className="text-2xl font-black text-yellow-500 mb-4">
+              Acknowledgement
+            </h3>
+            <p className="text-white leading-relaxed">
+              The Microsoft CMT service was used for managing the peer-reviewing
+              process for this conference. This service was provided for free by
+              Microsoft and they bore all expenses, including costs for Azure
+              cloud services as well as for software development and support.
+            </p>
+          </div>
         </div>
       </div>
     </div>

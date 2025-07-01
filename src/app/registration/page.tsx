@@ -51,19 +51,12 @@ export default function Registration() {
         </p>
 
         <h3 className="text-2xl pt-10 font-black text-gold">Acknowledgement</h3>
-        {/* Added noscript fallback for crawlers */}
-        <div className="pt-2 text-white">
+        <p className="pt-2 text-white">
           The Microsoft CMT service was used for managing the peer-reviewing
           process for this conference. This service was provided for free by
           Microsoft and they bore all expenses, including costs for Azure cloud
           services as well as for software development and support.
-          <noscript>
-            The Microsoft CMT service was used for managing the peer-reviewing
-            process for this conference. This service was provided for free by
-            Microsoft and they bore all expenses, including costs for Azure
-            cloud services as well as for software development and support.
-          </noscript>
-        </div>
+        </p>
 
         <h3 className="text-2xl pt-10 font-black text-gold">Submission Link</h3>
       </div>
