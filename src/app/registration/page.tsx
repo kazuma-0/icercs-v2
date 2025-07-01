@@ -1,5 +1,8 @@
 import Link from "next/link";
 
+// Add this export to ensure static generation
+export const dynamic = "force-static";
+
 export default function Registration() {
   return (
     <div className="container pt-5 grid md:grid-cols-3 gap-10 h-max">
@@ -46,20 +49,28 @@ export default function Registration() {
           Extended version of the selected papers will be recommended for SCIE
           journals
         </p>
+
         <h3 className="text-2xl pt-10 font-black text-gold">Acknowledgement</h3>
-        <p className="pt-2 text-white">
+        {/* Added noscript fallback for crawlers */}
+        <div className="pt-2 text-white">
           The Microsoft CMT service was used for managing the peer-reviewing
           process for this conference. This service was provided for free by
           Microsoft and they bore all expenses, including costs for Azure cloud
-          services as well as for software development and support.
-        </p>
+          services as well as for software development and support.
+          <noscript>
+            The Microsoft CMT service was used for managing the peer-reviewing
+            process for this conference. This service was provided for free by
+            Microsoft and they bore all expenses, including costs for Azure
+            cloud services as well as for software development and support.
+          </noscript>
+        </div>
 
         <h3 className="text-2xl pt-10 font-black text-gold">Submission Link</h3>
       </div>
       <div className="p-2 text-white">
         <div className="h-full w-full bg-transparent rounded p-5">
           <h3 className="text-2xl font-black text-gold text-center">
-            Important Date&apos;s
+            Important Dates
           </h3>
 
           <div className="space-y-3">
@@ -85,10 +96,12 @@ export default function Registration() {
           </h3>
           <p className="text-center text-white">
             Use this link for payment <br />
+            {/* Uncomment when ready */}
             {/* <Link href={"https://admissions.kifees.com/events/kahe/icercs"}>
               https://admissions.kifees.com/events/kahe/icercs
             </Link> */}
           </p>
+          {/* Uncomment when ready */}
           {/* <div className="pt-3 flex items-center justify-center">
             <img
               src="/images/paymentqr.png"
