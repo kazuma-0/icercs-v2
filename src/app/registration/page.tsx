@@ -46,13 +46,15 @@ export default function Registration() {
           Extended version of the selected papers will be recommended for SCIE
           journals
         </p>
-        {/* <h3 className="text-2xl pt-10 font-black text-gold">Submission Link</h3>
-        <Link
-          href={"https://cmt3.research.microsoft.com/ICERCS2025"}
-          className="pt-3 text-white underline"
-        >
-          https://cmt3.research.microsoft.com/ICERCS2025
-        </Link> */}
+        <h3 className="text-2xl pt-10 font-black text-gold">Acknowledgement</h3>
+        <p className="pt-2 text-white">
+          The Microsoft CMT service was used for managing the peer-reviewing
+          process for this conference. This service was provided for free by
+          Microsoft and they bore all expenses, including costs for Azure cloud
+          services as well as for software development and support.
+        </p>
+
+        <h3 className="text-2xl pt-10 font-black text-gold">Submission Link</h3>
       </div>
       <div className="p-2 text-white">
         <div className="h-full w-full bg-transparent rounded p-5">
@@ -61,14 +63,14 @@ export default function Registration() {
           </h3>
 
           <div className="space-y-3">
-            <DateWithLabel date="22/11/2025" label="Full Paper Submission" />
+            <DateWithLabel date="08/11/2025" label="Full Paper Submission" />
             <DateWithLabel date="25/11/2025" label="Paper Acceptance" />
             <DateWithLabel
               date="01/12/2025"
               label="Camera Ready Paper Submission"
             />
             <DateWithLabel
-              date="02/12/2025"      
+              date="02/12/2025"
               label="Last Date for Registration Payment"
             />
 
