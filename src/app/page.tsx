@@ -124,16 +124,21 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="container mx-auto py-10">
-            <h3 className="text-2xl font-black text-yellow-500 mb-4">
-              CMT  Acknowledgement
-            </h3>
-            <p className="text-white leading-relaxed">
+          <h3 className="text-2xl pt-10 font-black text-gold">
+            Acknowledgement
+          </h3>
+          {/* Added noscript fallback for crawlers */}
+          <div className="pt-2 text-white">
+            The Microsoft CMT service was used for managing the peer-reviewing
+            process for this conference. This service was provided for free by
+            Microsoft and they bore all expenses, including costs for Azure
+            cloud services as well as for software development and support.
+            <noscript>
               The Microsoft CMT service was used for managing the peer-reviewing
               process for this conference. This service was provided for free by
               Microsoft and they bore all expenses, including costs for Azure
               cloud services as well as for software development and support.
-            </p>
+            </noscript>
           </div>
         </div>
       </div>
