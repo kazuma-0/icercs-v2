@@ -22,13 +22,20 @@ export default function Committee() {
             Organizing Committee
           </h3>
           <div className="space-y-4">
-            {organizingCommitteeMembers.map((member, index) => (
-              <OrganizingCommittee
-                key={index}
-                role={member.role}
-                name={member.name}
-                position={member.position}
-              />
+            {organizingCommitteeMembers.map((group, index) => (
+              <div key={index}>
+                <h4 className="text-lg font-bold text-gold">
+                  {group.role && `${group.role}:`}
+                </h4>
+                {group.members.map((member, idx) => (
+                  <div key={idx} className="mb-2">
+                    <p className="text-base text-white">{member.name}</p>
+                    {member.position && (
+                      <p className="text-sm text-white">{member.position}</p>
+                    )}
+                  </div>
+                ))}
+              </div>
             ))}
           </div>
         </div>
@@ -139,40 +146,53 @@ const technicalAdvisoryMembers = [
   "Prof. Dr. E. Kannan, Vel Tech R&D Institute of Science and Technology, Chennai",
   "Prof. Dr. N. Krishnaraj, Vellore Institute of Technology, Vellore",
 ];
-
 const organizingCommitteeMembers = [
-  { role: "Patron", name: "Prof. Dr. V. Pradeep", position: "Registrar" },
+  {
+    role: "Patron",
+    members: [{ name: "Prof. Dr. B. V. Pradeep", position: "Registrar" }],
+  },
   {
     role: "Chief Patron",
-    name: "Prof. Dr.S. Ravi",
-    position: "Vice-Chancellor",
+    members: [{ name: "Prof. Dr. S. Ravi", position: "Vice-Chancellor" }],
   },
   {
     role: "Conference Chair",
-    name: "Prof. Dr.V.Parthasarathy",
-    position: "Dean (R&D) and Industry Relations",
+    members: [
+      {
+        name: "Prof. Dr. V. Parthasarathy",
+        position: "Dean (R&D) and Industry Relations",
+      },
+    ],
   },
-  { role: "Convenors", name: "Dr.A.Amutha", position: "Dean - FOE" },
-  { role: "", name: "Dr. R. Santhosh", position: "Professor and HoD (CSE)" },
+  {
+    role: "Convenors",
+    members: [
+      { name: "Dr. A. Amutha", position: "Dean - FOE" },
+      { name: "Dr. R. Santhosh", position: "Professor and HoD (CSE)" },
+    ],
+  },
   {
     role: "Co - Convenors",
-    name: "Dr.B. Arun Kumar",
-    position: "Professor and HoD (AI&DS)",
-  },
-  {
-    role: "",
-    name: "Dr.R. Roopa Chandrika",
-    position: "Professor and HoD (CYBER)",
+    members: [
+      { name: "Dr. B. Arun Kumar", position: "Professor and HoD (AI&DS)" },
+      { name: "Dr. R. Roopa Chandrika", position: "Professor and HoD (CYBER)" },
+    ],
   },
   {
     role: "Technical Program Chair",
-    name: "Dr. J. Alfred Daniel",
-    position: "",
+    members: [
+      { name: "Dr. J. Alfred Daniel" },
+      { name: "Dr. K. Vanitha" },
+      { name: "Dr. B. Lanitha" },
+    ],
   },
-  { role: "", name: "Dr. B. Lanitha", position: "" },
-  { role: "", name: "Dr. K. Vanitha", position: "" },
-  { role: "Publication Chair", name: "Dr. T. Mohanraj", position: "" },
-  { role: "", name: "Dr. R. Dhanapal", position: "" },
-  { role: "", name: "Dr. S. P. Sasirekha", position: "" },
-  { role: "", name: "Dr. Laxmi Raja", position: "" },
+  {
+    role: "Publication Chair",
+    members: [
+      { name: "Dr. T. Mohanraj" },
+      { name: "Dr. R. Dhanapal" },
+      { name: "Dr. Laxmi Raja" },
+      { name: "Dr. S. P. Sasirekha" },
+    ],
+  },
 ];
