@@ -113,7 +113,6 @@ const internationalAdvisoryMembers = [
 ];
 
 const nationalAdvisoryMembers = [
-  "Dr. N. Kumarappan, Immediate Past Chair, IEEE Madras Section",
   "Prof. Dr. G. Rajesh, MIT Campus, Chennai",
   "Prof. Dr. Subarna Shakya, Tribhuvan University, Nepal",
   "Prof. Dr. Chandrasekar Ravi, National Institute of Technology Puducherry",
@@ -130,22 +129,22 @@ const nationalAdvisoryMembers = [
 ];
 
 const technicalAdvisoryMembers = [
-  "Dr. K. Porkumaran, Chairman, IEEE Madras Section",
-  "Dr. R. Hariprakash, Secretary, IEEE Madras Section",
-  "Dr. S. Radha, Treasurer, IEEE Madras Section",
-  "Prof. Dr. Hossein Mousavinezhad, Idaho State University, USA",
+  "Dr. P. Sakthivel, Chairman, IEEE Madras Section",
+  "Dr. S. Radha, Secretary, IEEE Madras Section",
+  "Dr. S. Brindha, Treasurer, IEEE Madras Section",
+  "Dr. E. Kannan Eswariah, Chairman - IEEE Professional Communication Society",
+  "Prof. Dr. Hossein Mousawinezhad, Idaho State University, USA",
   "Prof. Dr. Danilo Pelusi, Università di Teramo, Italy",
-  "Prof. Byungchul Tak, Kyungpook National University, South Korea",
+  "Prof. Byungchal Tak, Kyungpook National University, South Korea",
   "Prof. Dr. Krishnaveni V, P.S.G. College of Technology, Coimbatore",
   "Prof. Dr. Joy Long Zong Chen, Da-Yeh University",
-  "Prof. Dr. T. Senthil Kumar, Amrita School of Engineering, Coimbatore",
   "Prof. Dr. Azath Mubarakali, King Khalid University, Saudi Arabia",
-  "Prof. Dr. Valentina Emilia Bales, Aurel Vlaicu Univ. of Arad, Romania",
-  "Dr. Y. C. Jiang, Andes Technology Corporation, Taiwan",
-  "Dr. Awais Ahmad, Università degli Studi di Milano, Italy",
-  "Prof. Dr. E. Kannan, Vel Tech R&D Institute of Science and Technology, Chennai",
+  "Prof. Dr. Valentine Emilia Bales, Aurel Vlacia Univ. of Arad, Romani",
+  "Dr. Y.C. Jiang, Andes Technology Corporation, Taiwan",
+  "Dr. Awais Ahmad, Università degli studi di Milano, Italy",
   "Prof. Dr. N. Krishnaraj, Vellore Institute of Technology, Vellore",
 ];
+
 const organizingCommitteeMembers = [
   {
     role: "Patron",
