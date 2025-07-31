@@ -32,9 +32,13 @@ export default function KeynoteSpeakers() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <h3 className="mt-4 text-lg font-bold uppercase text-white">{speaker.name}</h3>
-            <p className="text-sm font-semibold mt-1 text-gray-300">{speaker.title}</p>
-            <p className="text-sm max-w-xs text-gray-300">{speaker.university}</p>
+            <h3 className="mt-4 text-lg font-bold uppercase text-white">
+              {speaker.name}
+            </h3>
+            <p className="text-sm mt-1 text-gray-300">{speaker.title}</p>
+            <p className="text-sm max-w-xs text-gray-300">
+              {speaker.university}
+            </p>
           </div>
         ))}
       </div>
