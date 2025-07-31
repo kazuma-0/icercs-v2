@@ -70,8 +70,8 @@ export default function Home() {
         </div>
       </div>
 
-      {/* FIXED RIGHT LOGOS */}
-      <div className="hidden md:flex flex-col fixed right-5 top-1/3 gap-4 z-50">
+      {/* RIGHT LOGOS (scrolls with page) */}
+      <div className="hidden md:flex flex-col right-5 mt-44 gap-4 z-50 absolute">
         <Image
           src="/images/iic.png"
           className="rounded-xl bg-white bg-opacity-70 shadow-lg"
