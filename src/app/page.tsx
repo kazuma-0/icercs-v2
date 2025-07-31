@@ -73,16 +73,16 @@ export default function Home() {
       {/* FIXED RIGHT LOGOS */}
       <div className="hidden md:flex flex-col fixed right-5 top-1/3 gap-4 z-50">
         <Image
-          src="/images/kiic.png"
+          src="/images/iic.png"
           className="rounded-xl bg-white bg-opacity-70 shadow-lg"
-          alt="KIIC"
+          alt="IIC"
           width={200}
           height={100}
         />
         <Image
-          src="/images/iic.png"
+          src="/images/kiic.png"
           className="rounded-xl bg-white bg-opacity-70 shadow-lg"
-          alt="IIC"
+          alt="KIIC"
           width={200}
           height={100}
         />

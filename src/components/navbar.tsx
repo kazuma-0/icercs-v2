@@ -50,15 +50,15 @@ const Navbar = () => {
                 rel="noopener noreferrer"
                 className="block px-4 py-2 text-gray-800 hover:bg-secondary hover:text-white"
               >
-                2023
+                ICERCS 2023
               </a>
               <a
-                href="https://ieeexplore.ieee.org/xpl/conhome/10433896/proceeding"
+                href="https://ieeexplore.ieee.org/xpl/conhome/10894758/proceeding"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block px-4 py-2 text-gray-800 hover:bg-secondary hover:text-white"
               >
-                2024
+                ICERCS 2024
               </a>
             </div>
           </div>

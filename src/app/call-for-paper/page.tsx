@@ -17,7 +17,7 @@ const topics = [
 
 export default function CallForPaper() {
   return (
-    <div className="container text-white h-screen">
+    <div className="container text-white min-h-screen flex flex-col justify-start py-8">
       <h2 className="text-3xl font-black text-gold pt-5">
         THE ICERCS 25 WELCOMES ORIGINAL WORKS IN AREAS SUCH AS
       </h2>
@@ -25,7 +25,7 @@ export default function CallForPaper() {
         The research scope of computational science can be viewed as follows but
         is not limited to:
       </p>
-      <ul className="list-disc pt-5">
+      <ul className="list-disc pt-5 pl-8 space-y-2">
         {topics.map((topic, idx) => (
           <li key={idx}>{topic}</li>
         ))}
