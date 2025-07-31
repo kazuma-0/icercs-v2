@@ -25,14 +25,14 @@ export default function AboutKahe() {
           members have a good number of research projects with the financial
           support of Rs. 11.2 Crore from various funding agencies like
           DBT/DST/CSIR/ICMR. Our Institute has filed more than 95 Patents and
-          copyrights. Further, 49 patents were granted by the Indian Patent
-          Office and one US patent. Our faculty have published as many as 3078
-          Research articles in Web of Science, Scopus, and Peer Reviewed
-          Journals. The Institute has collaborated with foreign Universities,
-          Industries, and Research bodies for mutual benefit. The Institute
-          ensures that education epitomizes excellence in every sphere and that
-          students are equipped to meet the challenges of the present and emerge
-          as the leaders of tomorrow.
+          copyrights. Further, 49 patents were granted by Indian Patent Office
+          and one US patent. Our faculty have published as many as 3078 Research
+          articles in Web of Science, Scopus and Peer Reviewed Journals. The
+          Institute has collaborated with foreign Universities, Industries, and
+          Research bodies for mutual benefit. The Institute ensures that
+          education epitomizes excellence in every sphere and that students
+          equipped to meet the challenges of the present and emerge as the
+          leaders of tomorrow.
         </p>
       </div>
     </div>
