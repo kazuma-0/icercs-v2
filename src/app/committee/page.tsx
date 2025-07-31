@@ -62,24 +62,14 @@ function CommitteeSection({ title, members }: CommitteeSectionProps) {
   );
 }
 
-interface OrganizingCommitteeProps {
-  role: string;
+interface OrganizingCommitteeMember {
   name: string;
-  position: string;
+  position?: string;
 }
 
-function OrganizingCommittee({
-  role,
-  name,
-  position,
-}: OrganizingCommitteeProps) {
-  return (
-    <div>
-      <h4 className="text-lg font-bold text-gold">{role && `${role}:`}</h4>
-      <p className="text-base text-white">{name}</p>
-      {position && <p className="text-sm text-white">{position}</p>}
-    </div>
-  );
+interface OrganizingCommitteeGroup {
+  role: string;
+  members: OrganizingCommitteeMember[];
 }
 
 const internationalAdvisoryMembers = [
@@ -145,7 +135,7 @@ const technicalAdvisoryMembers = [
   "Prof. Dr. N. Krishnaraj, Vellore Institute of Technology, Vellore",
 ];
 
-const organizingCommitteeMembers = [
+const organizingCommitteeMembers: OrganizingCommitteeGroup[] = [
   {
     role: "Patron",
     members: [{ name: "Prof. Dr. B. V. Pradeep", position: "Registrar" }],
