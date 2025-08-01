@@ -108,7 +108,6 @@ const nationalAdvisoryMembers = [
   "Prof. Dr. Chandrasekar Ravi, National Institute of Technology Puducherry",
   "Prof. Dr. S. Karthik, SNS Institutions, Coimbatore",
   "Prof. Dr. Ajaya Kumar Pani, Birla Institute of Technology, India",
-  "Prof. Dr. Rahib H. Adiyev, Near East University, India",
   "Prof. Dr. M. Newlin Rajkumar, Anna University Regional Campus, Coimbatore",
   "Prof. Dr. A. Prathik, Vel Tech R&D Institute of Science and Technology, Chennai",
   "Prof. Dr. A. M. Senthil Kumar, Vellore Institute of Technology, Vellore",
