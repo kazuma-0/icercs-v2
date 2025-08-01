@@ -1,4 +1,4 @@
-import type { Config } from 'tailwindcss';
+import type { Config } from "tailwindcss";
 
 const config: Config = {
   content: [
@@ -12,11 +12,16 @@ const config: Config = {
       padding: "3rem",
     },
     extend: {
+      screens: {
+        "3xl": "1920px",
+        "4xl": "2560px",
+        "5xl": "3840px",
+      },
       colors: {
         background: "#e2e5e8",
         primary: "#0E49B5",
         secondary: "#50CB86",
-        gold: "#FFD700", 
+        gold: "#FFD700",
       },
       fontFamily: {
         sans: ["PT Serif", "sans-serif"],
