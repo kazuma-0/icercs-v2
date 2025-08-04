@@ -81,7 +81,7 @@ export default function Home() {
       </div>
 
       {/* RIGHT LOGOS - Ultra responsive positioning */}
-      <div className="hidden lg:flex flex-col fixed right-2 sm:right-3 md:right-4 lg:right-5 xl:right-8 2xl:right-12 3xl:right-16 4xl:right-20 5xl:right-24 top-1/4 lg:top-1/3 xl:top-1/4 2xl:top-1/3 gap-2 sm:gap-3 md:gap-4 lg:gap-5 xl:gap-6 2xl:gap-8 3xl:gap-10 4xl:gap-12 z-50">
+      <div className="hidden lg:flex flex-col absolute right-2 sm:right-3 md:right-4 lg:right-5 xl:right-8 2xl:right-12 3xl:right-16 4xl:right-20 5xl:right-24 top-1/4 lg:top-1/3 xl:top-1/4 2xl:top-1/3 gap-2 sm:gap-3 md:gap-4 lg:gap-5 xl:gap-6 2xl:gap-8 3xl:gap-10 4xl:gap-12 z-50">
         <Image
           src="/images/iic.png"
           className="rounded-lg sm:rounded-xl lg:rounded-2xl bg-white bg-opacity-70 shadow-lg"
