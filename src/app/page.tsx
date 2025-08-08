@@ -103,20 +103,17 @@ export default function Home() {
               <span className="sm:hidden"> </span>
               IN COMPUTATIONAL SCIENCE - 2025
             </h1>
-            <div className="flex flex-col items-center justify-center py-1">
-              <div className="flex flex-col items-center text-xs sm:text-sm md:text-sm lg:text-base xl:text-lg 2xl:text-base 3xl:text-base text-yellow-400 font-bold leading-tight">
-                <span>
-                  11<sup className="text-[6px]">th</sup>, 12
-                  <sup className="text-[6px]">th</sup>, 13
-                  <sup className="text-[6px]">th</sup>
-                </span>
-                <span>December 2025</span>
-              </div>
+            <div className="flex items-center justify-center py-1">
+              <span className="text-xs sm:text-sm md:text-sm lg:text-base xl:text-lg 2xl:text-base 3xl:text-base text-yellow-400 font-bold leading-tight">
+                11<sup className="text-[6px]">th</sup>, 12
+                <sup className="text-[6px]">th</sup>, 13
+                <sup className="text-[6px]">th</sup> December 2025
+              </span>
             </div>
 
             {/* Image Slider */}
-            <div className="mt-2 w-full mx-auto">
-              <div className="relative overflow-hidden rounded-xl shadow-lg h-32 sm:h-36 md:h-40 lg:h-44 xl:h-48">
+            <div className="mt-2 w-full mx-auto max-w-md sm:max-w-lg md:max-w-xl lg:max-w-xl xl:max-w-2xl">
+              <div className="relative overflow-hidden rounded-xl shadow-lg h-52 sm:h-60 md:h-64 lg:h-72 xl:h-80 2xl:h-96">
                 <div className="absolute inset-0 animate-image-fade-1">
                   <Image
                     src="/images/karpagam_university.jpeg"
@@ -163,38 +160,36 @@ export default function Home() {
               </div>
             </div>
 
-            <p className="text-center text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-xl 3xl:text-2xl pt-1 sm:pt-2 md:pt-2 text-white">
+            <p className="text-center text-[10px] sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-base 3xl:text-lg pt-1 sm:pt-1 md:pt-1 text-white">
               Organised by
             </p>
-            <div className="max-w-xs sm:max-w-sm md:max-w-2xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl 3xl:max-w-7xl mx-auto space-y-1">
-              <h1 className="text-center text-xs sm:text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl 3xl:text-2xl 4xl:text-3xl font-bold text-yellow-500 leading-tight">
+            <div className="max-w-xs sm:max-w-sm md:max-w-2xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl 3xl:max-w-7xl mx-auto space-y-0.5">
+              <h1 className="text-center text-[10px] sm:text-xs md:text-xs lg:text-sm xl:text-base 2xl:text-base 3xl:text-lg 4xl:text-xl font-bold text-yellow-500 leading-tight">
                 Department of Computer Science and Engineering
               </h1>
-              <h1 className="text-center text-xs sm:text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl 3xl:text-2xl 4xl:text-3xl font-bold text-yellow-500 leading-tight">
+              <h1 className="text-center text-[10px] sm:text-xs md:text-xs lg:text-sm xl:text-base 2xl:text-base 3xl:text-lg 4xl:text-xl font-bold text-yellow-500 leading-tight">
                 Department of Artificial Intelligence and Data Science
               </h1>
-              <h1 className="text-center text-xs sm:text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl 3xl:text-2xl 4xl:text-3xl font-bold text-yellow-500 leading-tight">
+              <h1 className="text-center text-[10px] sm:text-xs md:text-xs lg:text-sm xl:text-base 2xl:text-base 3xl:text-lg 4xl:text-xl font-bold text-yellow-500 leading-tight">
                 Department of Computer Science and Engineering (Cyber Security)
               </h1>
             </div>
 
             {/* Karpagam Academy Information */}
-            <div className="flex flex-col items-center justify-center py-2">
-              <div className="flex flex-col items-center text-xs sm:text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-base 3xl:text-base leading-tight">
-                <span className="text-white font-bold text-center">
+            <div className="flex flex-col items-center justify-center py-1">
+              <div className="flex flex-col items-center text-[10px] sm:text-[10px] md:text-xs lg:text-sm xl:text-sm 2xl:text-sm leading-tight tracking-tight">
+                <span className="text-white font-semibold text-center">
                   KARPAGAM ACADEMY OF HIGHER EDUCATION
                 </span>
-                <span className="text-gray-300 font-normal">
-                  (Deemed to be University)
-                </span>
-                <span className="text-gray-300 font-normal">
+                <span className="text-gray-300">(Deemed to be University)</span>
+                <span className="text-gray-300">
                   (Established Under Section 3 of UGC Act, 1956)
                 </span>
-                <span className="text-gray-300 font-normal">
+                <span className="text-gray-300">
                   (Accredited by NAAC with A+ Grade in the second cycle)
                 </span>
-                <span className="text-gray-300 font-normal">
-                  Pollachi Main Road Eachanari Post, Coimbatore -641021
+                <span className="text-gray-300">
+                  Pollachi Main Road, Eachanari, Coimbatore - 641021
                 </span>
               </div>
             </div>
@@ -220,14 +215,14 @@ export default function Home() {
         <div className="hidden lg:flex flex-col fixed right-4 lg:right-6 xl:right-8 2xl:right-10 top-20 lg:top-24 xl:top-28 z-50 max-w-[280px] lg:max-w-[320px] xl:max-w-[350px] bottom-4">
           <div className="flex flex-col items-center p-4 w-full h-full overflow-hidden relative">
             <h3 className="text-base lg:text-lg xl:text-xl font-bold text-yellow-500 mb-4 text-center">
-              Co-hosts & Event Cosponsors
+              Co-Host & Co-Sponsors
             </h3>
             <div className="w-full flex-1 overflow-hidden relative">
               <div className="flex flex-col gap-8 animate-vertical-marquee">
                 {/* Co-hosts Section */}
                 <div className="flex flex-col items-center gap-4">
                   <h4 className="text-sm lg:text-base font-bold text-yellow-400 text-center">
-                    Co-hosts
+                    Co-Host
                   </h4>
                   <Image
                     src="/images/iic.png"
@@ -260,7 +255,7 @@ export default function Home() {
                 {/* Event Cosponsors Section */}
                 <div className="flex flex-col items-center gap-4">
                   <h4 className="text-sm lg:text-base font-bold text-yellow-400 text-center">
-                    Event Cosponsors
+                    Co-Sponsors
                   </h4>
                   <Image
                     src="https://logos-world.net/wp-content/uploads/2023/05/UiTM-Logo.png"
@@ -291,7 +286,7 @@ export default function Home() {
                 {/* Duplicate for seamless loop */}
                 <div className="flex flex-col items-center gap-4">
                   <h4 className="text-sm lg:text-base font-bold text-yellow-400 text-center">
-                    Co-hosts
+                    Co-Host
                   </h4>
                   <Image
                     src="/images/iic.png"
@@ -323,7 +318,7 @@ export default function Home() {
                 </div>
                 <div className="flex flex-col items-center gap-4">
                   <h4 className="text-sm lg:text-base font-bold text-yellow-400 text-center">
-                    Event Cosponsors
+                    Co-Sponsors
                   </h4>
                   <Image
                     src="https://logos-world.net/wp-content/uploads/2023/05/UiTM-Logo.png"
@@ -373,7 +368,7 @@ export default function Home() {
           }
         }
         .animate-vertical-marquee {
-          animation: vertical-marquee 12s linear infinite;
+          animation: vertical-marquee 10s linear infinite;
         }
         @keyframes image-fade-1 {
           0%,
@@ -444,7 +439,7 @@ export default function Home() {
           }
         }
         .animate-marquee {
-          animation: marquee 10s linear infinite;
+          animation: marquee 15s linear infinite;
         }
       `}</style>
     </div>
