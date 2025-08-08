@@ -15,7 +15,7 @@ const Navbar = () => {
         </div>
 
         {/* Center Links */}
-        <div className="hidden md:flex items-center gap-5 text-sm text-white tracking-wide hover:*:text-secondary transition-colors">
+        <div className="hidden md:flex items-center gap-5 text-sm font-bold text-white tracking-wide hover:*:text-secondary transition-colors">
           <Link href="/">Home</Link>
           <Link href="/about-kahe">About KAHE</Link>
           <Link href="/about-icercs">About ICERCS&apos;25</Link>

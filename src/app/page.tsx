@@ -2,111 +2,443 @@
 import Image from "next/image";
 
 export default function Home() {
+  const speakers = [
+    {
+      name: "PROF. DR. FADI AL-TURJMAN",
+      title: "Dean-AI and Informatics",
+      university: "Near East University, Turkey",
+      image:
+        "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=5G0uavwAAAAJ&citpid=2", // replace with actual image path
+    },
+    {
+      name: "DR. DESHINTA ARROVA DEWI",
+      title: "Associate Professor",
+      university:
+        "Faculty of Data Sciences and Information Technology, INTI International University, Malaysia",
+      image:
+        "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=16XPxHUAAAAJ&citpid=22", // replace with actual image path
+    },
+  ];
+
   return (
     <div className="flex min-h-screen">
-      {/* MAIN CONTENT */}
-      <div className="w-full">
-        <div className="flex flex-col">
-          <div className="flex-1 py-3 px-3 sm:py-4 sm:px-4 md:py-5 md:px-6 lg:px-8 xl:px-12 2xl:px-16 3xl:px-20 4xl:px-24 5xl:px-32">
-            {/* Title Section */}
-            <h1 className="text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl 3xl:text-8xl 4xl:text-9xl 5xl:text-[10rem] text-yellow-500 font-bold pb-2 pt-3 sm:pt-4 md:pt-5 leading-tight">
-              ICERCS-2025
-            </h1>
-            
-            <h1 className="text-center text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl 3xl:text-6xl 4xl:text-7xl 5xl:text-8xl font-medium pt-3 sm:pt-4 md:pt-5 leading-normal text-white max-w-xs sm:max-w-md md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl 3xl:max-w-8xl mx-auto">
-              3<sup className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">rd</sup> INTERNATIONAL CONFERENCE ON EMERGING RESEARCH{" "}
-              <br className="hidden sm:block" /> 
-              <span className="sm:hidden"> </span>
-              IN COMPUTATIONAL SCIENCE - 2025
-            </h1>
-            
-            <p className="text-center text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl pt-3 sm:pt-4 md:pt-5 text-white">
-              Organised by
-            </p>
-
-            {/* Department names with responsive spacing */}
-            <div className="max-w-xs sm:max-w-sm md:max-w-2xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl 3xl:max-w-7xl 4xl:max-w-8xl mx-auto space-y-1 sm:space-y-2 md:space-y-3 lg:space-y-4 xl:space-y-5 2xl:space-y-6">
-              <h1 className="text-center text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl font-bold pt-3 sm:pt-4 md:pt-5 text-yellow-500 leading-tight">
-                Department of Computer Science and Engineering
-              </h1>
-              <h1 className="text-center text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl font-bold pt-1 text-yellow-500 leading-tight">
-                Department of Artificial Intelligence and Data Science
-              </h1>
-              <h1 className="text-center text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl font-bold pt-1 text-yellow-500 leading-tight">
-                Department of Computer Science and Engineering (Cyber Security)
-              </h1>
-            </div>
-
-            {/* Location and Dates - Fully responsive */}
-            <div className="py-6 sm:py-8 md:py-10 lg:py-12 xl:py-16 2xl:py-20 3xl:py-24 4xl:py-28 5xl:py-32">
-              <div className="mx-auto container max-w-xs sm:max-w-sm md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl 3xl:max-w-8xl gap-4 sm:gap-6 md:gap-8 lg:gap-12 xl:gap-16 2xl:gap-20 3xl:gap-24 4xl:gap-28 place-content-center grid grid-cols-1 md:grid-cols-3">
-                <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl 3xl:text-7xl 4xl:text-8xl 5xl:text-9xl text-yellow-500 md:text-right font-black leading-tight text-center md:col-span-1">
-                  11, 12, 13 <br /> DEC, 2025
+      {/* LEFT SIDE - Keynote Speakers */}
+      <div className="hidden lg:flex flex-col fixed left-4 lg:left-6 xl:left-8 2xl:left-10 top-20 lg:top-24 xl:top-28 z-50 max-w-[280px] lg:max-w-[320px] xl:max-w-[350px] bottom-4">
+        <div className="flex flex-col items-center p-4 w-full h-full overflow-hidden relative">
+          <h2 className="text-lg lg:text-xl font-black text-yellow-300 mb-6 text-center uppercase">
+            Keynote Speakers
+          </h2>
+          <div className="w-full flex-1 overflow-hidden relative">
+            <div className="flex flex-col gap-8 animate-vertical-marquee">
+              {speakers.map((speaker, index) => (
+                <div key={index} className="flex flex-col items-center">
+                  <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-green-500">
+                    <img
+                      src={speaker.image}
+                      alt={speaker.name}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <h3 className="mt-3 text-sm font-bold uppercase text-white text-center">
+                    {speaker.name}
+                  </h3>
+                  <p className="text-xs mt-1 text-gray-300 text-center">
+                    {speaker.title}
+                  </p>
+                  <p className="text-xs text-gray-300 text-center leading-tight">
+                    {speaker.university}
+                  </p>
                 </div>
-                <div className="md:col-span-2 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl 3xl:text-3xl 4xl:text-4xl 5xl:text-5xl text-white space-y-1 sm:space-y-2 md:space-y-3 lg:space-y-4 text-center md:text-left">
-                  <p>KARPAGAM ACADEMY OF HIGHER EDUCATION</p>
-                  <p>(Deemed to be University)</p>
-                  <p>(Established Under Section of 3 of UGC Act, 1956)</p>
-                  <p>(Accredited by NAAC with A+ Grade in the second cycle)</p>
+              ))}
+              {/* Duplicate for seamless loop */}
+              {speakers.map((speaker, index) => (
+                <div
+                  key={`duplicate-${index}`}
+                  className="flex flex-col items-center"
+                >
+                  <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-green-500">
+                    <img
+                      src={speaker.image}
+                      alt={speaker.name}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <h3 className="mt-3 text-sm font-bold uppercase text-white text-center">
+                    {speaker.name}
+                  </h3>
+                  <p className="text-xs mt-1 text-gray-300 text-center">
+                    {speaker.title}
+                  </p>
+                  <p className="text-xs text-gray-300 text-center leading-tight">
+                    {speaker.university}
+                  </p>
                 </div>
-              </div>
+              ))}
             </div>
-
-            {/* Acknowledgement - Ultra responsive */}
-            <div className="pt-6 sm:pt-8 md:pt-12 lg:pt-16 xl:pt-20 2xl:pt-24 3xl:pt-28 4xl:pt-32">
-              <div className="bg-gradient-to-r from-yellow-600/20 to-yellow-500/10 rounded-lg sm:rounded-xl md:rounded-2xl lg:rounded-3xl shadow-lg p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12 2xl:p-16 3xl:p-20 4xl:p-24 5xl:p-28 max-w-xs sm:max-w-sm md:max-w-2xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl 3xl:max-w-7xl 4xl:max-w-8xl mx-auto border border-yellow-500/40">
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl 3xl:text-6xl 4xl:text-7xl 5xl:text-8xl font-extrabold text-yellow-500 text-center mb-3 sm:mb-4 md:mb-6 lg:mb-8 xl:mb-10 2xl:mb-12">
-                  Acknowledgement
-                </h3>
-                <p className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl 3xl:text-3xl 4xl:text-4xl 5xl:text-5xl text-white leading-relaxed text-center max-w-full sm:max-w-md md:max-w-2xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl mx-auto">
-                  We gratefully acknowledge the support of{" "}
-                  <span className="font-semibold text-yellow-400">
-                    Microsoft
-                  </span>{" "}
-                  for providing the
-                  <span className="font-semibold text-yellow-400">
-                    {" "}
-                    Conference Management Toolkit (CMT)
-                  </span>{" "}
-                  service to manage the peer-reviewing process of this
-                  conference. This service was provided at no cost, including
-                  Azure cloud services, software development, and technical
-                  support, enabling a smooth and efficient review process for
-                  ICERCS-2025.
-                </p>
-              </div>
-            </div>
+          </div>
+          {/* Floating Particles Effect - Smaller */}
+          <div className="absolute inset-0 pointer-events-none">
+            <div className="animate-float-slow absolute top-4 left-2 w-1 h-1 bg-green-400 rounded-full opacity-40"></div>
+            <div className="animate-float-medium absolute top-12 left-4 w-1.5 h-1.5 bg-green-300 rounded-full opacity-30"></div>
+            <div className="animate-float-fast absolute top-20 left-1 w-1 h-1 bg-green-500 rounded-full opacity-35"></div>
           </div>
         </div>
       </div>
 
-      {/* RIGHT LOGOS - Ultra responsive positioning */}
-      <div className="hidden lg:flex flex-col absolute right-2 sm:right-3 md:right-4 lg:right-5 xl:right-8 2xl:right-12 3xl:right-16 4xl:right-20 5xl:right-24 top-1/4 lg:top-1/3 xl:top-1/4 2xl:top-1/3 gap-2 sm:gap-3 md:gap-4 lg:gap-5 xl:gap-6 2xl:gap-8 3xl:gap-10 4xl:gap-12 z-50">
-        <Image
-          src="/images/iic.png"
-          className="rounded-lg sm:rounded-xl lg:rounded-2xl bg-white bg-opacity-70 shadow-lg"
-          alt="IIC"
-          width={300}
-          height={150}
-          style={{
-            width: 'clamp(80px, 8vw, 400px)',
-            height: 'auto',
-            maxWidth: '100%'
-          }}
-        />
-        <Image
-          src="/images/kiic.png"
-          className="rounded-lg sm:rounded-xl lg:rounded-2xl bg-white bg-opacity-70 shadow-lg"
-          alt="KIIC"
-          width={300}
-          height={150}
-          style={{
-            width: 'clamp(80px, 8vw, 400px)',
-            height: 'auto',
-            maxWidth: '100%'
-          }}
-        />
+      {/* MAIN CONTENT - Center */}
+      <div className="w-full lg:pl-[320px] lg:pr-[380px]">
+        <div className="flex flex-col">
+          {/* Title Section */}
+          <div className="flex-1 py-3 px-3 sm:py-4 sm:px-4 md:py-5 md:px-6 lg:px-8 xl:px-12 2xl:px-16 3xl:px-20 4xl:px-24 5xl:px-32">
+            <h1 className="text-center text-lg sm:text-2xl md:text-xl lg:text-3xl xl:text-4xl 2xl:text-4xl 3xl:text-7xl 4xl:text-8xl text-yellow-500 font-bold pb-2 pt-3 sm:pt-4 md:pt-5 leading-tight">
+              ICERCS-2025
+            </h1>
+            <h1 className="text-center text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl font-medium pt-3 sm:pt-4 md:pt-5 leading-normal text-white max-w-xs sm:max-w-md md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl mx-auto">
+              3
+              <sup className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl">
+                rd
+              </sup>{" "}
+              INTERNATIONAL CONFERENCE ON EMERGING RESEARCH{" "}
+              <br className="hidden sm:block" />
+              <span className="sm:hidden"> </span>
+              IN COMPUTATIONAL SCIENCE - 2025
+            </h1>
+            <div className="flex flex-col items-center justify-center py-2">
+              <div className="flex flex-col items-center text-[15px] sm:text-[11px] md:text-sm lg:text-md xl:text-lg 2xl:text-base 3xl:text-base text-yellow-400 font-bold leading-tight">
+                <span>
+                  11<sup className="text-[8px]">th</sup>, 12
+                  <sup className="text-[8px]">th</sup>, 13
+                  <sup className="text-[8px]">th</sup>
+                </span>
+                <span>December 2025</span>
+              </div>
+            </div>
+
+            {/* Image Slider */}
+            <div className="mt-6 w-full mx-auto">
+              <div className="relative overflow-hidden rounded-2xl shadow-xl h-52 sm:h-60 md:h-72 lg:h-80 xl:h-96">
+                <div className="absolute inset-0 animate-image-fade-1">
+                  <Image
+                    src="/images/karpagam_university.jpeg"
+                    alt="University Campus"
+                    width={1200}
+                    height={600}
+                    className="w-full h-full object-cover rounded-2xl"
+                  />
+                </div>
+                <div className="absolute inset-0 animate-image-fade-2">
+                  <Image
+                    src="/images/tourism/1.jpg"
+                    alt="Tourism 1"
+                    width={1200}
+                    height={600}
+                    className="w-full h-full object-cover rounded-2xl"
+                  />
+                </div>
+                <div className="absolute inset-0 animate-image-fade-3">
+                  <Image
+                    src="/images/tourism/2.jpg"
+                    alt="Tourism 2"
+                    width={1200}
+                    height={600}
+                    className="w-full h-full object-cover rounded-2xl"
+                  />
+                </div>
+                <div className="absolute inset-0 animate-image-fade-4">
+                  <Image
+                    src="/images/tourism/3.jpg"
+                    alt="Tourism 3"
+                    width={1200}
+                    height={600}
+                    className="w-full h-full object-cover rounded-2xl"
+                  />
+                </div>
+              </div>
+            </div>
+            {/* Marquee Final Paper Submission */}
+            {/* Marquee - One Line */}
+            <div className="overflow-hidden w-full bg-yellow-200 border-y-2 border-yellow-400">
+              <div className="whitespace-nowrap animate-marquee text-lg font-semibold text-green-900 py-2 px-4">
+                Final Paper Submission — Deadline: 3<sup>rd</sup> November 2025
+              </div>
+            </div>
+
+            <p className="text-center text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl 3xl:text-3xl pt-3 sm:pt-4 md:pt-5 text-white">
+              Organised by
+            </p>
+            <div className="max-w-xs sm:max-w-sm md:max-w-2xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl 3xl:max-w-7xl mx-auto space-y-2 5">
+              <h1 className="text-center text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl 3xl:text-3xl 4xl:text-4xl font-bold  text-yellow-500 leading-tight">
+                Department of Computer Science and Engineering
+              </h1>
+              <h1 className="text-center text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl 3xl:text-3xl 4xl:text-4xl font-bold pt-1 text-yellow-500 leading-tight">
+                Department of Artificial Intelligence and Data Science
+              </h1>
+              <h1 className="text-center text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl 3xl:text-3xl 4xl:text-4xl font-bold pt-1 text-yellow-500 leading-tight">
+                Department of Computer Science and Engineering (Cyber Security)
+              </h1>
+            </div>
+
+            {/* Karpagam Academy Information */}
+            <div className="flex flex-col items-center justify-center py-6">
+              <div className="flex flex-col items-center text-[15px] sm:text-[11px] md:text-sm lg:text-md xl:text-lg 2xl:text-base 3xl:text-base leading-tight">
+                <span className="mt-1 text-white font-bold text-center">
+                  KARPAGAM ACADEMY OF HIGHER EDUCATION
+                </span>
+                <span className="text-gray-300 font-normal">
+                  (Deemed to be University)
+                </span>
+                <span className="text-gray-300 font-normal">
+                  (Established Under Section 3 of UGC Act, 1956)
+                </span>
+                <span className="text-gray-300 font-normal">
+                  (Accredited by NAAC with A+ Grade in the second cycle)
+                </span>
+                <span className="text-gray-300 font-normal">
+                  Pollachi Main Road Eachanari Post ,{" "}
+                </span>
+                <span className="text-gray-300 font-normal">
+                  Coimbatore -641021{" "}
+                </span>
+              </div>
+            </div>
+
+            <div className="fixed -left-full -bottom-full w-0 h-0 overflow-hidden invisible">
+              <div className="bg-yellow-900/10 rounded px-3 py-1 border border-yellow-500/30 shadow text-[10px] sm:text-xs font-thin text-yellow-300 text-center">
+                Acknowledgement: We gratefully acknowledge the support of{" "}
+                <span className="font-semibold text-yellow-400">Microsoft</span>{" "}
+                for providing the{" "}
+                <span className="font-semibold text-yellow-400">
+                  Conference Management Toolkit (CMT)
+                </span>{" "}
+                service to manage the peer-reviewing process of this conference.
+                This service was provided at no cost, including Azure cloud
+                services, software development, and technical support, enabling
+                a smooth and efficient review process for ICERCS-2025.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* RIGHT LOGOS - Single box with vertical marquee */}
+        <div className="hidden lg:flex flex-col fixed right-4 lg:right-6 xl:right-8 2xl:right-10 top-20 lg:top-24 xl:top-28 z-50 max-w-[280px] lg:max-w-[320px] xl:max-w-[350px] bottom-4">
+          <div className="flex flex-col items-center p-4 w-full h-full overflow-hidden relative">
+            <h3 className="text-base lg:text-lg xl:text-xl font-bold text-yellow-500 mb-4 text-center">
+              Co-hosts & Event Cosponsors
+            </h3>
+            <div className="w-full flex-1 overflow-hidden relative">
+              <div className="flex flex-col gap-8 animate-vertical-marquee">
+                {/* Co-hosts Section */}
+                <div className="flex flex-col items-center gap-4">
+                  <h4 className="text-sm lg:text-base font-bold text-yellow-400 text-center">
+                    Co-hosts
+                  </h4>
+                  <Image
+                    src="/images/iic.png"
+                    className="rounded bg-white bg-opacity-95 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-107"
+                    alt="IIC"
+                    width={180}
+                    height={120}
+                    style={{
+                      width: "180px",
+                      height: "120px",
+                      objectFit: "contain",
+                      maxWidth: "100%",
+                    }}
+                  />
+
+                  <Image
+                    src="/images/kiic.png"
+                    className="rounded bg-white bg-opacity-95 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-107"
+                    alt="KIIC"
+                    width={180}
+                    height={120}
+                    style={{
+                      width: "180px",
+                      height: "120px",
+                      objectFit: "contain",
+                      maxWidth: "100%",
+                    }}
+                  />
+                </div>
+                {/* Event Cosponsors Section */}
+                <div className="flex flex-col items-center gap-4">
+                  <h4 className="text-sm lg:text-base font-bold text-yellow-400 text-center">
+                    Event Cosponsors
+                  </h4>
+                  <Image
+                    src="https://logos-world.net/wp-content/uploads/2023/05/UiTM-Logo.png"
+                    alt="UiTM"
+                    width={180}
+                    height={120}
+                    className="bg-white rounded shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-107"
+                    style={{
+                      width: "180px",
+                      height: "120px",
+                      objectFit: "contain",
+                    }}
+                  />
+
+                  <Image
+                    src="https://newinti.edu.my/wp-content/uploads/2020/01/INTI-YourFutureBuiltToday-LOGO_2020.png"
+                    alt="INTI"
+                    width={180}
+                    height={120}
+                    className="bg-white rounded shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-107"
+                    style={{
+                      width: "180px",
+                      height: "120px",
+                      objectFit: "contain",
+                    }}
+                  />
+                </div>
+                {/* Duplicate for seamless loop */}
+                <div className="flex flex-col items-center gap-4">
+                  <h4 className="text-sm lg:text-base font-bold text-yellow-400 text-center">
+                    Co-hosts
+                  </h4>
+                  <Image
+                    src="/images/iic.png"
+                    className="rounded bg-white bg-opacity-95 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-107"
+                    alt="IIC"
+                    width={180}
+                    height={120}
+                    style={{
+                      width: "180px",
+                      height: "120px",
+                      objectFit: "contain",
+                      maxWidth: "100%",
+                    }}
+                  />
+
+                  <Image
+                    src="/images/kiic.png"
+                    className="rounded bg-white bg-opacity-95 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-107"
+                    alt="KIIC"
+                    width={180}
+                    height={120}
+                    style={{
+                      width: "180px",
+                      height: "120px",
+                      objectFit: "contain",
+                      maxWidth: "100%",
+                    }}
+                  />
+                </div>
+                <div className="flex flex-col items-center gap-4">
+                  <h4 className="text-sm lg:text-base font-bold text-yellow-400 text-center">
+                    Event Cosponsors
+                  </h4>
+                  <Image
+                    src="https://logos-world.net/wp-content/uploads/2023/05/UiTM-Logo.png"
+                    alt="UiTM"
+                    width={180}
+                    height={120}
+                    className="bg-white rounded shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-107"
+                    style={{
+                      width: "180px",
+                      height: "120px",
+                      objectFit: "contain",
+                    }}
+                  />
+
+                  <Image
+                    src="https://newinti.edu.my/wp-content/uploads/2020/01/INTI-YourFutureBuiltToday-LOGO_2020.png"
+                    alt="INTI"
+                    width={180}
+                    height={120}
+                    className="bg-white rounded shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-107"
+                    style={{
+                      width: "180px",
+                      height: "120px",
+                      objectFit: "contain",
+                    }}
+                  />
+                </div>
+              </div>
+            </div>
+            {/* Floating Particles Effect - Smaller */}
+            <div className="absolute inset-0 pointer-events-none">
+              <div className="animate-float-slow absolute top-4 right-2 w-1 h-1 bg-yellow-400 rounded-full opacity-40"></div>
+              <div className="animate-float-medium absolute top-12 right-4 w-1.5 h-1.5 bg-yellow-300 rounded-full opacity-30"></div>
+              <div className="animate-float-fast absolute top-20 right-1 w-1 h-1 bg-yellow-500 rounded-full opacity-35"></div>
+            </div>
+          </div>
+        </div>
       </div>
+      {/* Close main container div */}
+      <style jsx global>{`
+        @keyframes vertical-marquee {
+          0% {
+            transform: translateY(0%);
+          }
+          100% {
+            transform: translateY(-50%);
+          }
+        }
+        .animate-vertical-marquee {
+          animation: vertical-marquee 12s linear infinite;
+        }
+        @keyframes image-fade-1 {
+          0%,
+          25% {
+            opacity: 1;
+          }
+          25.01%,
+          100% {
+            opacity: 0;
+          }
+        }
+        @keyframes image-fade-2 {
+          0%,
+          25% {
+            opacity: 0;
+          }
+          25.01%,
+          50% {
+            opacity: 1;
+          }
+          50.01%,
+          100% {
+            opacity: 0;
+          }
+        }
+        @keyframes image-fade-3 {
+          0%,
+          50% {
+            opacity: 0;
+          }
+          50.01%,
+          75% {
+            opacity: 1;
+          }
+          75.01%,
+          100% {
+            opacity: 0;
+          }
+        }
+        @keyframes image-fade-4 {
+          0%,
+          75% {
+            opacity: 0;
+          }
+          75.01%,
+          100% {
+            opacity: 1;
+          }
+        }
+        .animate-image-fade-1 {
+          animation: image-fade-1 4s linear infinite;
+        }
+        .animate-image-fade-2 {
+          animation: image-fade-2 4s linear infinite;
+        }
+        .animate-image-fade-3 {
+          animation: image-fade-3 4s linear infinite;
+        }
+        .animate-image-fade-4 {
+          animation: image-fade-4 4s linear infinite;
+        }
+      `}</style>
     </div>
   );
 }
