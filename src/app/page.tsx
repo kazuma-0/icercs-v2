@@ -164,15 +164,15 @@ export default function Home() {
               Organised by
             </p>
             <div className="max-w-xs sm:max-w-sm md:max-w-2xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl 3xl:max-w-7xl mx-auto space-y-0.5">
-              <h1 className="text-center text-[10px] sm:text-xs md:text-xs lg:text-sm xl:text-base 2xl:text-base 3xl:text-lg 4xl:text-xl font-bold text-yellow-500 leading-tight">
-                Department of Computer Science and Engineering
-              </h1>
-              <h1 className="text-center text-[10px] sm:text-xs md:text-xs lg:text-sm xl:text-base 2xl:text-base 3xl:text-lg 4xl:text-xl font-bold text-yellow-500 leading-tight">
-                Department of Artificial Intelligence and Data Science
-              </h1>
-              <h1 className="text-center text-[10px] sm:text-xs md:text-xs lg:text-sm xl:text-base 2xl:text-base 3xl:text-lg 4xl:text-xl font-bold text-yellow-500 leading-tight">
-                Department of Computer Science and Engineering (Cyber Security)
-              </h1>
+              <h2 className="text-center text-[10px] sm:text-xs md:text-xs lg:text-sm xl:text-base 2xl:text-base 3xl:text-lg 4xl:text-xl font-bold text-yellow-500 leading-tight">
+              Department of Computer Science and Engineering
+              </h2>
+              <h2 className="text-center text-[10px] sm:text-xs md:text-xs lg:text-sm xl:text-base 2xl:text-base 3xl:text-lg 4xl:text-xl font-bold text-yellow-500 leading-tight">
+              Department of Artificial Intelligence and Data Science
+              </h2>
+              <h2 className="text-center text-[10px] sm:text-xs md:text-xs lg:text-sm xl:text-base 2xl:text-base 3xl:text-lg 4xl:text-xl font-bold text-yellow-500 leading-tight">
+              Department of Computer Science and Engineering (Cyber Security)
+              </h2>
             </div>
 
             {/* Karpagam Academy Information */}
@@ -181,14 +181,16 @@ export default function Home() {
                 <span className="text-white font-semibold text-center">
                   KARPAGAM ACADEMY OF HIGHER EDUCATION
                 </span>
-                <span className="text-gray-300">(Deemed to be University)</span>
-                <span className="text-gray-300">
+                <span className="text-gray-300 text-center">
+                  (Deemed to be University)
+                </span>
+                <span className="text-gray-300 text-center">
                   (Established Under Section 3 of UGC Act, 1956)
                 </span>
-                <span className="text-gray-300">
+                <span className="text-gray-300 text-center">
                   (Accredited by NAAC with A+ Grade in the second cycle)
                 </span>
-                <span className="text-gray-300">
+                <span className="text-gray-300 text-center">
                   Pollachi Main Road, Eachanari, Coimbatore - 641021
                 </span>
               </div>
