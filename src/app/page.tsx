@@ -90,7 +90,7 @@ export default function Home() {
         <div className="flex flex-col h-full justify-center">
           {/* Title Section */}
           <div className="flex-1 py-1 px-2 sm:py-2 sm:px-3 md:py-2 md:px-4 lg:px-6 xl:px-8 2xl:px-10 3xl:px-12 4xl:px-14 5xl:px-16">
-            <h1 className="text-center text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl text-yellow-500 font-bold pb-1 pt-1 sm:pt-2 md:pt-2 leading-tight">
+            <h1 className="text-center text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl text-blue-300 font-bold pb-1 pt-1 sm:pt-2 md:pt-2 leading-tight">
               ICERCS-2025
             </h1>
             <h1 className="text-center text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-xl 3xl:text-2xl 4xl:text-3xl font-medium pt-1 sm:pt-2 md:pt-2 leading-normal text-white max-w-xs sm:max-w-md md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl mx-auto">
