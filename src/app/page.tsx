@@ -86,16 +86,16 @@ export default function Home() {
       </div>
 
       {/* MAIN CONTENT - Center */}
-      <div className="w-full lg:pl-[320px] lg:pr-[380px]">
-        <div className="flex flex-col">
+      <div className="w-full lg:pl-[320px] lg:pr-[380px] h-screen overflow-hidden">
+        <div className="flex flex-col h-full justify-center">
           {/* Title Section */}
-          <div className="flex-1 py-3 px-3 sm:py-4 sm:px-4 md:py-5 md:px-6 lg:px-8 xl:px-12 2xl:px-16 3xl:px-20 4xl:px-24 5xl:px-32">
-            <h1 className="text-center text-lg sm:text-2xl md:text-xl lg:text-3xl xl:text-4xl 2xl:text-4xl 3xl:text-7xl 4xl:text-8xl text-yellow-500 font-bold pb-2 pt-3 sm:pt-4 md:pt-5 leading-tight">
+          <div className="flex-1 py-1 px-2 sm:py-2 sm:px-3 md:py-2 md:px-4 lg:px-6 xl:px-8 2xl:px-10 3xl:px-12 4xl:px-14 5xl:px-16">
+            <h1 className="text-center text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl text-yellow-500 font-bold pb-1 pt-1 sm:pt-2 md:pt-2 leading-tight">
               ICERCS-2025
             </h1>
-            <h1 className="text-center text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl font-medium pt-3 sm:pt-4 md:pt-5 leading-normal text-white max-w-xs sm:max-w-md md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl mx-auto">
+            <h1 className="text-center text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-xl 3xl:text-2xl 4xl:text-3xl font-medium pt-1 sm:pt-2 md:pt-2 leading-normal text-white max-w-xs sm:max-w-md md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl mx-auto">
               3
-              <sup className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl">
+              <sup className="text-xs sm:text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl">
                 rd
               </sup>{" "}
               INTERNATIONAL CONFERENCE ON EMERGING RESEARCH{" "}
@@ -103,27 +103,27 @@ export default function Home() {
               <span className="sm:hidden"> </span>
               IN COMPUTATIONAL SCIENCE - 2025
             </h1>
-            <div className="flex flex-col items-center justify-center py-2">
-              <div className="flex flex-col items-center text-[15px] sm:text-[11px] md:text-sm lg:text-md xl:text-lg 2xl:text-base 3xl:text-base text-yellow-400 font-bold leading-tight">
+            <div className="flex flex-col items-center justify-center py-1">
+              <div className="flex flex-col items-center text-xs sm:text-sm md:text-sm lg:text-base xl:text-lg 2xl:text-base 3xl:text-base text-yellow-400 font-bold leading-tight">
                 <span>
-                  11<sup className="text-[8px]">th</sup>, 12
-                  <sup className="text-[8px]">th</sup>, 13
-                  <sup className="text-[8px]">th</sup>
+                  11<sup className="text-[6px]">th</sup>, 12
+                  <sup className="text-[6px]">th</sup>, 13
+                  <sup className="text-[6px]">th</sup>
                 </span>
                 <span>December 2025</span>
               </div>
             </div>
 
             {/* Image Slider */}
-            <div className="mt-6 w-full mx-auto">
-              <div className="relative overflow-hidden rounded-2xl shadow-xl h-52 sm:h-60 md:h-72 lg:h-80 xl:h-96">
+            <div className="mt-2 w-full mx-auto">
+              <div className="relative overflow-hidden rounded-xl shadow-lg h-32 sm:h-36 md:h-40 lg:h-44 xl:h-48">
                 <div className="absolute inset-0 animate-image-fade-1">
                   <Image
                     src="/images/karpagam_university.jpeg"
                     alt="University Campus"
                     width={1200}
                     height={600}
-                    className="w-full h-full object-cover rounded-2xl"
+                    className="w-full h-full object-cover rounded-xl"
                   />
                 </div>
                 <div className="absolute inset-0 animate-image-fade-2">
@@ -132,7 +132,7 @@ export default function Home() {
                     alt="Tourism 1"
                     width={1200}
                     height={600}
-                    className="w-full h-full object-cover rounded-2xl"
+                    className="w-full h-full object-cover rounded-xl"
                   />
                 </div>
                 <div className="absolute inset-0 animate-image-fade-3">
@@ -141,7 +141,7 @@ export default function Home() {
                     alt="Tourism 2"
                     width={1200}
                     height={600}
-                    className="w-full h-full object-cover rounded-2xl"
+                    className="w-full h-full object-cover rounded-xl"
                   />
                 </div>
                 <div className="absolute inset-0 animate-image-fade-4">
@@ -150,38 +150,38 @@ export default function Home() {
                     alt="Tourism 3"
                     width={1200}
                     height={600}
-                    className="w-full h-full object-cover rounded-2xl"
+                    className="w-full h-full object-cover rounded-xl"
                   />
                 </div>
               </div>
             </div>
             {/* Marquee Final Paper Submission */}
             {/* Marquee - One Line */}
-            <div className="overflow-hidden w-full bg-yellow-200 border-y-2 border-yellow-400">
-              <div className="whitespace-nowrap animate-marquee text-lg font-semibold text-green-900 py-2 px-4">
+            <div className="overflow-hidden w-full bg-yellow-200 border-y border-yellow-400 mt-2">
+              <div className="whitespace-nowrap animate-marquee text-sm font-semibold text-green-900 py-1 px-3">
                 Final Paper Submission — Deadline: 3<sup>rd</sup> November 2025
               </div>
             </div>
 
-            <p className="text-center text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl 3xl:text-3xl pt-3 sm:pt-4 md:pt-5 text-white">
+            <p className="text-center text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-xl 3xl:text-2xl pt-1 sm:pt-2 md:pt-2 text-white">
               Organised by
             </p>
-            <div className="max-w-xs sm:max-w-sm md:max-w-2xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl 3xl:max-w-7xl mx-auto space-y-2 5">
-              <h1 className="text-center text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl 3xl:text-3xl 4xl:text-4xl font-bold  text-yellow-500 leading-tight">
+            <div className="max-w-xs sm:max-w-sm md:max-w-2xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl 3xl:max-w-7xl mx-auto space-y-1">
+              <h1 className="text-center text-xs sm:text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl 3xl:text-2xl 4xl:text-3xl font-bold text-yellow-500 leading-tight">
                 Department of Computer Science and Engineering
               </h1>
-              <h1 className="text-center text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl 3xl:text-3xl 4xl:text-4xl font-bold pt-1 text-yellow-500 leading-tight">
+              <h1 className="text-center text-xs sm:text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl 3xl:text-2xl 4xl:text-3xl font-bold text-yellow-500 leading-tight">
                 Department of Artificial Intelligence and Data Science
               </h1>
-              <h1 className="text-center text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl 3xl:text-3xl 4xl:text-4xl font-bold pt-1 text-yellow-500 leading-tight">
+              <h1 className="text-center text-xs sm:text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl 3xl:text-2xl 4xl:text-3xl font-bold text-yellow-500 leading-tight">
                 Department of Computer Science and Engineering (Cyber Security)
               </h1>
             </div>
 
             {/* Karpagam Academy Information */}
-            <div className="flex flex-col items-center justify-center py-6">
-              <div className="flex flex-col items-center text-[15px] sm:text-[11px] md:text-sm lg:text-md xl:text-lg 2xl:text-base 3xl:text-base leading-tight">
-                <span className="mt-1 text-white font-bold text-center">
+            <div className="flex flex-col items-center justify-center py-2">
+              <div className="flex flex-col items-center text-xs sm:text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-base 3xl:text-base leading-tight">
+                <span className="text-white font-bold text-center">
                   KARPAGAM ACADEMY OF HIGHER EDUCATION
                 </span>
                 <span className="text-gray-300 font-normal">
@@ -194,10 +194,7 @@ export default function Home() {
                   (Accredited by NAAC with A+ Grade in the second cycle)
                 </span>
                 <span className="text-gray-300 font-normal">
-                  Pollachi Main Road Eachanari Post ,{" "}
-                </span>
-                <span className="text-gray-300 font-normal">
-                  Coimbatore -641021{" "}
+                  Pollachi Main Road Eachanari Post, Coimbatore -641021
                 </span>
               </div>
             </div>
@@ -437,6 +434,17 @@ export default function Home() {
         }
         .animate-image-fade-4 {
           animation: image-fade-4 4s linear infinite;
+        }
+        @keyframes marquee {
+          0% {
+            transform: translateX(100%);
+          }
+          100% {
+            transform: translateX(-100%);
+          }
+        }
+        .animate-marquee {
+          animation: marquee 10s linear infinite;
         }
       `}</style>
     </div>
