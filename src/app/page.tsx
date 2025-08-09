@@ -232,7 +232,7 @@ export default function Home() {
         </div>
 
         {/* RIGHT LOGOS - Single box with vertical marquee */}
-        <div className="hidden lg:flex flex-col fixed right-2 lg:right-4 xl:right-6 2xl:right-8 top-20 lg:top-24 xl:top-28 z-50 w-[300px] bottom-4">
+        <div className="hidden z-0 lg:flex flex-col fixed right-2 lg:right-4 xl:right-6 2xl:right-8 top-20 lg:top-24 xl:top-28 z-50 w-[300px] bottom-4">
           <div className="flex flex-col items-center p-4 w-full h-full overflow-hidden relative bg-white rounded-xl shadow-lg">
             <h3 className="text-base lg:text-lg xl:text-xl font-bold text-yellow-500 mb-4 text-center">
               Host & Sponsors
