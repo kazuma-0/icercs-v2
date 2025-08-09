@@ -127,56 +127,18 @@ export default function Home() {
               <div className="mx-2 sm:-mx-3 md:-mx-4 ml-36 lg:-mx-6 xl:-mx-8 2xl:-mx-10 3xl:-mx-12 4xl:-mx-14 5xl:-mx-16">
                 <div className="relative overflow-hidden rounded-2xl w-full shadow-2xl h-60 sm:h-72 md:h-80 lg:h-[26rem] xl:h-[30rem] 2xl:h-[32rem] max-h-[67vh]">
                   {/* slides */}
-                  <div className="absolute inset-0 animate-image-fade-1">
-                    <Image
-                      src="/1.png"
-                      alt="Tourism 3"
-                      width={6400}
-                      height={1200}
-                      unoptimized
-                      className="w-full h-full object-cover rounded-2xl"
-                    />
-                  </div>
-                  <div className="absolute inset-0 animate-image-fade-2">
-                    <Image
-                      src="/2.png"
-                      alt="Tourism 3"
-                      width={6400}
-                      height={1200}
-                      unoptimized
-                      className="w-full h-full object-cover rounded-2xl"
-                    />
-                  </div>
-                  <div className="absolute inset-0 animate-image-fade-3">
-                    <Image
-                      src="/3.png"
-                      alt="Tourism 3"
-                      width={6400}
-                      height={1200}
-                      unoptimized
-                      className="w-full h-full object-cover rounded-2xl"
-                    />
-                  </div>
-                  <div className="absolute inset-0 animate-image-fade-4">
-                    <Image
-                      src="/4.png"
-                      alt="Tourism 3"
-                      width={6400}
-                      height={1200}
-                      unoptimized
-                      className="w-full h-full object-cover rounded-2xl"
-                    />
-                  </div>
-                  <div className="absolute inset-0 animate-image-fade-5">
-                    <Image
-                      src="/5.png"
-                      alt="Tourism 3"
-                      width={6400}
-                      height={1200}
-                      unoptimized
-                      className="w-full h-full object-cover rounded-2xl"
-                    />
-                  </div>
+                  {Array.from({ length: 16 }).map((_, i) => (
+                    <div key={i} className="absolute inset-0 animate-image-fade">
+                      <Image
+                        src={`/2023/${i + 1}.jpg`}
+                        alt="Tourism 3"
+                        width={6400}
+                        height={1200}
+                        unoptimized
+                        className="w-full h-full object-cover rounded-2xl"
+                      />
+                    </div>
+                  ))}
 
                   {/* overlay marquee */}
                   <div className="absolute bottom-0 left-0 right-0">
