@@ -1,5 +1,7 @@
 "use client";
 import Image from "next/image";
+import { FaFacebook, FaTwitter, FaLinkedin, FaYoutube } from "react-icons/fa";
+import styles from "./slider.module.css";
 
 export default function Home() {
   const speakers = [
@@ -126,57 +128,36 @@ export default function Home() {
             <div className="mt-2 ml-5 w-full">
               <div className="mx-2 sm:-mx-3 md:-mx-4 ml-36 lg:-mx-6 xl:-mx-8 2xl:-mx-10 3xl:-mx-12 4xl:-mx-14 5xl:-mx-16">
                 <div className="relative overflow-hidden rounded-2xl w-full shadow-2xl h-60 sm:h-72 md:h-80 lg:h-[26rem] xl:h-[30rem] 2xl:h-[32rem] max-h-[67vh]">
-                  {/* slides */}
-                  <div className="absolute inset-0 animate-image-fade-1">
-                    <Image
-                      src="/1.png"
-                      alt="Tourism 3"
-                      width={6400}
-                      height={1200}
-                      unoptimized
-                      className="w-full h-full object-cover rounded-2xl"
-                    />
-                  </div>
-                  <div className="absolute inset-0 animate-image-fade-2">
-                    <Image
-                      src="/2.png"
-                      alt="Tourism 3"
-                      width={6400}
-                      height={1200}
-                      unoptimized
-                      className="w-full h-full object-cover rounded-2xl"
-                    />
-                  </div>
-                  <div className="absolute inset-0 animate-image-fade-3">
-                    <Image
-                      src="/3.png"
-                      alt="Tourism 3"
-                      width={6400}
-                      height={1200}
-                      unoptimized
-                      className="w-full h-full object-cover rounded-2xl"
-                    />
-                  </div>
-                  <div className="absolute inset-0 animate-image-fade-4">
-                    <Image
-                      src="/4.png"
-                      alt="Tourism 3"
-                      width={6400}
-                      height={1200}
-                      unoptimized
-                      className="w-full h-full object-cover rounded-2xl"
-                    />
-                  </div>
-                  <div className="absolute inset-0 animate-image-fade-5">
-                    <Image
-                      src="/5.png"
-                      alt="Tourism 3"
-                      width={6400}
-                      height={1200}
-                      unoptimized
-                      className="w-full h-full object-cover rounded-2xl"
-                    />
-                  </div>
+                  {/* Dynamic slides from 2023 and 2024 folders */}
+                  {[
+                    // 2023 images (1.jpg to 16.jpg)
+                    ...Array.from({ length: 16 }, (_, i) => ({
+                      src: `/2023/${i + 1}.jpg`,
+                      alt: `2023 Image ${i + 1}`
+                    })),
+                    // 2024 images (1.jpeg to 55.jpeg)
+                    ...Array.from({ length: 55 }, (_, i) => ({
+                      src: `/2024/${i + 1}.jpeg`,
+                      alt: `2024 Image ${i + 1}`
+                    }))
+                  ].map((img, index) => (
+                    <div 
+                      key={img.src}
+                      className={styles.slide}
+                      style={{
+                        animationDelay: `${index * 5}s`,
+                      }}
+                    >
+                      <Image
+                        src={img.src}
+                        alt={img.alt}
+                        width={1920}
+                        height={1080}
+                        unoptimized
+                        className="w-full h-full object-cover rounded-2xl"
+                      />
+                    </div>
+                  ))}
 
                   {/* overlay marquee */}
                   <div className="absolute bottom-0 left-0 right-0">
@@ -191,6 +172,9 @@ export default function Home() {
               </div>
             </div>
 
+    
+    
+    
             {/* Organised by Section */}
             <p className="text-center text-[10px] sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-base 3xl:text-lg pt-1 sm:pt-1 md:pt-1 text-white">
               Organised by
@@ -232,7 +216,7 @@ export default function Home() {
         </div>
 
         {/* RIGHT LOGOS - Single box with vertical marquee */}
-        <div className="hidden lg:flex flex-col fixed right-2 lg:right-4 xl:right-6 2xl:right-8 top-20 lg:top-24 xl:top-28 z-50 w-[300px] bottom-4">
+        <div className="hidden z-0 lg:flex flex-col fixed right-2 lg:right-4 xl:right-6 2xl:right-8 top-20 lg:top-24 xl:top-28 z-50 w-[300px] bottom-4">
           <div className="flex flex-col items-center p-4 w-full h-full overflow-hidden relative bg-white rounded-xl shadow-lg">
             <h3 className="text-base lg:text-lg xl:text-xl font-bold text-yellow-500 mb-4 text-center">
               Host & Sponsors
