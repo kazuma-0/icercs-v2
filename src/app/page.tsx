@@ -22,32 +22,43 @@ export default function Home() {
 
   return (
     <div className="flex min-h-screen">
+      {" "}
       {/* LEFT SIDE - Keynote Speakers */}
-      <div className="hidden lg:flex flex-col fixed left-4 lg:left-6 xl:left-8 2xl:left-10 top-20 lg:top-24 xl:top-28 z-50 max-w-[280px] lg:max-w-[320px] xl:max-w-[350px] bottom-4">
-        <div className="flex flex-col items-center p-4 w-full h-full overflow-hidden relative">
-          <h2 className="text-lg lg:text-xl font-black text-yellow-300 mb-6 text-center uppercase">
+      <div className="hidden lg:flex flex-col fixed left-1 lg:left-2 xl:left-3 2xl:left-4 top-20 lg:top-24 xl:top-28 z-50 w-[300px] bottom-4">
+        <div className="flex flex-col items-center p-3 w-full h-full overflow-hidden relative bg-white rounded-xl shadow-lg">
+          <h2 className="text-base lg:text-lg font-black text-yellow-300 mb-5 text-center uppercase">
             Keynote Speakers
           </h2>
           <div className="w-full flex-1 overflow-hidden relative">
-            <div className="flex flex-col gap-8 animate-vertical-marquee">
+            <div className="flex flex-col gap-6 animate-vertical-marquee">
               {speakers.map((speaker, index) => (
                 <div key={index} className="flex flex-col items-center">
-                  <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-green-500">
+                  <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-green-500">
                     <img
                       src={speaker.image}
                       alt={speaker.name}
                       className="w-full h-full object-cover"
                     />
                   </div>
-                  <h3 className="mt-3 text-sm font-bold uppercase text-white text-center">
+                  <h3 className="mt-2 text-xs font-bold uppercase text-gray-900 text-center">
                     {speaker.name}
                   </h3>
-                  <p className="text-xs mt-1 text-gray-300 text-center">
+                  <p className="text-[10px] mt-1 text-gray-700 text-center">
                     {speaker.title}
                   </p>
-                  <p className="text-xs text-gray-300 text-center leading-tight">
-                    {speaker.university}
-                  </p>
+                  {speaker.name === "DR. DESHINTA ARROVA DEWI" ? (
+                    <div className="text-[10px] text-gray-700 text-center leading-tight">
+                      <div>
+                        Faculty of Data Sciences and Information Technology
+                      </div>
+                      <div>INTI International University</div>
+                      <div>Malaysia</div>
+                    </div>
+                  ) : (
+                    <p className="text-[10px] text-gray-700 text-center leading-tight">
+                      {speaker.university}
+                    </p>
+                  )}
                 </div>
               ))}
               {/* Duplicate for seamless loop */}
@@ -56,22 +67,32 @@ export default function Home() {
                   key={`duplicate-${index}`}
                   className="flex flex-col items-center"
                 >
-                  <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-green-500">
+                  <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-green-500">
                     <img
                       src={speaker.image}
                       alt={speaker.name}
                       className="w-full h-full object-cover"
                     />
                   </div>
-                  <h3 className="mt-3 text-sm font-bold uppercase text-white text-center">
+                  <h3 className="mt-2 text-xs font-bold uppercase text-gray-900 text-center">
                     {speaker.name}
                   </h3>
-                  <p className="text-xs mt-1 text-gray-300 text-center">
+                  <p className="text-[10px] mt-1 text-gray-700 text-center">
                     {speaker.title}
                   </p>
-                  <p className="text-xs text-gray-300 text-center leading-tight">
-                    {speaker.university}
-                  </p>
+                  {speaker.name === "DR. DESHINTA ARROVA DEWI" ? (
+                    <div className="text-[10px] text-gray-700 text-center leading-tight">
+                      <div>
+                        Faculty of Data Sciences and Information Technology
+                      </div>
+                      <div>INTI International University</div>
+                      <div>Malaysia</div>
+                    </div>
+                  ) : (
+                    <p className="text-[10px] text-gray-700 text-center leading-tight">
+                      {speaker.university}
+                    </p>
+                  )}
                 </div>
               ))}
             </div>
@@ -84,25 +105,15 @@ export default function Home() {
           </div>
         </div>
       </div>
-
       {/* MAIN CONTENT - Center */}
-      <div className="w-full lg:pl-[320px] lg:pr-[380px] h-screen overflow-hidden">
-        <div className="flex flex-col h-full justify-center">
+      <div className="w-full lg:pl-[320px] lg:pr-[380px] -pt-72 pb-8">
+        <div className="flex flex-col justify-center">
           {/* Title Section */}
-          <div className="flex-1 py-1 px-2 sm:py-2 sm:px-3 md:py-2 md:px-4 lg:px-6 xl:px-8 2xl:px-10 3xl:px-12 4xl:px-14 5xl:px-16">
-            <h1 className="text-center text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl text-blue-300 font-bold pb-1 pt-1 sm:pt-2 md:pt-2 leading-tight">
+          <div className=" px-2  sm:px-3 md:py-2 md:px-4 lg:px-6 xl:px-8 2xl:px-10 3xl:px-12 4xl:px-14 5xl:px-16">
+            <h1 className="text-center text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl text-blue-300 font-bold pb-1  leading-tight">
               ICERCS-2025
             </h1>
-            <h1 className="text-center text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-xl 3xl:text-2xl 4xl:text-3xl font-medium pt-1 sm:pt-2 md:pt-2 leading-normal text-white max-w-xs sm:max-w-md md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl mx-auto">
-              3
-              <sup className="text-xs sm:text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl">
-                rd
-              </sup>{" "}
-              INTERNATIONAL CONFERENCE ON EMERGING RESEARCH{" "}
-              <br className="hidden sm:block" />
-              <span className="sm:hidden"> </span>
-              IN COMPUTATIONAL SCIENCE - 2025
-            </h1>
+            <h1 className="text-center text-[8px] sm:text-[10px] md:text-[12px] lg:text-[14px] xl:text-[16px] 2xl:text-[18px] 3xl:text-[20px] 4xl:text-[22px] font-medium leading-normal text-white">3<sup className="text-[6px]">rd</sup> INTERNATIONAL CONFERENCE ON EMERGING RESEARCH IN COMPUTATIONAL SCIENCE - 2025</h1>
             <div className="flex items-center justify-center py-1">
               <span className="text-xs sm:text-sm md:text-sm lg:text-base xl:text-lg 2xl:text-base 3xl:text-base text-yellow-400 font-bold leading-tight">
                 11<sup className="text-[6px]">th</sup>, 12
@@ -112,88 +123,95 @@ export default function Home() {
             </div>
 
             {/* Image Slider */}
-            <div className="mt-2 w-full mx-auto max-w-md sm:max-w-lg md:max-w-xl lg:max-w-xl xl:max-w-2xl">
-              <div className="relative overflow-hidden rounded-xl shadow-lg h-52 sm:h-60 md:h-64 lg:h-72 xl:h-80 2xl:h-96">
-                <div className="absolute inset-0 animate-image-fade-1">
-                  <Image
-                    src="/images/karpagam_university.jpeg"
-                    alt="University Campus"
-                    width={1200}
-                    height={600}
-                    className="w-full h-full object-cover rounded-xl"
-                  />
+            <div className="mt-2 ml-5 w-full">
+              <div className="mx-2 sm:-mx-3 md:-mx-4 ml-36 lg:-mx-6 xl:-mx-8 2xl:-mx-10 3xl:-mx-12 4xl:-mx-14 5xl:-mx-16">
+                <div className="relative overflow-hidden rounded-2xl w-full shadow-2xl h-60 sm:h-72 md:h-80 lg:h-[26rem] xl:h-[30rem] 2xl:h-[32rem] max-h-[67vh]">
+                  {/* slides */}
+                  <div className="absolute inset-0 animate-image-fade-1">
+                    <Image
+                      src="/1.png"
+                      alt="Tourism 3"
+                      width={6400}
+                      height={1200}
+                      unoptimized
+                      className="w-full h-full object-cover rounded-2xl"
+                    />
+                  </div>
+                  <div className="absolute inset-0 animate-image-fade-2">
+                    <Image
+                      src="/2.png"
+                      alt="Tourism 3"
+                      width={6400}
+                      height={1200}
+                      unoptimized
+                      className="w-full h-full object-cover rounded-2xl"
+                    />
+                  </div>
+                  <div className="absolute inset-0 animate-image-fade-3">
+                    <Image
+                      src="/3.png"
+                      alt="Tourism 3"
+                      width={6400}
+                      height={1200}
+                      unoptimized
+                      className="w-full h-full object-cover rounded-2xl"
+                    />
+                  </div>
+                  <div className="absolute inset-0 animate-image-fade-4">
+                    <Image
+                      src="/4.png"
+                      alt="Tourism 3"
+                      width={6400}
+                      height={1200}
+                      unoptimized
+                      className="w-full h-full object-cover rounded-2xl"
+                    />
+                  </div>
+                  <div className="absolute inset-0 animate-image-fade-5">
+                    <Image
+                      src="/5.png"
+                      alt="Tourism 3"
+                      width={6400}
+                      height={1200}
+                      unoptimized
+                      className="w-full h-full object-cover rounded-2xl"
+                    />
+                  </div>
+
+                  {/* overlay marquee */}
+                  <div className="absolute bottom-0 left-0 right-0">
+                    <div className="overflow-hidden bg-black/40 border-t border-white/30">
+                      <div className="whitespace-nowrap animate-marquee text-sm font-semibold text-white py-1 px-4 opacity-80">
+                        Final Paper Submission — Deadline: 3<sup>rd</sup>{" "}
+                        November 2025
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div className="absolute inset-0 animate-image-fade-2">
-                  <Image
-                    src="/images/tourism/1.jpg"
-                    alt="Tourism 1"
-                    width={1200}
-                    height={600}
-                    className="w-full h-full object-cover rounded-xl"
-                  />
-                </div>
-                <div className="absolute inset-0 animate-image-fade-3">
-                  <Image
-                    src="/images/tourism/2.jpg"
-                    alt="Tourism 2"
-                    width={1200}
-                    height={600}
-                    className="w-full h-full object-cover rounded-xl"
-                  />
-                </div>
-                <div className="absolute inset-0 animate-image-fade-4">
-                  <Image
-                    src="/images/tourism/3.jpg"
-                    alt="Tourism 3"
-                    width={1200}
-                    height={600}
-                    className="w-full h-full object-cover rounded-xl"
-                  />
-                </div>
-              </div>
-            </div>
-            {/* Marquee Final Paper Submission */}
-            {/* Marquee - One Line */}
-            <div className="overflow-hidden w-full bg-yellow-200 border-y border-yellow-400 mt-2">
-              <div className="whitespace-nowrap animate-marquee text-sm font-semibold text-green-900 py-1 px-3">
-                Final Paper Submission — Deadline: 3<sup>rd</sup> November 2025
               </div>
             </div>
 
+            {/* Organised by Section */}
             <p className="text-center text-[10px] sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-base 3xl:text-lg pt-1 sm:pt-1 md:pt-1 text-white">
               Organised by
             </p>
-            <div className="max-w-xs sm:max-w-sm md:max-w-2xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl 3xl:max-w-7xl mx-auto space-y-0.5">
-              <h2 className="text-center text-[10px] sm:text-xs md:text-xs lg:text-sm xl:text-base 2xl:text-base 3xl:text-lg 4xl:text-xl font-bold text-yellow-500 leading-tight">
-              Department of Computer Science and Engineering
-              </h2>
-              <h2 className="text-center text-[10px] sm:text-xs md:text-xs lg:text-sm xl:text-base 2xl:text-base 3xl:text-lg 4xl:text-xl font-bold text-yellow-500 leading-tight">
-              Department of Artificial Intelligence and Data Science
-              </h2>
-              <h2 className="text-center text-[10px] sm:text-xs md:text-xs lg:text-sm xl:text-base 2xl:text-base 3xl:text-lg 4xl:text-xl font-bold text-yellow-500 leading-tight">
-              Department of Computer Science and Engineering (Cyber Security)
-              </h2>
+            <div className="  mx-auto flex flex-row items-center justify-center  py-1">
+              <span className="text-[8px] sm:text-[9px] md:text-[10px] lg:text-xs xl:text-xs 2xl:text-sm font-bold text-yellow-500 leading-tight whitespace-nowrap text-center">
+                Department of Computer Science and Engineering,Artificial
+                Intelligence and Data Science,Computer Science and Engineering
+                (Cyber Security)
+              </span>
             </div>
 
             {/* Karpagam Academy Information */}
             <div className="flex flex-col items-center justify-center py-1">
-              <div className="flex flex-col items-center text-[10px] sm:text-[10px] md:text-xs lg:text-sm xl:text-sm 2xl:text-sm leading-tight tracking-tight">
-                <span className="text-white font-semibold text-center">
-                  KARPAGAM ACADEMY OF HIGHER EDUCATION
-                </span>
-                <span className="text-gray-300 text-center">
-                  (Deemed to be University)
-                </span>
-                <span className="text-gray-300 text-center">
-                  (Established Under Section 3 of UGC Act, 1956)
-                </span>
-                <span className="text-gray-300 text-center">
-                  (Accredited by NAAC with A+ Grade in the second cycle)
-                </span>
-                <span className="text-gray-300 text-center">
-                  Pollachi Main Road, Eachanari, Coimbatore - 641021
-                </span>
-              </div>
+              <span className="text-[8px] sm:text-[9px] md:text-[10px] lg:text-xs xl:text-xs 2xl:text-sm font-semibold text-white text-center whitespace-nowrap">
+                KARPAGAM ACADEMY OF HIGHER EDUCATION (Deemed to be University),
+              </span>
+              <span className="text-[8px] sm:text-[9px] md:text-[10px] lg:text-xs xl:text-xs 2xl:text-sm font-semibold text-white text-center whitespace-nowrap">
+                (Accredited by NAAC with A+ Grade in the second cycle), Pollachi
+                Main Road, Eachanari, Coimbatore - 641021
+              </span>
             </div>
 
             <div className="fixed -left-full -bottom-full w-0 h-0 overflow-hidden invisible">
@@ -214,139 +232,163 @@ export default function Home() {
         </div>
 
         {/* RIGHT LOGOS - Single box with vertical marquee */}
-        <div className="hidden lg:flex flex-col fixed right-4 lg:right-6 xl:right-8 2xl:right-10 top-20 lg:top-24 xl:top-28 z-50 max-w-[280px] lg:max-w-[320px] xl:max-w-[350px] bottom-4">
-          <div className="flex flex-col items-center p-4 w-full h-full overflow-hidden relative">
+        <div className="hidden lg:flex flex-col fixed right-2 lg:right-4 xl:right-6 2xl:right-8 top-20 lg:top-24 xl:top-28 z-50 w-[300px] bottom-4">
+          <div className="flex flex-col items-center p-4 w-full h-full overflow-hidden relative bg-white rounded-xl shadow-lg">
             <h3 className="text-base lg:text-lg xl:text-xl font-bold text-yellow-500 mb-4 text-center">
-              Co-Host & Co-Sponsors
+              Host & Sponsors
             </h3>
             <div className="w-full flex-1 overflow-hidden relative">
-              <div className="flex flex-col gap-8 animate-vertical-marquee">
-                {/* Co-hosts Section */}
-                <div className="flex flex-col items-center gap-4">
-                  <h4 className="text-sm lg:text-base font-bold text-yellow-400 text-center">
+              <div className="flex flex-col gap-3 animate-vertical-marquee">
+                {/* First set of content */}
+                <div>
+                  {/* Group: Co-Host */}
+                  <div className="text-xs lg:text-sm font-semibold text-green-700 text-center">
                     Co-Host
-                  </h4>
-                  <Image
-                    src="/images/iic.png"
-                    className="rounded bg-white bg-opacity-95 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-107"
-                    alt="IIC"
-                    width={180}
-                    height={120}
-                    style={{
-                      width: "180px",
-                      height: "120px",
-                      objectFit: "contain",
-                      maxWidth: "100%",
-                    }}
-                  />
+                  </div>
+                  <div className="flex justify-center w-full">
+                    <Image
+                      src="/images/iic.png"
+                      alt="IIC"
+                      width={240}
+                      height={160}
+                      className="rounded transition-all duration-300 hover:scale-105"
+                      style={{
+                        width: "240px",
+                        height: "160px",
+                        objectFit: "contain",
+                        maxWidth: "100%",
+                      }}
+                    />
+                  </div>
+                  <div className="flex justify-center w-full">
+                    <Image
+                      src="/images/kiic.png"
+                      alt="KIIC"
+                      width={240}
+                      height={160}
+                      className="rounded transition-all duration-300 hover:scale-105"
+                      style={{
+                        width: "240px",
+                        height: "160px",
+                        objectFit: "contain",
+                        maxWidth: "100%",
+                      }}
+                    />
+                  </div>
 
-                  <Image
-                    src="/images/kiic.png"
-                    className="rounded bg-white bg-opacity-95 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-107"
-                    alt="KIIC"
-                    width={180}
-                    height={120}
-                    style={{
-                      width: "180px",
-                      height: "120px",
-                      objectFit: "contain",
-                      maxWidth: "100%",
-                    }}
-                  />
-                </div>
-                {/* Event Cosponsors Section */}
-                <div className="flex flex-col items-center gap-4">
-                  <h4 className="text-sm lg:text-base font-bold text-yellow-400 text-center">
+                  {/* Group: Co-Sponsors */}
+                  <div className="mt-2 text-xs lg:text-sm font-semibold text-green-700 text-center">
                     Co-Sponsors
-                  </h4>
-                  <Image
-                    src="https://logos-world.net/wp-content/uploads/2023/05/UiTM-Logo.png"
-                    alt="UiTM"
-                    width={180}
-                    height={120}
-                    className="bg-white rounded shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-107"
-                    style={{
-                      width: "180px",
-                      height: "120px",
-                      objectFit: "contain",
-                    }}
-                  />
-
-                  <Image
-                    src="https://newinti.edu.my/wp-content/uploads/2020/01/INTI-YourFutureBuiltToday-LOGO_2020.png"
-                    alt="INTI"
-                    width={180}
-                    height={120}
-                    className="bg-white rounded shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-107"
-                    style={{
-                      width: "180px",
-                      height: "120px",
-                      objectFit: "contain",
-                    }}
-                  />
+                  </div>
+                  <div className="flex justify-center w-full">
+                    <Image
+                      src="https://newinti.edu.my/wp-content/uploads/2020/01/INTI-YourFutureBuiltToday-LOGO_2020.png"
+                      alt="INTI"
+                      width={220}
+                      height={150}
+                      unoptimized
+                      className="rounded transition-all duration-300 hover:scale-105"
+                      style={{
+                        width: "220px",
+                        height: "150px",
+                        objectFit: "contain",
+                        maxWidth: "100%",
+                      }}
+                    />
+                  </div>
+                  
+                  <div className="flex justify-center w-full">
+                    <Image
+                      src="https://logos-world.net/wp-content/uploads/2023/05/UiTM-Logo.png"
+                      alt="UiTM"
+                      width={220}
+                      height={150}
+                      unoptimized
+                      className="rounded transition-all duration-300 hover:scale-105"
+                      style={{
+                        width: "220px",
+                        height: "150px",
+                        objectFit: "contain",
+                        maxWidth: "100%",
+                      }}
+                    />
+                  </div>
                 </div>
-                {/* Duplicate for seamless loop */}
-                <div className="flex flex-col items-center gap-4">
-                  <h4 className="text-sm lg:text-base font-bold text-yellow-400 text-center">
+
+                {/* Duplicate content for seamless looping */}
+                <div>
+                  {/* Group: Co-Host */}
+                  <div className="text-xs lg:text-sm font-semibold text-green-700 text-center">
                     Co-Host
-                  </h4>
-                  <Image
-                    src="/images/iic.png"
-                    className="rounded bg-white bg-opacity-95 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-107"
-                    alt="IIC"
-                    width={180}
-                    height={120}
-                    style={{
-                      width: "180px",
-                      height: "120px",
-                      objectFit: "contain",
-                      maxWidth: "100%",
-                    }}
-                  />
+                  </div>
+                  <div className="flex justify-center w-full">
+                    <Image
+                      src="/images/iic.png"
+                      alt="IIC"
+                      width={240}
+                      height={160}
+                      className="rounded transition-all duration-300 hover:scale-105"
+                      style={{
+                        width: "240px",
+                        height: "160px",
+                        objectFit: "contain",
+                        maxWidth: "100%",
+                      }}
+                    />
+                  </div>
+                  <div className="flex justify-center w-full">
+                    <Image
+                      src="/images/kiic.png"
+                      alt="KIIC"
+                      width={240}
+                      height={160}
+                      className="rounded transition-all duration-300 hover:scale-105"
+                      style={{
+                        width: "240px",
+                        height: "160px",
+                        objectFit: "contain",
+                        maxWidth: "100%",
+                      }}
+                    />
+                  </div>
 
-                  <Image
-                    src="/images/kiic.png"
-                    className="rounded bg-white bg-opacity-95 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-107"
-                    alt="KIIC"
-                    width={180}
-                    height={120}
-                    style={{
-                      width: "180px",
-                      height: "120px",
-                      objectFit: "contain",
-                      maxWidth: "100%",
-                    }}
-                  />
-                </div>
-                <div className="flex flex-col items-center gap-4">
-                  <h4 className="text-sm lg:text-base font-bold text-yellow-400 text-center">
+                  {/* Group: Co-Sponsors */}
+                  <div className="mt-2 text-xs lg:text-sm font-semibold text-green-700 text-center">
                     Co-Sponsors
-                  </h4>
-                  <Image
-                    src="https://logos-world.net/wp-content/uploads/2023/05/UiTM-Logo.png"
-                    alt="UiTM"
-                    width={180}
-                    height={120}
-                    className="bg-white rounded shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-107"
-                    style={{
-                      width: "180px",
-                      height: "120px",
-                      objectFit: "contain",
-                    }}
-                  />
-
-                  <Image
-                    src="https://newinti.edu.my/wp-content/uploads/2020/01/INTI-YourFutureBuiltToday-LOGO_2020.png"
-                    alt="INTI"
-                    width={180}
-                    height={120}
-                    className="bg-white rounded shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-107"
-                    style={{
-                      width: "180px",
-                      height: "120px",
-                      objectFit: "contain",
-                    }}
-                  />
+                  </div>
+                  <div className="flex justify-center w-full">
+                    <Image
+                      src="https://newinti.edu.my/wp-content/uploads/2020/01/INTI-YourFutureBuiltToday-LOGO_2020.png"
+                      alt="INTI"
+                      width={220}
+                      height={150}
+                      unoptimized
+                      className="rounded transition-all duration-300 hover:scale-105"
+                      style={{
+                        width: "220px",
+                        height: "150px",
+                        objectFit: "contain",
+                        maxWidth: "100%",
+                      }}
+                    />
+                  </div>
+                  
+                  <div className="flex justify-center w-full">
+                    <Image
+                      src="https://logos-world.net/wp-content/uploads/2023/05/UiTM-Logo.png"
+                      alt="UiTM"
+                      width={220}
+                      height={150}
+                      unoptimized
+                      className="rounded transition-all duration-300 hover:scale-105"
+                      style={{
+                        width: "220px",
+                        height: "150px",
+                        objectFit: "contain",
+                        maxWidth: "100%",
+                      }}
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -372,65 +414,177 @@ export default function Home() {
         .animate-vertical-marquee {
           animation: vertical-marquee 10s linear infinite;
         }
+        /* Use a 5-step cycle so each of 5 slides shows sequentially */
         @keyframes image-fade-1 {
           0%,
-          25% {
+          20% {
             opacity: 1;
           }
-          25.01%,
+          20.01%,
           100% {
             opacity: 0;
           }
         }
         @keyframes image-fade-2 {
           0%,
-          25% {
+          20% {
             opacity: 0;
           }
-          25.01%,
-          50% {
+          20.01%,
+          40% {
             opacity: 1;
           }
-          50.01%,
+          40.01%,
           100% {
             opacity: 0;
           }
         }
         @keyframes image-fade-3 {
           0%,
-          50% {
+          40% {
             opacity: 0;
           }
-          50.01%,
-          75% {
+          40.01%,
+          60% {
             opacity: 1;
           }
-          75.01%,
+          60.01%,
           100% {
             opacity: 0;
           }
         }
         @keyframes image-fade-4 {
           0%,
-          75% {
+          60% {
             opacity: 0;
           }
-          75.01%,
+          60.01%,
+          80% {
+            opacity: 1;
+          }
+          80.01%,
+          100% {
+            opacity: 0;
+          }
+        }
+        @keyframes image-fade-5 {
+          0%,
+          80% {
+            opacity: 0;
+          }
+          80.01%,
           100% {
             opacity: 1;
           }
         }
         .animate-image-fade-1 {
-          animation: image-fade-1 4s linear infinite;
+          animation: image-fade-1 12s linear infinite;
         }
         .animate-image-fade-2 {
-          animation: image-fade-2 4s linear infinite;
+          animation: image-fade-2 12s linear infinite;
         }
         .animate-image-fade-3 {
-          animation: image-fade-3 4s linear infinite;
+          animation: image-fade-3 12s linear infinite;
         }
         .animate-image-fade-4 {
-          animation: image-fade-4 4s linear infinite;
+          animation: image-fade-4 12s linear infinite;
+        }
+        .animate-image-fade-5 {
+          animation: image-fade-5 12s linear infinite;
+        }
+        @keyframes marquee {
+          0% {
+            transform: translateX(100%);
+          }
+          100% {
+            transform: translateX(-100%);
+          }
+        }
+        .animate-marquee {
+      </div>
+          }
+        }
+        .animate-vertical-marquee {
+          animation: vertical-marquee 10s linear infinite;
+        }
+
+        /* Image slider animations */
+        @keyframes image-fade-1 {
+          0%,
+          20% {
+            opacity: 1;
+          }
+          20.01%,
+          100% {
+            opacity: 0;
+          }
+        }
+        @keyframes image-fade-2 {
+          0%,
+          20% {
+            opacity: 0;
+          }
+          20.01%,
+          40% {
+            opacity: 1;
+          }
+          40.01%,
+          100% {
+            opacity: 0;
+          }
+        }
+        @keyframes image-fade-3 {
+          0%,
+          40% {
+            opacity: 0;
+          }
+          40.01%,
+          60% {
+            opacity: 1;
+          }
+          60.01%,
+          100% {
+            opacity: 0;
+          }
+        }
+        @keyframes image-fade-4 {
+          0%,
+          60% {
+            opacity: 0;
+          }
+          60.01%,
+          80% {
+            opacity: 1;
+          }
+          80.01%,
+          100% {
+            opacity: 0;
+          }
+        }
+        @keyframes image-fade-5 {
+          0%,
+          80% {
+            opacity: 0;
+          }
+          80.01%,
+          100% {
+            opacity: 1;
+          }
+        }
+        .animate-image-fade-1 {
+          animation: image-fade-1 12s linear infinite;
+        }
+        .animate-image-fade-2 {
+          animation: image-fade-2 12s linear infinite;
+        }
+        .animate-image-fade-3 {
+          animation: image-fade-3 12s linear infinite;
+        }
+        .animate-image-fade-4 {
+          animation: image-fade-4 12s linear infinite;
+        }
+        .animate-image-fade-5 {
+          animation: image-fade-5 12s linear infinite;
         }
         @keyframes marquee {
           0% {
