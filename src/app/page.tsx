@@ -137,8 +137,8 @@ export default function Home() {
                     })),
                     // 2024 images (1.jpeg to 55.jpeg)
                     ...Array.from({ length: 55 }, (_, i) => ({
-                      src: `/2024/${i + 1}.jpeg`,
-                      alt: `2024 Image ${i + 1}`
+                      src: `/2024/${i + 2}.jpeg`,
+                      alt: `2024 Image ${i + 2}`
                     }))
                   ].map((img, index) => (
                     <div 
