@@ -132,8 +132,8 @@ export default function Home() {
                   {[
                     // 2023 images (1.jpg to 16.jpg)
                     ...Array.from({ length: 16 }, (_, i) => ({
-                      src: `/2023/${i + 1}.jpg`,
-                      alt: `2023 Image ${i + 1}`
+                      src: `/2023/${i + 2}.jpg`,
+                      alt: `2023 Image ${i + 2}`
                     })),
                     // 2024 images (1.jpeg to 55.jpeg)
                     ...Array.from({ length: 55 }, (_, i) => ({
