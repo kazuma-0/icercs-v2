@@ -7,7 +7,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="h-20 bg-transparent">
+    <nav className="h-20 bg-primary">
       <div className="mx-auto max-w-[100%] h-full flex items-center justify-between">
         {/* Left Logo */}
         <div className="flex items-center gap-1">
@@ -15,14 +15,72 @@ const Navbar = () => {
         </div>
 
         {/* Center Links */}
-        <div className="hidden md:flex items-center gap-5 text-sm font-bold text-white tracking-wide hover:*:text-secondary transition-colors">
+        <div className="hidden md:flex items-center gap-5 text-sm font-bold text-white tracking-wide hover:*:text-secondary transition-colors *:whitespace-nowrap">
           <Link href="/">Home</Link>
-          <Link href="/about-kahe">About KAHE</Link>
-          <Link href="/about-icercs">About ICERCS&apos;25</Link>
-          <Link href="/about-coimbatore">About Coimbatore</Link>
+          
+          {/* About Dropdown */}
+          <div className="relative group">
+            <button className="flex items-center gap-1 focus:outline-none">
+              About
+              <svg
+                className="w-4 h-4 ml-1"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </button>
+            <div className="absolute left-0 mt-2 w-48 bg-white rounded shadow-lg opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 transition-opacity z-10">
+              <Link href="/about-kahe" className="block px-4 py-2 text-gray-800 hover:bg-secondary hover:text-white">
+                KAHE
+              </Link>
+              <Link href="/about-icercs" className="block px-4 py-2 text-gray-800 hover:bg-secondary hover:text-white">
+                ICERCS'25
+              </Link>
+              <Link href="/about-coimbatore" className="block px-4 py-2 text-gray-800 hover:bg-secondary hover:text-white">
+                Coimbatore
+              </Link>
+            </div>
+          </div>
+
           <Link href="/keynote-speakers">Keynote</Link>
-          <Link href="/committee">Advisory Committee</Link>
-          <Link href="/reviewers">Reviewers</Link>
+          
+          {/* Committee Dropdown */}
+          <div className="relative group">
+            <button className="flex items-center gap-1 focus:outline-none">
+              Committee
+              <svg
+                className="w-4 h-4 ml-1"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </button>
+            <div className="absolute left-0 mt-2 w-56 bg-white rounded shadow-lg opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 transition-opacity z-10">
+              <Link href="/committee" className="block px-4 py-2 text-gray-800 hover:bg-secondary hover:text-white">
+                Advisory Committee
+              </Link>
+              <Link href="/organization-committee" className="block px-4 py-2 text-gray-800 hover:bg-secondary hover:text-white">
+                Organization Committee
+              </Link>
+              <Link href="/reviewers" className="block px-4 py-2 text-gray-800 hover:bg-secondary hover:text-white">
+                Technical Committee
+              </Link>
+            </div>
+          </div>
           <Link href="/call-for-paper">Call for Paper</Link>
           <Link href="/guidelines">Submission Guidelines</Link>
           <Link href="/registration">Registration</Link>
@@ -102,20 +160,37 @@ const Navbar = () => {
 
       {/* Mobile Links */}
       <div
-        className={`md:hidden ${isOpen ? "block" : "hidden"} bg-transparent`}
+        className={`md:hidden ${isOpen ? "block" : "hidden"} bg-primary`}
       >
-        <div className="flex flex-col items-center text-white tracking-wide gap-4 py-4">
-          <Link href="/">Home</Link>
-          <Link href="/about-kahe">About KAHE</Link>
-          <Link href="/about-icercs">About ICERCS&apos;25</Link>
-          <Link href="/about-coimbatore">About Coimbatore</Link>
-          <Link href="/keynote-speakers">Keynote</Link>
-          <Link href="/committee">Advisory Committee</Link>
-          <Link href="/reviewers">Reviewers</Link>
-          <Link href="/call-for-paper">Call for Paper</Link>
-          <Link href="/guidelines">Submission Guidelines</Link>
-          <Link href="/registration">Registration</Link>
-          <Link href="/contact">Contact</Link>
+        <div className="flex flex-col px-6 py-4 text-white tracking-wide gap-4">
+          <Link href="/" className="py-2">Home</Link>
+          
+          {/* About Section - Mobile */}
+          <div className="py-2">
+            <div className="font-semibold mb-2">About</div>
+            <div className="ml-4 space-y-2">
+              <Link href="/about-kahe" className="block py-1"> KAHE</Link>
+              <Link href="/about-icercs" className="block py-1"> ICERCS'25</Link>
+              <Link href="/about-coimbatore" className="block py-1"> Coimbatore</Link>
+            </div>
+          </div>
+          
+          <Link href="/keynote-speakers" className="py-2">Keynote</Link>
+          
+          {/* Committee Section - Mobile */}
+          <div className="py-2">
+            <div className="font-semibold mb-2">Committee</div>
+            <div className="ml-4 space-y-2">
+              <Link href="/committee" className="block py-1">Advisory Committee</Link>
+              <Link href="/organization-committee" className="block py-1">Organization Committee</Link>
+              <Link href="/reviewers" className="block py-1">Technical Committee</Link>
+            </div>
+          </div>
+          
+          <Link href="/call-for-paper" className="py-2">Call for Paper</Link>
+          <Link href="/guidelines" className="py-2">Submission Guidelines</Link>
+          <Link href="/registration" className="py-2">Registration</Link>
+          <Link href="/contact" className="py-2">Contact</Link>
         </div>
       </div>
     </nav>

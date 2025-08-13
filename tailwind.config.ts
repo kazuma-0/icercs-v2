@@ -18,10 +18,10 @@ const config: Config = {
         "5xl": "3840px",
       },
       colors: {
-        background: "#e2e5e8",
-        primary: "#0E49B5",
-        secondary: "#50CB86",
-        gold: "#FFD700",
+        background: "#00031F",
+        primary: "#00031F",
+        secondary: "#FFF627",
+        white: "#FFFFFF",
       },
       fontFamily: {
         sans: ["PT Serif", "sans-serif"],

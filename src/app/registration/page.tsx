@@ -4,19 +4,19 @@ export default function Registration() {
   return (
     <div className="container pt-5 grid md:grid-cols-3 gap-10 h-max">
       <div className="col-span-2">
-        <h3 className="text-2xl pb-5 font-black text-gold">
+        <h3 className="text-2xl pb-5 font-black text-secondary">
           Registration Fees
         </h3>
         <table className="table-auto border-collapse w-full">
           <thead>
             <tr className="bg-transparent">
-              <th className="border px-4 py-2 text-center text-gold">
+              <th className="border px-4 py-2 text-center text-secondary">
                 Categories
               </th>
-              <th className="border px-4 py-2 text-center text-gold">
+              <th className="border px-4 py-2 text-center text-secondary">
                 IEEE Members
               </th>
-              <th className="border px-4 py-2 text-center text-gold">
+              <th className="border px-4 py-2 text-center text-secondary">
                 IEEE Non Members
               </th>
             </tr>
@@ -34,7 +34,7 @@ export default function Registration() {
             </tr>
           </tbody>
         </table>
-        <h3 className="text-2xl pt-10 font-black text-gold">
+        <h3 className="text-2xl pt-10 font-black text-secondary">
           Publication Details
         </h3>
         <p className="pt-2 text-white">
@@ -45,14 +45,14 @@ export default function Registration() {
           Extended version of the selected papers will be recommended for SCIE
           journals
         </p>
-        <h3 className="text-2xl pt-10 font-black text-gold">Acknowledgement</h3>
+        <h3 className="text-2xl pt-10 font-black text-secondary">Acknowledgement</h3>
         <p className="pt-2 text-white">
           The Microsoft CMT service was used for managing the peer-reviewing
           process for this conference. This service was provided for free by
           Microsoft and they bore all expenses, including costs for Azure cloud
           services as well as for software development and support.
         </p>
-        <h3 className="text-2xl font-black pt-5 text-gold">
+        <h3 className="text-2xl font-black pt-5 text-secondary">
           Online Payment Details
         </h3>
         <div className="py-4">

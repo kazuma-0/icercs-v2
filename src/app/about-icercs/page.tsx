@@ -5,7 +5,7 @@ export default function AboutICERCS() {
       <h3 className="text-3xl font-black pb-2 text-yellow-500">
         About ICERCS&apos;25
       </h3>
-      <p className="text-white text-justify">
+      <p className="text-white text-justify text-sm">
         International Conference on Emerging Research in Computational Science
         ICERCS'25 intends to bring up academicians, researchers in engineering
         and technology, bioengineers, and commercial sector professionals to
@@ -27,7 +27,7 @@ export default function AboutICERCS() {
       <h3 className="text-3xl  py-5 text-yellow-500">
         SCOPE OF THE CONFERENCE
       </h3>
-      <p className="text-white text-justify">
+      <p className="text-white text-justify text-sm">
         The objective of the conference is to provide a forum for academicians
         and educational practitioners from India and all over the world to
         discuss and exchange views on Emerging trends in Computational Science.
@@ -38,7 +38,7 @@ export default function AboutICERCS() {
       <h3 className="text-3xl  py-5 text-yellow-500">
         THEME OF THE CONFERENCE
       </h3>
-      <p className="text-white text-justify">
+      <p className="text-white text-justify text-sm">
         This conference is focused on innovating and inspiring the core contexts
         of Computational Science. The conference's theme is “Effective
         application of computational intelligence to solve practical problems in

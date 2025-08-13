@@ -14,9 +14,9 @@ export default function Contact() {
               loading="lazy"
             ></iframe>
           </div>
-          <div className="bg-white p-6 rounded-lg shadow-lg">
-            <h3 className="text-2xl font-bold text-gold mb-4">Distance</h3>
-            <ul className="space-y-2 text-gray-700">
+          <div className="bg-white p-6 rounded-lg shadow-lg text-primary">
+            <h3 className="text-2xl font-bold text-secondary mb-4">Distance</h3>
+            <ul className="space-y-2 text-gray-800">
               <li className="flex items-center">
                 <svg
                   className="w-5 h-5 mr-2 text-gold"
@@ -66,24 +66,24 @@ export default function Contact() {
             </ul>
           </div>
         </div>
-        <div className="bg-white p-6 rounded-lg shadow-lg">
-          <h3 className="text-2xl font-bold text-gold mb-6">
+        <div className="bg-white p-6 rounded-lg shadow-lg text-primary">
+          <h3 className="text-2xl font-bold text-secondary mb-6">
             Contact Information
           </h3>
           <div className="space-y-4">
             <div>
-              <h4 className="font-bold text-lg">Dr. R. Santhosh</h4>
-              <p className="text-gray-600">Professor and HoD (Convenor)</p>
-              <p className="text-gray-600">
+              <h4 className="font-bold text-lg text-primary">Dr. R. Santhosh</h4>
+              <p className="text-gray-800">Professor and HoD (Convenor)</p>
+              <p className="text-gray-800">
                 Department of Computer Science and Engineering
               </p>
             </div>
             <div>
-              <h4 className="font-bold">
+              <h4 className="font-bold text-primary">
                 Karpagam Academy of Higher Education
               </h4>
-              <p className="text-gray-600">(Deemed to be University)</p>
-              <p className="text-gray-600">
+              <p className="text-gray-800">(Deemed to be University)</p>
+              <p className="text-gray-800">
                 Pollachi Main Road, Eachanari Post, Coimbatore, India
               </p>
             </div>
