@@ -1,3 +1,5 @@
+import SpeakerCard from './SpeakerCard';
+
 export default function KeynoteSpeakers() {
   const speakers = [
     {
@@ -50,22 +52,7 @@ export default function KeynoteSpeakers() {
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
         {speakers.map((speaker, index) => (
-          <div key={index} className="flex flex-col items-center">
-            <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-green-500">
-              <img
-                src={speaker.image}
-                alt={speaker.name}
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <h3 className="mt-4 text-lg font-bold uppercase text-white">
-              {speaker.name}
-            </h3>
-            <p className="text-sm mt-1 text-gray-300">{speaker.title}</p>
-            <p className="text-sm max-w-xs text-gray-300">
-              {speaker.university}
-            </p>
-          </div>
+          <SpeakerCard key={index} speaker={speaker} />
         ))}
       </div>
     </div>
