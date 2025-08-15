@@ -4,7 +4,7 @@ export default function Committee() {
       <h3 className="text-3xl text-center font-black pb-2 text-gold">
         Committee
       </h3>
-      <div className="grid grid-cols-4 gap-6 text-justify">
+      <div className="grid grid-cols-3 gap-6 text-justify">
         <CommitteeSection
           title="International Advisory Committee"
           members={internationalAdvisoryMembers}
@@ -17,7 +17,7 @@ export default function Committee() {
           title="Technical Advisory Committee"
           members={technicalAdvisoryMembers}
         />
-        <div>
+        {/* <div>
           <h3 className="text-2xl font-black pb-2 text-gold">
             Organizing Committee
           </h3>
@@ -38,7 +38,7 @@ export default function Committee() {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
@@ -52,7 +52,7 @@ interface CommitteeSectionProps {
 function CommitteeSection({ title, members }: CommitteeSectionProps) {
   return (
     <div>
-      <h3 className="text-2xl font-black pb-2 text-gold">{title}</h3>
+      <h3 className="text-2xl  pb-2 text-[#FFF627] font-bold">{title}</h3>
       <ul className="text-sm space-y-1 pt-3 text-white">
         {members.map((member, index) => (
           <li key={index}>{member}</li>

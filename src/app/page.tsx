@@ -28,7 +28,7 @@ export default function Home() {
       {/* LEFT SIDE - Keynote Speakers */}
       <div className="hidden lg:flex flex-col fixed left-1 lg:left-2 xl:left-3 2xl:left-4 top-20 lg:top-24 xl:top-28 z-50 w-[300px] bottom-4">
         <div className="flex flex-col items-center p-3 w-full h-full overflow-hidden relative bg-white rounded-xl shadow-lg">
-          <h2 className="text-base lg:text-lg font-black text-yellow-300 mb-5 text-center uppercase">
+          <h2 className="text-base lg:text-lg font-black text-secondary mb-5 text-center uppercase">
             Keynote Speakers
           </h2>
           <div className="w-full flex-1 overflow-hidden relative">
@@ -125,9 +125,9 @@ export default function Home() {
             </div>
 
             {/* Image Slider */}
-            <div className="mt-2 ml-5 w-full">
+            <div className="mt-2 ml-5 w-full ">
               <div className="mx-2 sm:-mx-3 md:-mx-4 ml-36 lg:-mx-6 xl:-mx-8 2xl:-mx-10 3xl:-mx-12 4xl:-mx-14 5xl:-mx-16">
-                <div className="relative overflow-hidden rounded-2xl w-full shadow-2xl h-60 sm:h-72 md:h-80 lg:h-[26rem] xl:h-[30rem] 2xl:h-[32rem] max-h-[67vh]">
+                <div className="relative overflow-hidden rounded-2xl w-full shadow-2xl h-60 sm:h-72 md:h-80 lg:h-[26rem] xl:h-[30rem] 2xl:h-[32rem] max-h-[67vh] border-4 border-gray-300">
                   {/* Dynamic slides from 2023 and 2024 folders */}
                   {[
                     // 2023 images (1.jpg to 16.jpg)
