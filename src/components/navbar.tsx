@@ -176,7 +176,7 @@ const Navbar = () => {
           </div>
           
           <Link href="/keynote-speakers" className="py-2">Keynote Speakers</Link>
-          {/*hello this is sample commit*/}
+          {/*hello this is sample commitb*/}
           {/* Committee Section - Mobile */}
           <div className="py-2">
             <div className="font-semibold mb-2">Committee</div>
