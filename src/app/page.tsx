@@ -26,6 +26,37 @@ export default function Home() {
       image: "https://terengganu.uitm.edu.my/images/FAKULTI/KPPIM/FOTO/HASIAH_MOHAMED__OMAR_Ts_DR.png", // replace with actual image path
     },
     {
+      name: "DR. GOH KHANG WEN",
+      title: "Pro Vice-Chancellor, Global Engagement, INTI International University, Malaysia",
+      university: "",
+      image: "https://i1.rgstatic.net/ii/profile.image/946594400714753-1602697100353_Q512/Khang-Wen-Goh.jpg"
+    },
+    {
+      name: "DR. NORLINA MOHD SABRI",
+      title: "Senior Lecturer, Faculty of Computer & Mathematical Sciences, UiTM Cawangan Terengganu, Malaysia",
+      university: "",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQztb0XxmAdZDRK8IG3MoLs8XzzasNCdWxupw&s"
+    },
+    {
+      name: "DR. YU-CHIEH CHENG",
+      title: "Associate Professor, Department of Optoelectronic Engineering, National Taipei University of Technology, Taiwan",
+      university: "",
+      image: "https://eo.ntut.edu.tw/var/file/69/1069/img/2895/152321863.jpg"
+    },
+    {
+      name: "DR. CHING-CHUN CHUANG",
+      title: "Assistant Professor, Department of Electrical Engineering, National Kaohsiung University of Science and Technology, Taiwan",
+      university: "",
+      image: ""
+    },
+    {
+      name: "DR. TRI BASUKI KURNIAWAN",
+      title: "Senior Lecturer, Universiti Kebangsaan Malaysia (UKM)",
+      university: "Bangi, Malaysia",
+      image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=pzjCu2kAAAAJ&citpid=8"
+    },
+    
+    {
       name: "DR. WEN-REN YANG",
       title: "Associate Professor Director of Artificial Intelligence Applications Center National Changhua University of Education Changhua, Taiwan",
       university: "",
@@ -422,7 +453,7 @@ export default function Home() {
           }
         }
         .animate-vertical-marquee {
-          animation: vertical-marquee 10s linear infinite;
+          animation: vertical-marquee 35s linear infinite;
         }
         /* Use a 5-step cycle so each of 5 slides shows sequentially */
         @keyframes image-fade-1 {

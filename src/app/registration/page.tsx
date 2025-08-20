@@ -17,7 +17,7 @@ export default function Registration() {
                 IEEE Members
               </th>
               <th className="border px-4 py-2 text-center text-secondary">
-                IEEE Non Members
+                Non IEEE Members
               </th>
             </tr>
           </thead>
