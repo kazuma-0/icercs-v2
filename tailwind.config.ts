@@ -32,7 +32,8 @@ const config: Config = {
         "float-slow": "float 4s ease-in-out infinite",
         "float-medium": "float 3.5s ease-in-out infinite 1s",
         "float-fast": "float 2.5s ease-in-out infinite 0.5s",
-        marquee: "marquee 15s linear infinite", // updated duration
+        marquee: "marquee 15s linear infinite",
+        'vertical-marquee': 'vertical-marquee 30s linear infinite',
         shimmer: "shimmer 2s ease-in-out infinite alternate",
         wiggle: "wiggle 1s ease-in-out infinite",
         "wiggle-delay": "wiggle 1s ease-in-out infinite 0.5s",
@@ -44,8 +45,12 @@ const config: Config = {
           "50%": { transform: "translateY(-10px)" },
         },
         marquee: {
-          "0%": { transform: "translateX(100%)" }, // updated start position
+          "0%": { transform: "translateX(100%)" },
           "100%": { transform: "translateX(-100%)" },
+        },
+        'vertical-marquee': {
+          '0%': { transform: 'translateY(0%)' },
+          '100%': { transform: 'translateY(-50%)' },
         },
         shimmer: {
           "0%": { opacity: "0.6" },
