@@ -47,7 +47,7 @@ export default function Home() {
       name: "DR. CHING-CHUN CHUANG",
       title: "Assistant Professor, Department of Electrical Engineering, National Kaohsiung University of Science and Technology, Taiwan",
       university: "",
-      image: ""
+      image: "https://i1.rgstatic.net/ii/profile.image/879169445572609-1586621738654_Q128/Sung-Ching-Chen.jpg"
     },
     {
       name: "DR. TRI BASUKI KURNIAWAN",
