@@ -23,6 +23,37 @@ export default function KeynoteSpeakers() {
       image: "https://terengganu.uitm.edu.my/images/FAKULTI/KPPIM/FOTO/HASIAH_MOHAMED__OMAR_Ts_DR.png", // replace with actual image path
     },
     {
+      name: "DR. GOH KHANG WEN",
+      title: "Pro Vice-Chancellor, Global Engagement, INTI International University, Malaysia",
+      university: "",
+      image: "https://i1.rgstatic.net/ii/profile.image/946594400714753-1602697100353_Q512/Khang-Wen-Goh.jpg"
+    },
+    {
+      name: "DR. NORLINA MOHD SABRI",
+      title: "Senior Lecturer, Faculty of Computer & Mathematical Sciences, UiTM Cawangan Terengganu, Malaysia",
+      university: "",
+      image: "https://terengganu.uitm.edu.my/images/FAKULTI/KPPIM/FOTO/NORLINA_MOHD_SABRI_DR.png"
+    },
+    {
+      name: "DR. YU-CHIEH CHENG",
+      title: "Associate Professor, Department of Optoelectronic Engineering, National Taipei University of Technology, Taiwan",
+      university: "",
+      image: "https://eo.ntut.edu.tw/var/file/69/1069/img/2895/152321863.jpg"
+    },
+    {
+      name: "DR. CHING-CHUN CHUANG",
+      title: "Assistant Professor, Department of Electrical Engineering, National Kaohsiung University of Science and Technology, Taiwan",
+      university: "",
+      image: "https://i1.rgstatic.net/ii/profile.image/879169445572609-1586621738654_Q128/Sung-Ching-Chen.jpg"
+    },
+    {
+      name: "DR. TRI BASUKI KURNIAWAN",
+      title: "Senior Lecturer, Universiti Kebangsaan Malaysia (UKM)",
+      university: "Bangi, Malaysia",
+      image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=pzjCu2kAAAAJ&citpid=8"
+    },
+    
+    {
       name: "DR. WEN-REN YANG",
       title: "Associate Professor Director of Artificial Intelligence Applications Center National Changhua University of Education Changhua, Taiwan",
       university: "",
@@ -44,6 +75,7 @@ export default function KeynoteSpeakers() {
         "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=16XPxHUAAAAJ&citpid=22",
     },
   ];
+
 
   return (
     <div className="container mx-auto text-center py-10">
