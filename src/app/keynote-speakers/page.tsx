@@ -68,7 +68,7 @@ export default function KeynoteSpeakers() {
     },
     {
       name: "DR. DESHINTA ARROVA DEWI",
-      title: "Associate Professor",
+      title: "Professor",
       university:
         "Faculty of Data Sciences and Information Technology, INTI International University, Malaysia",
       image:
