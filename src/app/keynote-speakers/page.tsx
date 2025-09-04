@@ -5,59 +5,74 @@ export default function KeynoteSpeakers() {
     {
       name: "DR. HUI-WEN YANG",
       title: "Assistant Professor",
-      university: "Department of Biomedical Sciences and Engineering, Tzu-Chi University, Taiwan",
+      university:
+        "Department of Biomedical Sciences and Engineering, Tzu-Chi University, Taiwan",
       image: "https://bmse.tcu.edu.tw/wp-content/uploads/2025/03/9.png", // replace with actual image path
     },
 
-  
     {
       name: "DR. PHAM THI THU THUY",
-      title: "Dean - Faculty of Information Technology, Nha Trang University, Vietnam",
+      title:
+        "Dean - Faculty of Information Technology, Nha Trang University, Vietnam",
       university: "",
       image: "https://canbo.ntu.edu.vn/Staff/PersonelImage/305", // replace with actual image path
     },
     {
       name: "DR. HASIAH MOHAMED",
-      title: "Senior Lecturer, Faculty of Computer and Mathematical Sciences, UiTM Cawangan Terengganu, Malaysia",
+      title:
+        "Senior Lecturer, Faculty of Computer and Mathematical Sciences, UiTM Cawangan Terengganu, Malaysia",
       university: "",
-      image: "https://terengganu.uitm.edu.my/images/FAKULTI/KPPIM/FOTO/HASIAH_MOHAMED__OMAR_Ts_DR.png", // replace with actual image path
+      image:
+        "https://terengganu.uitm.edu.my/images/FAKULTI/KPPIM/FOTO/HASIAH_MOHAMED__OMAR_Ts_DR.png", // replace with actual image path
     },
     {
       name: "DR. GOH KHANG WEN",
-      title: "Pro Vice-Chancellor, Global Engagement, INTI International University, Malaysia",
+      title:
+        "Pro Vice-Chancellor, Global Engagement, INTI International University, Malaysia",
       university: "",
-      image: "https://i1.rgstatic.net/ii/profile.image/946594400714753-1602697100353_Q512/Khang-Wen-Goh.jpg"
+      image:
+        "https://i1.rgstatic.net/ii/profile.image/946594400714753-1602697100353_Q512/Khang-Wen-Goh.jpg",
     },
     {
       name: "DR. NORLINA MOHD SABRI",
-      title: "Senior Lecturer, Faculty of Computer & Mathematical Sciences, UiTM Cawangan Terengganu, Malaysia",
+      title:
+        "Senior Lecturer, Faculty of Computer & Mathematical Sciences, UiTM Cawangan Terengganu, Malaysia",
       university: "",
-      image: "https://terengganu.uitm.edu.my/images/FAKULTI/KPPIM/FOTO/NORLINA_MOHD_SABRI_DR.png"
+      image:
+        "https://terengganu.uitm.edu.my/images/FAKULTI/KPPIM/FOTO/NORLINA_MOHD_SABRI_DR.png",
     },
     {
-      name: "DR. YU-CHIEH CHENG",
-      title: "Associate Professor, Department of Optoelectronic Engineering, National Taipei University of Technology, Taiwan",
+      name: "Dr. Masako Kinoshita",
+      title:
+        "Chief Physician, Department of Neurology, National Hospital Organization, Utano National Hospital in Kyoto, Japan",
       university: "",
-      image: "https://eo.ntut.edu.tw/var/file/69/1069/img/2895/152321863.jpg"
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfdMT1XRpmgMIdYU3gKsMJzQD19nnX3uSEuw&s",
     },
+
     {
       name: "DR. CHING-CHUN CHUANG",
-      title: "Assistant Professor, Department of Electrical Engineering, National Kaohsiung University of Science and Technology, Taiwan",
+      title:
+        "Assistant Professor, Department of Electrical Engineering, National Kaohsiung University of Science and Technology, Taiwan",
       university: "",
-      image: "https://i1.rgstatic.net/ii/profile.image/879169445572609-1586621738654_Q128/Sung-Ching-Chen.jpg"
+      image:
+        "https://i1.rgstatic.net/ii/profile.image/879169445572609-1586621738654_Q128/Sung-Ching-Chen.jpg",
     },
     {
       name: "DR. TRI BASUKI KURNIAWAN",
       title: "Senior Lecturer, Universiti Kebangsaan Malaysia (UKM)",
       university: "Bangi, Malaysia",
-      image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=pzjCu2kAAAAJ&citpid=8"
+      image:
+        "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=pzjCu2kAAAAJ&citpid=8",
     },
-    
+
     {
       name: "DR. WEN-REN YANG",
-      title: "Associate Professor Director of Artificial Intelligence Applications Center National Changhua University of Education Changhua, Taiwan",
+      title:
+        "Associate Professor Director of Artificial Intelligence Applications Center National Changhua University of Education Changhua, Taiwan",
       university: "",
-      image: "https://media.licdn.com/dms/image/v2/C5603AQE67ZV5E-Lh6w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517446614779?e=1758153600&v=beta&t=aIzh6bMXcH0ZUUMJC75MrF1ooEg_jUSYlMuQqula4Ow", // replace with actual image path
+      image:
+        "https://media.licdn.com/dms/image/v2/C5603AQE67ZV5E-Lh6w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517446614779?e=1758153600&v=beta&t=aIzh6bMXcH0ZUUMJC75MrF1ooEg_jUSYlMuQqula4Ow", // replace with actual image path
     },
     {
       name: "PROF. DR. FADI AL-TURJMAN",
