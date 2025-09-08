@@ -8,59 +8,73 @@ export default function Home() {
     {
       name: "DR. HUI-WEN YANG",
       title: "Assistant Professor",
-      university: "Department of Biomedical Sciences and Engineering, Tzu-Chi University, Taiwan",
+      university:
+        "Department of Biomedical Sciences and Engineering, Tzu-Chi University, Taiwan",
       image: "https://bmse.tcu.edu.tw/wp-content/uploads/2025/03/9.png", // replace with actual image path
     },
 
-  
     {
       name: "DR. PHAM THI THU THUY",
-      title: "Dean - Faculty of Information Technology, Nha Trang University, Vietnam",
+      title:
+        "Dean - Faculty of Information Technology, Nha Trang University, Vietnam",
       university: "",
       image: "https://canbo.ntu.edu.vn/Staff/PersonelImage/305", // replace with actual image path
     },
     {
       name: "DR. HASIAH MOHAMED",
-      title: "Senior Lecturer, Faculty of Computer and Mathematical Sciences, UiTM Cawangan Terengganu, Malaysia",
+      title:
+        "Senior Lecturer, Faculty of Computer and Mathematical Sciences, UiTM Cawangan Terengganu, Malaysia",
       university: "",
-      image: "https://terengganu.uitm.edu.my/images/FAKULTI/KPPIM/FOTO/HASIAH_MOHAMED__OMAR_Ts_DR.png", // replace with actual image path
+      image:
+        "https://terengganu.uitm.edu.my/images/FAKULTI/KPPIM/FOTO/HASIAH_MOHAMED__OMAR_Ts_DR.png", // replace with actual image path
     },
     {
       name: "DR. GOH KHANG WEN",
-      title: "Pro Vice-Chancellor, Global Engagement, INTI International University, Malaysia",
+      title:
+        "Pro Vice-Chancellor, Global Engagement, INTI International University, Malaysia",
       university: "",
-      image: "https://i1.rgstatic.net/ii/profile.image/946594400714753-1602697100353_Q512/Khang-Wen-Goh.jpg"
+      image:
+        "https://i1.rgstatic.net/ii/profile.image/946594400714753-1602697100353_Q512/Khang-Wen-Goh.jpg",
     },
     {
       name: "DR. NORLINA MOHD SABRI",
-      title: "Senior Lecturer, Faculty of Computer & Mathematical Sciences, UiTM Cawangan Terengganu, Malaysia",
+      title:
+        "Senior Lecturer, Faculty of Computer & Mathematical Sciences, UiTM Cawangan Terengganu, Malaysia",
       university: "",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQztb0XxmAdZDRK8IG3MoLs8XzzasNCdWxupw&s"
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQztb0XxmAdZDRK8IG3MoLs8XzzasNCdWxupw&s",
     },
     {
-      name: "DR. YU-CHIEH CHENG",
-      title: "Associate Professor, Department of Optoelectronic Engineering, National Taipei University of Technology, Taiwan",
+      name: "Dr. Masako Kinoshita",
+      title:
+        "Chief Physician, Department of Neurology, National Hospital Organization, Utano National Hospital in Kyoto, Japan",
       university: "",
-      image: "https://eo.ntut.edu.tw/var/file/69/1069/img/2895/152321863.jpg"
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfdMT1XRpmgMIdYU3gKsMJzQD19nnX3uSEuw&s",
     },
     {
       name: "DR. CHING-CHUN CHUANG",
-      title: "Assistant Professor, Department of Electrical Engineering, National Kaohsiung University of Science and Technology, Taiwan",
+      title:
+        "Assistant Professor, Department of Electrical Engineering, National Kaohsiung University of Science and Technology, Taiwan",
       university: "",
-      image: "https://i1.rgstatic.net/ii/profile.image/879169445572609-1586621738654_Q128/Sung-Ching-Chen.jpg"
+      image:
+        "https://i1.rgstatic.net/ii/profile.image/879169445572609-1586621738654_Q128/Sung-Ching-Chen.jpg",
     },
     {
       name: "DR. TRI BASUKI KURNIAWAN",
       title: "Senior Lecturer, Universiti Kebangsaan Malaysia (UKM)",
       university: "Bangi, Malaysia",
-      image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=pzjCu2kAAAAJ&citpid=8"
+      image:
+        "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=pzjCu2kAAAAJ&citpid=8",
     },
-    
+
     {
       name: "DR. WEN-REN YANG",
-      title: "Associate Professor Director of Artificial Intelligence Applications Center National Changhua University of Education Changhua, Taiwan",
+      title:
+        "Associate Professor Director of Artificial Intelligence Applications Center National Changhua University of Education Changhua, Taiwan",
       university: "",
-      image: "https://media.licdn.com/dms/image/v2/C5603AQE67ZV5E-Lh6w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517446614779?e=1758153600&v=beta&t=aIzh6bMXcH0ZUUMJC75MrF1ooEg_jUSYlMuQqula4Ow", // replace with actual image path
+      image:
+        "https://media.licdn.com/dms/image/v2/C5603AQE67ZV5E-Lh6w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517446614779?e=1758153600&v=beta&t=aIzh6bMXcH0ZUUMJC75MrF1ooEg_jUSYlMuQqula4Ow", // replace with actual image path
     },
     {
       name: "PROF. DR. FADI AL-TURJMAN",
@@ -172,7 +186,10 @@ export default function Home() {
             <h1 className="text-center text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl text-blue-300 font-bold pb-1  leading-tight">
               ICERCS-2025
             </h1>
-            <h1 className="text-center text-[8px] sm:text-[10px] md:text-[12px] lg:text-[14px] xl:text-[16px] 2xl:text-[18px] 3xl:text-[20px] 4xl:text-[22px] font-medium leading-normal text-white">3<sup className="text-[6px]">rd</sup> INTERNATIONAL CONFERENCE ON EMERGING RESEARCH IN COMPUTATIONAL SCIENCE - 2025</h1>
+            <h1 className="text-center text-[8px] sm:text-[10px] md:text-[12px] lg:text-[14px] xl:text-[16px] 2xl:text-[18px] 3xl:text-[20px] 4xl:text-[22px] font-medium leading-normal text-white">
+              3<sup className="text-[6px]">rd</sup> INTERNATIONAL CONFERENCE ON
+              EMERGING RESEARCH IN COMPUTATIONAL SCIENCE - 2025
+            </h1>
             <div className="flex items-center justify-center py-1">
               <span className="text-xs sm:text-sm md:text-sm lg:text-base xl:text-lg 2xl:text-base 3xl:text-base text-yellow-400 font-bold leading-tight">
                 11<sup className="text-[6px]">th</sup>, 12
@@ -190,15 +207,15 @@ export default function Home() {
                     // 2023 images (1.jpg to 16.jpg)
                     ...Array.from({ length: 16 }, (_, i) => ({
                       src: `/2023/${i + 2}.jpg`,
-                      alt: `2023 Image ${i + 2}`
+                      alt: `2023 Image ${i + 2}`,
                     })),
                     // 2024 images (1.jpeg to 55.jpeg)
                     ...Array.from({ length: 55 }, (_, i) => ({
                       src: `/2024/${i + 2}.jpeg`,
-                      alt: `2024 Image ${i + 2}`
-                    }))
+                      alt: `2024 Image ${i + 2}`,
+                    })),
                   ].map((img, index) => (
-                    <div 
+                    <div
                       key={img.src}
                       className={styles.slide}
                       style={{
@@ -229,9 +246,6 @@ export default function Home() {
               </div>
             </div>
 
-    
-    
-    
             {/* Organised by Section */}
             <p className="text-center text-[10px] sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-base 3xl:text-lg pt-1 sm:pt-1 md:pt-1 text-white">
               Organised by
@@ -337,7 +351,7 @@ export default function Home() {
                       }}
                     />
                   </div>
-                  
+
                   <div className="flex justify-center w-full">
                     <Image
                       src="https://logos-world.net/wp-content/uploads/2023/05/UiTM-Logo.png"
@@ -413,7 +427,7 @@ export default function Home() {
                       }}
                     />
                   </div>
-                  
+
                   <div className="flex justify-center w-full">
                     <Image
                       src="https://logos-world.net/wp-content/uploads/2023/05/UiTM-Logo.png"
