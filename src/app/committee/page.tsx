@@ -119,9 +119,11 @@ const nationalAdvisoryMembers = [
 
 const technicalAdvisoryMembers = [
   "Dr. P. Sakthivel, Chairman, IEEE Madras Section",
+  "Dr. E. Kannan Eswariah, Chairman - IEEE Professional Communication Society",
   "Dr. S. Radha, Secretary, IEEE Madras Section",
   "Dr. S. Brindha, Treasurer, IEEE Madras Section",
-  "Dr. E. Kannan Eswariah, Chairman - IEEE Professional Communication Society",
+  "Dr. V. Nagarajan , Conference Committee Member , IEEE Madras Section",
+
   "Prof. Dr. Hossein Mousawinezhad, Idaho State University, USA",
   "Prof. Dr. Danilo Pelusi, Università di Teramo, Italy",
   "Prof. Byungchal Tak, Kyungpook National University, South Korea",
