@@ -132,6 +132,7 @@ const technicalAdvisoryMembers = [
   "Dr. Y.C. Jiang, Andes Technology Corporation, Taiwan",
   "Dr. Awais Ahmad, Università degli studi di Milano, Italy",
   "Prof. Dr. N. Krishnaraj, Vellore Institute of Technology, Vellore",
+  "Dr. V. Nagarajan , Conference Committee Member , IEEE Madras Section",
 ];
 
 const organizingCommitteeMembers: OrganizingCommitteeGroup[] = [
