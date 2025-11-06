@@ -5,13 +5,6 @@ import styles from "./slider.module.css";
 
 export default function Home() {
   const speakers = [
-    {
-      name: "DR. HUI-WEN YANG",
-      title: "Assistant Professor",
-      university:
-        "Department of Biomedical Sciences and Engineering, Tzu-Chi University, Taiwan",
-      image: "https://bmse.tcu.edu.tw/wp-content/uploads/2025/03/9.png", // replace with actual image path
-    },
 
     {
       name: "DR. PHAM THI THU THUY",
@@ -45,14 +38,7 @@ export default function Home() {
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQztb0XxmAdZDRK8IG3MoLs8XzzasNCdWxupw&s",
     },
 
-    {
-      name: "DR. CHING-CHUN CHUANG",
-      title:
-        "Assistant Professor, Department of Electrical Engineering, National Kaohsiung University of Science and Technology, Taiwan",
-      university: "",
-      image:
-        "https://i1.rgstatic.net/ii/profile.image/879169445572609-1586621738654_Q128/Sung-Ching-Chen.jpg",
-    },
+   
     {
       name: "DR. TRI BASUKI KURNIAWAN",
       title: "Senior Lecturer, Universiti Kebangsaan Malaysia (UKM)",
@@ -61,14 +47,6 @@ export default function Home() {
         "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=pzjCu2kAAAAJ&citpid=8",
     },
 
-    {
-      name: "DR. WEN-REN YANG",
-      title:
-        "Associate Professor Director of Artificial Intelligence Applications Center National Changhua University of Education Changhua, Taiwan",
-      university: "",
-      image:
-        "https://media.licdn.com/dms/image/v2/C5603AQE67ZV5E-Lh6w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517446614779?e=1758153600&v=beta&t=aIzh6bMXcH0ZUUMJC75MrF1ooEg_jUSYlMuQqula4Ow", // replace with actual image path
-    },
     {
       name: "PROF. DR. FADI AL-TURJMAN",
       title: "Dean-AI and Informatics",
