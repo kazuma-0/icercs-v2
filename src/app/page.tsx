@@ -44,14 +44,7 @@ export default function Home() {
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQztb0XxmAdZDRK8IG3MoLs8XzzasNCdWxupw&s",
     },
-    {
-      name: "Dr. Masako Kinoshita",
-      title:
-        "Chief Physician, Department of Neurology, National Hospital Organization, Utano National Hospital in Kyoto, Japan",
-      university: "",
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfdMT1XRpmgMIdYU3gKsMJzQD19nnX3uSEuw&s",
-    },
+
     {
       name: "DR. CHING-CHUN CHUANG",
       title:
