@@ -1,4 +1,4 @@
-import SpeakerCard from './SpeakerCard';
+import SpeakerCard from "./SpeakerCard";
 
 export default function KeynoteSpeakers() {
   const speakers = [
@@ -41,14 +41,6 @@ export default function KeynoteSpeakers() {
       image:
         "https://terengganu.uitm.edu.my/images/FAKULTI/KPPIM/FOTO/NORLINA_MOHD_SABRI_DR.png",
     },
-    {
-      name: "Dr. Masako Kinoshita",
-      title:
-        "Chief Physician, Department of Neurology, National Hospital Organization, Utano National Hospital in Kyoto, Japan",
-      university: "",
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfdMT1XRpmgMIdYU3gKsMJzQD19nnX3uSEuw&s",
-    },
 
     {
       name: "DR. CHING-CHUN CHUANG",
@@ -90,7 +82,6 @@ export default function KeynoteSpeakers() {
         "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=16XPxHUAAAAJ&citpid=22",
     },
   ];
-
 
   return (
     <div className="container mx-auto text-center py-10">
