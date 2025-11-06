@@ -230,7 +230,7 @@ export default function Home() {
                   <div className="absolute bottom-0 left-0 right-0">
                     <div className="overflow-hidden bg-black/40 border-t border-white/30">
                       <div className="whitespace-nowrap animate-marquee text-sm font-semibold text-white py-1 px-4 opacity-80">
-                        Final Paper Submission — Deadline: 3<sup>rd</sup>{" "}
+                        Final Paper Submission — Deadline: 20<sup>th</sup>{" "}
                         November 2025
                       </div>
                     </div>
